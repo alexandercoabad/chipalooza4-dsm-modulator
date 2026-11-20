@@ -1,0 +1,3 @@
+numpy
+scipy
+Pillow      # only for v1/bench/digitize_video_frames.py
