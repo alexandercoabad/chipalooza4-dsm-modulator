@@ -1,0 +1,36 @@
+Flattening unmatched subcell sky130_fd_pr__nfet_g5v0d10v5_5P4MW7 in circuit ota_core (0)(1 instance)
+Flattening unmatched subcell sky130_fd_pr__pfet_g5v0d10v5_8T3SAF in circuit ota_core (0)(1 instance)
+Flattening unmatched subcell sky130_fd_pr__nfet_g5v0d10v5_XDK3YF in circuit ota_core (0)(1 instance)
+Flattening unmatched subcell sky130_fd_pr__pfet_g5v0d10v5_7N2TME in circuit ota_core (0)(1 instance)
+Class ota_core:  Merged 116 devices.
+
+Subcircuit summary:
+Circuit 1: ota_core                        |Circuit 2: ota_core                        
+-------------------------------------------|-------------------------------------------
+sky130_fd_pr__nfet_g5v0d10v5 (2)           |sky130_fd_pr__nfet_g5v0d10v5 (2)           
+sky130_fd_pr__pfet_g5v0d10v5 (2)           |sky130_fd_pr__pfet_g5v0d10v5 (2)           
+Number of devices: 4                       |Number of devices: 4                       
+Number of nets: 8                          |Number of nets: 8                          
+---------------------------------------------------------------------------------------
+Circuits match uniquely.
+Property errors were found.
+Netlists match uniquely.
+There were property errors.
+sky130_fd_pr__pfet_g5v0d10v5_8T3SAFmp/sky130_fd_pr__pfet_g5v0d10v50 vs. sky130_fd_pr__pfet_g5v0d10v5Mp:
+ w circuit1: 128   circuit2: 64   (delta=66.7%, cutoff=1%)
+
+Subcircuit pins:
+Circuit 1: ota_core                        |Circuit 2: ota_core                        
+-------------------------------------------|-------------------------------------------
+enb                                        |enb                                        
+en                                         |en                                         
+vdda                                       |vdda                                       
+out                                        |out                                        
+g                                          |g                                          
+gnd                                        |gnd                                        
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes ota_core and ota_core are equivalent.
+Circuits match uniquely.
+Property errors were found.
+The following cells had property errors: ota_core

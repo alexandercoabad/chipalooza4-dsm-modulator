@@ -1,0 +1,33 @@
+Flattening unmatched subcell sky130_fd_pr__nfet_g5v0d10v5_NQQZ82 in circuit tg_x0p5_mf (0)(1 instance)
+Flattening unmatched subcell sky130_fd_pr__pfet_g5v0d10v5_2GJDY8 in circuit tg_x0p5_mf (0)(1 instance)
+Class tg_x0p5_mf:  Merged 2 devices.
+
+Subcircuit summary:
+Circuit 1: tg_x0p5_mf                      |Circuit 2: tg_x0p5_mf                      
+-------------------------------------------|-------------------------------------------
+sky130_fd_pr__nfet_g5v0d10v5 (1)           |sky130_fd_pr__nfet_g5v0d10v5 (1)           
+sky130_fd_pr__pfet_g5v0d10v5 (1)           |sky130_fd_pr__pfet_g5v0d10v5 (1)           
+Number of devices: 2                       |Number of devices: 2                       
+Number of nets: 6                          |Number of nets: 6                          
+---------------------------------------------------------------------------------------
+Netlists match uniquely.
+Circuits match correctly.
+There were property errors.
+sky130_fd_pr__nfet_g5v0d10v5_NQQZ82mn/sky130_fd_pr__nfet_g5v0d10v50 vs. sky130_fd_pr__nfet_g5v0d10v5MN:
+ w circuit1: 4   circuit2: 1.5   (delta=90.9%, cutoff=1%)
+
+Subcircuit pins:
+Circuit 1: tg_x0p5_mf                      |Circuit 2: tg_x0p5_mf                      
+-------------------------------------------|-------------------------------------------
+b                                          |b                                          
+a                                          |a                                          
+en                                         |en                                         
+vss                                        |vss                                        
+enb                                        |enb                                        
+vdd                                        |vdd                                        
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes tg_x0p5_mf and tg_x0p5_mf are equivalent.
+Circuits match uniquely.
+Property errors were found.
+The following cells had property errors: tg_x0p5_mf

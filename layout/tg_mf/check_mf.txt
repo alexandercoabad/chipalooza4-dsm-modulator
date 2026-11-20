@@ -1,0 +1,19 @@
+=== tg_x0p5_mf: nfet 4/0.5 as 1 finger(s), pfet 12/0.5 as 3 fingers
+  Magic DRC_RULES_VIOLATED: 0
+  Magic SIZE_UM: 7.985 x 6.970
+  KLayout official deck items: 0
+LVS_VERDICT: PASS (tg_x0p5_mf vs tg_x0p5_mf_sch.spice)
+  detected (LVS fails as it must): schematic swap_gates
+  detected (LVS fails as it must): schematic pfet_w10
+  detected (LVS fails as it must): schematic nfet_w1p5
+  detected (LVS fails as it must): layout with one S/D strip unwired (it is DRC-clean: Magic clean, KLayout items 0)
+=== tg_x0p25_mf: nfet 2/0.5 as 1 finger(s), pfet 6/0.5 as 3 fingers
+  Magic DRC_RULES_VIOLATED: 0
+  Magic SIZE_UM: 7.985 x 4.970
+  KLayout official deck items: 0
+LVS_VERDICT: PASS (tg_x0p25_mf vs tg_x0p25_mf_sch.spice)
+  detected (LVS fails as it must): schematic swap_gates
+  detected (LVS fails as it must): schematic pfet_w10
+  detected (LVS fails as it must): schematic nfet_w1p5
+  detected (LVS fails as it must): layout with one S/D strip unwired (it is DRC-clean: Magic clean, KLayout items 0)
+ALL CHECKS AS EXPECTED

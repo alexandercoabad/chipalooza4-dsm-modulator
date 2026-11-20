@@ -1,0 +1,28 @@
+Flattening unmatched subcell sky130_fd_pr__nfet_g5v0d10v5_XX2EF7 in circuit tg_x0p25_mf (0)(1 instance)
+Flattening unmatched subcell sky130_fd_pr__pfet_g5v0d10v5_DCBGND in circuit tg_x0p25_mf (0)(1 instance)
+Class tg_x0p25_mf:  Merged 2 devices.
+
+Subcircuit summary:
+Circuit 1: tg_x0p25_mf                     |Circuit 2: tg_x0p25_mf                     
+-------------------------------------------|-------------------------------------------
+sky130_fd_pr__nfet_g5v0d10v5 (1)           |sky130_fd_pr__nfet_g5v0d10v5 (1)           
+sky130_fd_pr__pfet_g5v0d10v5 (1)           |sky130_fd_pr__pfet_g5v0d10v5 (1)           
+Number of devices: 2                       |Number of devices: 2                       
+Number of nets: 6                          |Number of nets: 6                          
+---------------------------------------------------------------------------------------
+Netlists match uniquely.
+Circuits match correctly.
+
+Subcircuit pins:
+Circuit 1: tg_x0p25_mf                     |Circuit 2: tg_x0p25_mf                     
+-------------------------------------------|-------------------------------------------
+b                                          |b                                          
+a                                          |a                                          
+en                                         |enb **Mismatch**                           
+vss                                        |vss                                        
+enb                                        |en **Mismatch**                            
+vdd                                        |vdd                                        
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes tg_x0p25_mf and tg_x0p25_mf are equivalent.
+Circuits match uniquely.

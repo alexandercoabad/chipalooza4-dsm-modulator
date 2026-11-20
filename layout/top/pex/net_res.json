@@ -1,0 +1,299 @@
+{
+ "clkgen_0.n_a1.D": {
+  "terminals": 5,
+  "worst_R_ohm": 1597.5,
+  "between": [
+   "clkgen_0.n_a1.D.t3",
+   "clkgen_0.n_a1.D.t4"
+  ],
+  "sum_of_all_resistors_ohm": 2238.0
+ },
+ "clkgen_0.n_a1.G": {
+  "terminals": 3,
+  "worst_R_ohm": 843.0,
+  "between": [
+   "clkgen_0.n_a1.G.t1",
+   "clkgen_0.n_a1.G.t2"
+  ],
+  "sum_of_all_resistors_ohm": 843.0
+ },
+ "clkgen_0.n_b1.D": {
+  "terminals": 5,
+  "worst_R_ohm": 1587.3,
+  "between": [
+   "clkgen_0.n_b1.D.t3",
+   "clkgen_0.n_b1.D.t4"
+  ],
+  "sum_of_all_resistors_ohm": 104925.0
+ },
+ "clkgen_0.n_b1.G": {
+  "terminals": 4,
+  "worst_R_ohm": 1219.8,
+  "between": [
+   "clkgen_0.n_b1.G.t2",
+   "clkgen_0.n_b1.G.t3"
+  ],
+  "sum_of_all_resistors_ohm": 45772.0
+ },
+ "clkgen_0.n_cb.G": {
+  "terminals": 5,
+  "worst_R_ohm": 1192.3,
+  "between": [
+   "clkgen_0.n_cb.G.t3",
+   "clkgen_0.n_cb.G.t4"
+  ],
+  "sum_of_all_resistors_ohm": 1254.0
+ },
+ "clkgen_0.n_e2.G": {
+  "terminals": 5,
+  "worst_R_ohm": 1595.8,
+  "between": [
+   "clkgen_0.n_e2.G.t3",
+   "clkgen_0.n_e2.G.t4"
+  ],
+  "sum_of_all_resistors_ohm": 2236.0
+ },
+ "clkgen_0.n_n1.G0": {
+  "terminals": 4,
+  "worst_R_ohm": 1110.0,
+  "between": [
+   "clkgen_0.n_n1.G0.t2",
+   "clkgen_0.n_n1.G0.t3"
+  ],
+  "sum_of_all_resistors_ohm": 44171.0
+ },
+ "comp_compact_0.clk": {
+  "terminals": 7,
+  "worst_R_ohm": 903.4,
+  "between": [
+   "comp_compact_0.clk.t4",
+   "comp_compact_0.clk.t5"
+  ],
+  "sum_of_all_resistors_ohm": 91351.0
+ },
+ "comp_compact_0.p_b1.G0": {
+  "terminals": 8,
+  "worst_R_ohm": 1589.8,
+  "between": [
+   "comp_compact_0.p_b1.G0.t6",
+   "comp_compact_0.p_b1.G0.t7"
+  ],
+  "sum_of_all_resistors_ohm": 3325.0
+ },
+ "comp_compact_0.p_b2.G0": {
+  "terminals": 8,
+  "worst_R_ohm": 1583.4,
+  "between": [
+   "comp_compact_0.p_b2.G0.t5",
+   "comp_compact_0.p_b2.G0.t6"
+  ],
+  "sum_of_all_resistors_ohm": 3334.0
+ },
+ "comp_compact_0.p_cs1.G0": {
+  "terminals": 4,
+  "worst_R_ohm": 664.8,
+  "between": [
+   "comp_compact_0.p_cs1.G0.t2",
+   "comp_compact_0.p_cs1.G0.t3"
+  ],
+  "sum_of_all_resistors_ohm": 991.0
+ },
+ "comp_compact_0.p_cs2.G0": {
+  "terminals": 4,
+  "worst_R_ohm": 664.2,
+  "between": [
+   "comp_compact_0.p_cs2.G0.t2",
+   "comp_compact_0.p_cs2.G0.t3"
+  ],
+  "sum_of_all_resistors_ohm": 16675.0
+ },
+ "comp_compact_0.p_x.D0": {
+  "terminals": 7,
+  "worst_R_ohm": 995.7,
+  "between": [
+   "comp_compact_0.p_x.D0.t3",
+   "comp_compact_0.p_x.D0.t4"
+  ],
+  "sum_of_all_resistors_ohm": 5105.0
+ },
+ "comp_compact_0.p_x.G0": {
+  "terminals": 7,
+  "worst_R_ohm": 996.3,
+  "between": [
+   "comp_compact_0.p_x.G0.t3",
+   "comp_compact_0.p_x.G0.t4"
+  ],
+  "sum_of_all_resistors_ohm": 44148.0
+ },
+ "g": {
+  "terminals": 46,
+  "worst_R_ohm": 386.4,
+  "between": [
+   "g.t1",
+   "g.t8"
+  ],
+  "sum_of_all_resistors_ohm": 490260.0
+ },
+ "gnd": {
+  "terminals": 181,
+  "worst_R_ohm": 3342.3,
+  "between": [
+   "gnd.t116",
+   "gnd.t100"
+  ],
+  "sum_of_all_resistors_ohm": 27743582.0
+ },
+ "ota_core_0.hp.D30": {
+  "terminals": 124,
+  "worst_R_ohm": 7655.1,
+  "between": [
+   "ota_core_0.hp.D30.t52",
+   "ota_core_0.hp.D30.t56"
+  ],
+  "sum_of_all_resistors_ohm": 1227381.0
+ },
+ "out": {
+  "terminals": 45,
+  "worst_R_ohm": 756.2,
+  "between": [
+   "out.t35",
+   "out.t48"
+  ],
+  "sum_of_all_resistors_ohm": 8657.0
+ },
+ "q": {
+  "terminals": 7,
+  "worst_R_ohm": 853.2,
+  "between": [
+   "q.t5",
+   "q.t6"
+  ],
+  "sum_of_all_resistors_ohm": 5232.0
+ },
+ "qb": {
+  "terminals": 7,
+  "worst_R_ohm": 829.1,
+  "between": [
+   "qb.t3",
+   "qb.t4"
+  ],
+  "sum_of_all_resistors_ohm": 5283.0
+ },
+ "tg_x0p5_mf_0.b": {
+  "terminals": 12,
+  "worst_R_ohm": 284.5,
+  "between": [
+   "tg_x0p5_mf_0.b.t1",
+   "tg_x0p5_mf_0.b.t4"
+  ],
+  "sum_of_all_resistors_ohm": 1219.0
+ },
+ "tg_x0p5_mf_2.b": {
+  "terminals": 9,
+  "worst_R_ohm": 288.3,
+  "between": [
+   "tg_x0p5_mf_2.b.t1",
+   "tg_x0p5_mf_2.b.t8"
+  ],
+  "sum_of_all_resistors_ohm": 1288.0
+ },
+ "tg_x0p5_mf_2.en": {
+  "terminals": 10,
+  "worst_R_ohm": 1580.8,
+  "between": [
+   "tg_x0p5_mf_2.en.t4",
+   "tg_x0p5_mf_2.en.t5"
+  ],
+  "sum_of_all_resistors_ohm": 11096.0
+ },
+ "tg_x0p5_mf_2.enb": {
+  "terminals": 9,
+  "worst_R_ohm": 864.1,
+  "between": [
+   "tg_x0p5_mf_2.enb.t3",
+   "tg_x0p5_mf_2.enb.t4"
+  ],
+  "sum_of_all_resistors_ohm": 9065.0
+ },
+ "tg_x0p5_mf_3.a": {
+  "terminals": 9,
+  "worst_R_ohm": 283.0,
+  "between": [
+   "tg_x0p5_mf_3.a.t5",
+   "tg_x0p5_mf_3.a.t2"
+  ],
+  "sum_of_all_resistors_ohm": 1062.0
+ },
+ "tg_x0p5_mf_4.en": {
+  "terminals": 13,
+  "worst_R_ohm": 1833.0,
+  "between": [
+   "tg_x0p5_mf_4.en.t11",
+   "tg_x0p5_mf_4.en.t9"
+  ],
+  "sum_of_all_resistors_ohm": 204203.0
+ },
+ "tg_x0p5_mf_4.enb": {
+  "terminals": 6,
+  "worst_R_ohm": 772.2,
+  "between": [
+   "tg_x0p5_mf_4.enb.t3",
+   "tg_x0p5_mf_4.enb.t4"
+  ],
+  "sum_of_all_resistors_ohm": 4891.0
+ },
+ "tg_x0p5_mf_5.en": {
+  "terminals": 9,
+  "worst_R_ohm": 1830.0,
+  "between": [
+   "tg_x0p5_mf_5.en.t6",
+   "tg_x0p5_mf_5.en.t7"
+  ],
+  "sum_of_all_resistors_ohm": 8396.0
+ },
+ "tg_x0p5_mf_5.enb": {
+  "terminals": 6,
+  "worst_R_ohm": 772.2,
+  "between": [
+   "tg_x0p5_mf_5.enb.t3",
+   "tg_x0p5_mf_5.enb.t4"
+  ],
+  "sum_of_all_resistors_ohm": 4937.0
+ },
+ "vcm": {
+  "terminals": 17,
+  "worst_R_ohm": 828.3,
+  "between": [
+   "vcm.t16",
+   "vcm.t14"
+  ],
+  "sum_of_all_resistors_ohm": 6867.0
+ },
+ "vcm_replica_0.hp.D0": {
+  "terminals": 20,
+  "worst_R_ohm": 1474.8,
+  "between": [
+   "vcm_replica_0.hp.D0.t11",
+   "vcm_replica_0.hp.D0.t10"
+  ],
+  "sum_of_all_resistors_ohm": 125525.0
+ },
+ "vdda": {
+  "terminals": 276,
+  "worst_R_ohm": 6123.4,
+  "between": [
+   "vdda.t202",
+   "vdda.t82"
+  ],
+  "sum_of_all_resistors_ohm": 1763711.0
+ },
+ "vrn": {
+  "terminals": 4,
+  "worst_R_ohm": 192.2,
+  "between": [
+   "vrn.t0",
+   "vrn.t1"
+  ],
+  "sum_of_all_resistors_ohm": 361.0
+ }
+}

@@ -1,0 +1,5 @@
+* Schematic of the transmission gate, same devices and sizes as v2/sim/v2.py tg() at TG scale 0.5 (nfet 4/0.5, pfet 12/0.5, one device each, nf=1 as simulated)
+.subckt tg_x0p5_mf a b en enb vdd vss
+XMN a en b vss sky130_fd_pr__nfet_g5v0d10v5 w=4 l=0.5 nf=1
+XMP a enb b vdd sky130_fd_pr__pfet_g5v0d10v5 w=12 l=0.5 nf=1
+.ends

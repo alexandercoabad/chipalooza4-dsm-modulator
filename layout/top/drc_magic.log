@@ -1,0 +1,66 @@
+
+Magic 8.3 revision 704 - Compiled on Wed Nov 18 18:29:59 PST 2026.
+Starting magic under Tcl interpreter
+Using the terminal as the console.
+WARNING: RLIMIT_NOFILE is above 1024 and Tcl_Version<9 this may cause runtime issues [rlim_cur=20000]
+Using NULL graphics device.
+Processing system .magicrc file
+Switching to WIRING tool.
+Switching to NETLIST tool.
+Switching to PICK tool.
+Switching to BOX tool.
+Sourcing design .magicrc for technology sky130A ...
+2 Magic internal units = 1 Lambda
+Input style sky130(): scaleFactor=2, multiplier=2
+The following types are not handled by extraction and will be treated as non-electrical types:
+    ubm 
+Scaled tech values by 2 / 1 to match internal grid scaling
+Loading sky130A Device Generator Menu ...
+Loading "drc_top.tcl" from command line.
+Warning: Calma reading is not undoable!  I hope that's OK.
+Library written using GDS-II Release 6.0
+Library name: LIB
+Reading "sky130_fd_pr__nfet_g5v0d10v5_NQQZ82".
+Reading "sky130_fd_pr__pfet_g5v0d10v5_2GJDY8".
+Reading "sky130_fd_pr__pfet_g5v0d10v5_MXRB4E".
+Reading "sky130_fd_pr__pfet_g5v0d10v5_JZRWPF".
+Reading "sky130_fd_pr__nfet_g5v0d10v5_ET2AWD".
+Reading "sky130_fd_pr__nfet_g5v0d10v5_7LT2GF".
+Reading "sky130_fd_pr__pfet_g5v0d10v5_99RJQ2".
+Reading "sky130_fd_pr__pfet_g5v0d10v5_FKTA3B$1".
+Reading "sky130_fd_pr__pfet_g5v0d10v5_QUWD6C".
+Reading "sky130_fd_pr__pfet_g5v0d10v5_P7LTMB".
+Reading "sky130_fd_pr__pfet_g5v0d10v5_P2LHF6".
+Reading "sky130_fd_pr__cap_mim_m3_1_64QFDR".
+Reading "sky130_fd_pr__cap_mim_m3_1_MHCNCU".
+Reading "sky130_fd_pr__nfet_g5v0d10v5_9BDQA4".
+Reading "sky130_fd_pr__nfet_g5v0d10v5_WB2VJZ".
+Reading "sky130_fd_pr__nfet_g5v0d10v5_YJRXUS$1".
+Reading "sky130_fd_pr__nfet_g5v0d10v5_KYRSGX".
+Reading "sky130_fd_pr__nfet_g5v0d10v5_HKK92S".
+Reading "sky130_fd_pr__nfet_g5v0d10v5_2PPV84$1".
+Reading "sky130_fd_pr__pfet_g5v0d10v5_FKTA3B".
+Reading "sky130_fd_pr__pfet_g5v0d10v5_9HGTJJ".
+Reading "sky130_fd_pr__pfet_g5v0d10v5_4L8FHD".
+Reading "sky130_fd_pr__pfet_g5v0d10v5_C8JDP9".
+Reading "sky130_fd_pr__nfet_g5v0d10v5_RQVLVT".
+Reading "sky130_fd_pr__nfet_g5v0d10v5_YJRXUS".
+Reading "sky130_fd_pr__nfet_g5v0d10v5_2PPV84".
+Reading "sky130_fd_pr__nfet_g5v0d10v5_Z77CMW".
+Reading "sky130_fd_pr__cap_mim_m3_1_JS2Y8Z".
+Reading "sky130_fd_pr__pfet_g5v0d10v5_7N2TME".
+Reading "sky130_fd_pr__pfet_g5v0d10v5_8T3SAF".
+Reading "sky130_fd_pr__nfet_g5v0d10v5_5P4MW7".
+Reading "sky130_fd_pr__nfet_g5v0d10v5_XDK3YF".
+Reading "tg_x0p5_mf".
+Reading "vcm_replica".
+Reading "clkgen".
+Reading "comp_compact".
+Reading "cap_array".
+Reading "ota_core".
+Reading "dsm_top".
+CIF file read warning: CIF style sky130(): units rescaled by factor of 5 / 1
+DRC style is now "drc(full)"
+Loading DRC CIF style.
+DRC_COUNT: 
+No errors found.

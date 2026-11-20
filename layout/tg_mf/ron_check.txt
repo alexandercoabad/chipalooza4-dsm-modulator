@@ -1,0 +1,6 @@
+tg_x0p5_mf tt: Ron schematic 537..1147 ohm over 0.2..3.1 V | extracted layout vs schematic: max diff 3.19 % | nf=3 form vs schematic: max diff 5.41 %
+tg_x0p5_mf ss: Ron schematic 610..1676 ohm over 0.2..3.1 V | extracted layout vs schematic: max diff 2.45 % | nf=3 form vs schematic: max diff 6.53 %
+tg_x0p5_mf ff: Ron schematic 478..847 ohm over 0.2..3.1 V | extracted layout vs schematic: max diff 5.05 % | nf=3 form vs schematic: max diff 12.75 %
+tg_x0p25_mf tt: Ron schematic 1094..2332 ohm over 0.2..3.1 V | extracted layout vs schematic: max diff 5.17 % | nf=3 form vs schematic: max diff n/a (ngspice aborts)
+tg_x0p25_mf ss: Ron schematic 1272..3392 ohm over 0.2..3.1 V | extracted layout vs schematic: max diff 6.02 % | nf=3 form vs schematic: max diff n/a (ngspice aborts)
+tg_x0p25_mf ff: Ron schematic 956..1752 ohm over 0.2..3.1 V | extracted layout vs schematic: max diff 4.56 % | nf=3 form vs schematic: max diff n/a (ngspice aborts)

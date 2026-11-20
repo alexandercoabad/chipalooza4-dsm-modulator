@@ -1,0 +1,7 @@
+* Reference netlist: same devices and sizes as v2/sim/v2.py core (L, WN, WP, HDR_W, FTR_W)
+.subckt ota_core vdda gnd g out en enb
+XMhp vcp enb vdda vdda sky130_fd_pr__pfet_g5v0d10v5 w=300 l=0.5
+XMp  out g   vcp  vcp  sky130_fd_pr__pfet_g5v0d10v5 w=64 l=2
+XMn  out g   vcn  gnd  sky130_fd_pr__nfet_g5v0d10v5 w=32  l=2
+XMhn vcn en  gnd  gnd  sky130_fd_pr__nfet_g5v0d10v5 w=100 l=0.5
+.ends

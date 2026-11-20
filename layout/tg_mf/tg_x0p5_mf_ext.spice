@@ -1,0 +1,17 @@
+* NGSPICE file created from tg_x0p5_mf.ext - technology: sky130A
+
+.subckt sky130_fd_pr__nfet_g5v0d10v5_NQQZ82 B D S G
+X0 S G D B sky130_fd_pr__nfet_g5v0d10v5 ad=1.16 pd=8.58 as=1.16 ps=8.58 w=4 l=0.5
+.ends
+
+.subckt sky130_fd_pr__pfet_g5v0d10v5_2GJDY8 B D0 G S1 D2 S2
+X0 D2 G S1 B sky130_fd_pr__pfet_g5v0d10v5 ad=0.58 pd=4.29 as=0.58 ps=4.29 w=4 l=0.5
+X1 S1 G D0 B sky130_fd_pr__pfet_g5v0d10v5 ad=0.58 pd=4.29 as=1.16 ps=8.58 w=4 l=0.5
+X2 S2 G D2 B sky130_fd_pr__pfet_g5v0d10v5 ad=1.16 pd=8.58 as=0.58 ps=4.29 w=4 l=0.5
+.ends
+
+.subckt tg_x0p5_mf a b en enb vss vdd
+Xmn vss a b en sky130_fd_pr__nfet_g5v0d10v5_NQQZ82
+Xmp vdd a enb b a b sky130_fd_pr__pfet_g5v0d10v5_2GJDY8
+.ends
+

@@ -1,0 +1,254 @@
+{
+ "vdda": {
+  "node": "vdda",
+  "total_fF": 624.35,
+  "to_gnd_fF": 346.02,
+  "to_other_nets_fF": 142.82,
+  "to_internal_fF": 135.51,
+  "top_coupled": {
+   "p1": 17.12,
+   "cc": 15.09,
+   "p1a": 13.84
+  }
+ },
+ "gnd": {
+  "node": "gnd",
+  "total_fF": 869.04,
+  "to_gnd_fF": 0.0,
+  "to_other_nets_fF": 597.51,
+  "to_internal_fF": 271.53,
+  "top_coupled": {
+   "vdda": 346.02,
+   "out": 57.9,
+   "b": 26.5
+  }
+ },
+ "clk": {
+  "node": "clk",
+  "total_fF": 27.61,
+  "to_gnd_fF": 6.34,
+  "to_other_nets_fF": 14.0,
+  "to_internal_fF": 7.27,
+  "top_coupled": {
+   "p2": 5.48,
+   "vdda": 4.84,
+   "p1ab": 1.09
+  }
+ },
+ "p1a": {
+  "node": "clkgen_0/p1a",
+  "total_fF": 77.56,
+  "to_gnd_fF": 17.05,
+  "to_other_nets_fF": 26.88,
+  "to_internal_fF": 33.64,
+  "top_coupled": {
+   "vdda": 13.84,
+   "p1": 5.92,
+   "p1ab": 2.91
+  }
+ },
+ "p1ab": {
+  "node": "clkgen_0/p1ab",
+  "total_fF": 41.62,
+  "to_gnd_fF": 8.96,
+  "to_other_nets_fF": 30.66,
+  "to_internal_fF": 1.99,
+  "top_coupled": {
+   "p1b": 10.38,
+   "vdda": 6.05,
+   "p2": 5.17
+  }
+ },
+ "p1": {
+  "node": "clkgen_0/p1",
+  "total_fF": 69.37,
+  "to_gnd_fF": 12.8,
+  "to_other_nets_fF": 34.06,
+  "to_internal_fF": 22.51,
+  "top_coupled": {
+   "vdda": 17.12,
+   "p1a": 5.92,
+   "cc": 4.69
+  }
+ },
+ "p1b": {
+  "node": "clkgen_0/p1b",
+  "total_fF": 51.33,
+  "to_gnd_fF": 8.86,
+  "to_other_nets_fF": 38.28,
+  "to_internal_fF": 4.2,
+  "top_coupled": {
+   "vdda": 12.1,
+   "p1ab": 10.38,
+   "p2b": 3.59
+  }
+ },
+ "p2": {
+  "node": "clkgen_0/p2",
+  "total_fF": 54.5,
+  "to_gnd_fF": 11.17,
+  "to_other_nets_fF": 34.67,
+  "to_internal_fF": 8.66,
+  "top_coupled": {
+   "vdda": 9.81,
+   "p2b": 6.29,
+   "clk": 5.48
+  }
+ },
+ "p2b": {
+  "node": "clkgen_0/p2b",
+  "total_fF": 38.78,
+  "to_gnd_fF": 6.33,
+  "to_other_nets_fF": 31.11,
+  "to_internal_fF": 1.34,
+  "top_coupled": {
+   "vdda": 12.7,
+   "p2": 6.29,
+   "p1b": 3.59
+  }
+ },
+ "cc": {
+  "node": "clkgen_0/cc",
+  "total_fF": 53.8,
+  "to_gnd_fF": 8.95,
+  "to_other_nets_fF": 33.16,
+  "to_internal_fF": 11.69,
+  "top_coupled": {
+   "vdda": 15.09,
+   "out": 5.52,
+   "p1": 4.69
+  }
+ },
+ "q": {
+  "node": "q",
+  "total_fF": 49.92,
+  "to_gnd_fF": 8.17,
+  "to_other_nets_fF": 30.04,
+  "to_internal_fF": 11.72,
+  "top_coupled": {
+   "vdda": 9.2,
+   "out": 5.01,
+   "t": 3.94
+  }
+ },
+ "qb": {
+  "node": "qb",
+  "total_fF": 53.46,
+  "to_gnd_fF": 15.17,
+  "to_other_nets_fF": 32.5,
+  "to_internal_fF": 5.79,
+  "top_coupled": {
+   "out": 13.59,
+   "vdda": 11.24,
+   "p1b": 1.57
+  }
+ },
+ "vcm": {
+  "node": "vcm",
+  "total_fF": 69.18,
+  "to_gnd_fF": 18.99,
+  "to_other_nets_fF": 38.57,
+  "to_internal_fF": 11.62,
+  "top_coupled": {
+   "out": 15.75,
+   "g": 10.43,
+   "vdda": 4.1
+  }
+ },
+ "t": {
+  "node": "tg_x0p5_mf_4/b",
+  "total_fF": 21.1,
+  "to_gnd_fF": 5.74,
+  "to_other_nets_fF": 15.36,
+  "to_internal_fF": 0.0,
+  "top_coupled": {
+   "q": 3.94,
+   "vdda": 2.33,
+   "g": 2.19
+  }
+ },
+ "g": {
+  "node": "g",
+  "total_fF": 110.2,
+  "to_gnd_fF": 23.68,
+  "to_other_nets_fF": 43.13,
+  "to_internal_fF": 43.39,
+  "top_coupled": {
+   "out": 21.65,
+   "vcm": 10.43,
+   "cc": 2.84
+  }
+ },
+ "out": {
+  "node": "out",
+  "total_fF": 151.15,
+  "to_gnd_fF": 57.9,
+  "to_other_nets_fF": 74.72,
+  "to_internal_fF": 18.54,
+  "top_coupled": {
+   "g": 21.65,
+   "vcm": 15.75,
+   "qb": 13.59
+  }
+ },
+ "b": {
+  "node": "tg_x0p5_mf_5/b",
+  "total_fF": 44.9,
+  "to_gnd_fF": 26.5,
+  "to_other_nets_fF": 18.4,
+  "to_internal_fF": 0.0,
+  "top_coupled": {
+   "vdda": 5.94,
+   "dac": 2.26,
+   "vin": 1.98
+  }
+ },
+ "dac": {
+  "node": "tg_x0p5_mf_2/a",
+  "total_fF": 16.66,
+  "to_gnd_fF": 2.55,
+  "to_other_nets_fF": 14.11,
+  "to_internal_fF": 0.0,
+  "top_coupled": {
+   "vrp": 3.93,
+   "vrn": 2.59,
+   "b": 2.26
+  }
+ },
+ "vin": {
+  "node": "vin",
+  "total_fF": 10.36,
+  "to_gnd_fF": 2.1,
+  "to_other_nets_fF": 8.08,
+  "to_internal_fF": 0.18,
+  "top_coupled": {
+   "vdda": 2.05,
+   "b": 1.98,
+   "vcm": 1.78
+  }
+ },
+ "vrp": {
+  "node": "vrp",
+  "total_fF": 10.44,
+  "to_gnd_fF": 0.95,
+  "to_other_nets_fF": 8.71,
+  "to_internal_fF": 0.78,
+  "top_coupled": {
+   "dac": 3.93,
+   "p2": 0.92,
+   "vcm": 0.87
+  }
+ },
+ "vrn": {
+  "node": "vrn",
+  "total_fF": 16.58,
+  "to_gnd_fF": 9.3,
+  "to_other_nets_fF": 7.21,
+  "to_internal_fF": 0.06,
+  "top_coupled": {
+   "dac": 2.59,
+   "vin": 0.81,
+   "q": 0.69
+  }
+ }
+}

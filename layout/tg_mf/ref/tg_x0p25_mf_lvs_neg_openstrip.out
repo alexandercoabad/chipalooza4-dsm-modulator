@@ -1,0 +1,52 @@
+Flattening unmatched subcell sky130_fd_pr__nfet_g5v0d10v5_XX2EF7 in circuit tg_x0p25_mf_defect (0)(1 instance)
+Flattening unmatched subcell sky130_fd_pr__pfet_g5v0d10v5_DCBGND in circuit tg_x0p25_mf_defect (0)(1 instance)
+Class tg_x0p25_mf_defect:  Merged 1 devices.
+
+Subcircuit summary:
+Circuit 1: tg_x0p25_mf_defect              |Circuit 2: tg_x0p25_mf                     
+-------------------------------------------|-------------------------------------------
+sky130_fd_pr__nfet_g5v0d10v5 (1)           |sky130_fd_pr__nfet_g5v0d10v5 (1)           
+sky130_fd_pr__pfet_g5v0d10v5 (2)           |sky130_fd_pr__pfet_g5v0d10v5 (1) **Mismatc 
+Number of devices: 3 **Mismatch**          |Number of devices: 2 **Mismatch**          
+Number of nets: 7 **Mismatch**             |Number of nets: 6 **Mismatch**             
+---------------------------------------------------------------------------------------
+NET mismatches: Class fragments follow (with fanout counts):
+Circuit 1: tg_x0p25_mf_defect              |Circuit 2: tg_x0p25_mf                     
+
+---------------------------------------------------------------------------------------
+Net: mp/D2                                 |Net: enb                                   
+  sky130_fd_pr__pfet_g5v0d10v5/(1|3) = 1   |  sky130_fd_pr__pfet_g5v0d10v5/2 = 1       
+                                           |                                           
+Net: a                                     |Net: vdd                                   
+  sky130_fd_pr__nfet_g5v0d10v5/(1|3) = 1   |  sky130_fd_pr__pfet_g5v0d10v5/4 = 1       
+  sky130_fd_pr__pfet_g5v0d10v5/(1|3) = 1   |                                           
+                                           |                                           
+Net: vdd                                   |Net: a                                     
+  sky130_fd_pr__pfet_g5v0d10v5/4 = 2       |  sky130_fd_pr__nfet_g5v0d10v5/(1|3) = 1   
+                                           |  sky130_fd_pr__pfet_g5v0d10v5/(1|3) = 1   
+                                           |                                           
+Net: enb                                   |Net: b                                     
+  sky130_fd_pr__pfet_g5v0d10v5/2 = 2       |  sky130_fd_pr__nfet_g5v0d10v5/(1|3) = 1   
+                                           |  sky130_fd_pr__pfet_g5v0d10v5/(1|3) = 1   
+                                           |                                           
+Net: b                                     |(no matching net)                          
+  sky130_fd_pr__nfet_g5v0d10v5/(1|3) = 1   |                                           
+  sky130_fd_pr__pfet_g5v0d10v5/(1|3) = 2   |                                           
+---------------------------------------------------------------------------------------
+DEVICE mismatches: Class fragments follow (with node fanout counts):
+Circuit 1: tg_x0p25_mf_defect              |Circuit 2: tg_x0p25_mf                     
+
+---------------------------------------------------------------------------------------
+Instance: sky130_fd_pr__pfet_g5v0d10v5_DCB |Instance: sky130_fd_pr__pfet_g5v0d10v5MP   
+  (1,3) = (3,2)                            |  (1,3) = (2,2)                            
+  2 = 2                                    |  2 = 1                                    
+  4 = 2                                    |  4 = 1                                    
+                                           |                                           
+Instance: sky130_fd_pr__pfet_g5v0d10v5_DCB |(no matching instance)                     
+  (1,3) = (3,1)                            |                                           
+  2 = 2                                    |                                           
+  4 = 2                                    |                                           
+                                           |                                           
+---------------------------------------------------------------------------------------
+Netlists do not match.
+Netlists do not match.

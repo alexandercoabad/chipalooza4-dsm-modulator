@@ -1,0 +1,8 @@
+TG scale 0.5, nfet 4/0.5 x1 finger, pfet 12/0.5 x3 fingers; GAP = clear distance between the nfet and pfet cell outlines (um)
+gap 0.0 um | size 6.985 x 6.970 | Magic drc(full) rules violated: 6 | KLayout official deck items: 33 | MV Diffusion in N-well to P-tap spacing < 0.76um (diff/tap.20 + diff/tap.17,19);MV Diffusion to MV tap spacing < 0.27um (diff/tap.3);Spacing of N-Diffusion or P-tap to MV nwell < 0.43um (diff/tap.18,2
+gap 0.2 um | size 7.185 x 6.970 | Magic drc(full) rules violated: 4 | KLayout official deck items: 2 | MV Diffusion in N-well to P-tap spacing < 0.76um (diff/tap.20 + diff/tap.17,19);MV Diffusion to MV tap spacing < 0.27um (diff/tap.3);Spacing of N-Diffusion or P-tap to MV nwell < 0.43um (diff/tap.18,2
+gap 0.4 um | size 7.385 x 6.970 | Magic drc(full) rules violated: 3 | KLayout official deck items: 0 | MV Diffusion in N-well to P-tap spacing < 0.76um (diff/tap.20 + diff/tap.17,19);Spacing of N-Diffusion or P-tap to MV nwell < 0.43um (diff/tap.18,20);
+gap 0.6 um | size 7.585 x 6.970 | Magic drc(full) rules violated: 2 | KLayout official deck items: 0 | MV Diffusion in N-well to P-tap spacing < 0.76um (diff/tap.20 + diff/tap.17,19);Spacing of N-Diffusion or P-tap to MV nwell < 0.43um (diff/tap.18,20);
+gap 0.8 um | size 7.785 x 6.970 | Magic drc(full) rules violated: 0 | KLayout official deck items: 0 | 
+gap 1.0 um | size 7.985 x 6.970 | Magic drc(full) rules violated: 0 | KLayout official deck items: 0 | 
+gap 1.2 um | size 8.185 x 6.970 | Magic drc(full) rules violated: 0 | KLayout official deck items: 0 | 
