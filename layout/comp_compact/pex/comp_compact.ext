@@ -1,0 +1,232 @@
+timestamp 0
+version 8.3
+tech sky130A
+style ngspice()
+scale 1000 1 500000
+resistclasses 4400000 2200000 950000 3050000 120000 197000 114000 191000 120000 197000 114000 191000 48200 319800 2000000 48200 48200 12800 125 125 47 47 29 5
+use sky130_fd_pr__nfet_g5v0d10v5_Z77CMW n_pair 1 0 311 0 1 0
+use sky130_fd_pr__nfet_g5v0d10v5_2PPV84 n_x3 1 0 1918 0 1 0
+use sky130_fd_pr__nfet_g5v0d10v5_YJRXUS n_tail 1 0 1154 0 1 0
+use sky130_fd_pr__nfet_g5v0d10v5_RQVLVT n_cs2 1 0 4977 0 1 0
+use sky130_fd_pr__nfet_g5v0d10v5_RQVLVT n_iso 1 0 4055 0 1 0
+use sky130_fd_pr__nfet_g5v0d10v5_2PPV84 n_x4 1 0 2942 0 1 0
+use sky130_fd_pr__nfet_g5v0d10v5_Z77CMW n_buf 1 0 8111 0 1 0
+use sky130_fd_pr__nfet_g5v0d10v5_RQVLVT n_cs1 1 0 6529 0 1 0
+use sky130_fd_pr__pfet_g5v0d10v5_C8JDP9 p_rs1 1 0 1687 0 1 5169
+use sky130_fd_pr__pfet_g5v0d10v5_C8JDP9 p_rs2 1 0 309 0 1 5169
+use sky130_fd_pr__pfet_g5v0d10v5_4L8FHD p_x 1 0 3695 0 1 5169
+use sky130_fd_pr__pfet_g5v0d10v5_9HGTJJ p_cs2 1 0 7781 0 1 5169
+use sky130_fd_pr__pfet_g5v0d10v5_C8JDP9 p_iso 1 0 5653 0 1 5169
+use sky130_fd_pr__pfet_g5v0d10v5_FKTA3B p_b2 1 0 9909 0 1 5169
+use sky130_fd_pr__pfet_g5v0d10v5_FKTA3B p_b1 1 0 12895 0 1 5169
+use sky130_fd_pr__pfet_g5v0d10v5_9HGTJJ p_cs1 1 0 11497 0 1 5169
+port "inn" 3 -640 1540 -640 1540 m2
+port "inp" 4 -640 1680 -640 1680 m2
+port "qb" 1 -640 1260 -640 1260 m2
+port "q" 5 -640 2940 -640 2940 m2
+port "clk" 6 -640 3220 -640 3220 m2
+port "gnd" 2 -640 1400 -640 1400 m2
+port "vdda" 7 -640 3360 -640 3360 m2
+node "m1_271_638#" 0 2056.8 271 638 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "inn" 0 1059.95 -640 1540 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "inp" 0 893.949 -640 1680 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "qb" 0 8057.26 -640 1260 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "q" 0 6495.94 -640 2940 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "m1_5016_132#" 0 10572.4 5016 132 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "m1_4937_n62#" 0 10010.9 4937 -62 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "clk" 0 6224.6 -640 3220 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "m1_4173_n62#" 0 7429.32 4173 -62 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "m1_3857_n62#" 0 6128 3857 -62 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "m1_1805_5051#" 0 9444.72 1805 5051 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "m1_1489_5051#" 0 9395.15 1489 5051 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "m1_427_5051#" 0 3880.28 427 5051 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "m1_111_5051#" 0 3747.84 111 5051 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "gnd" 0 17712.9 -640 1400 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "vdda" 0 23482.7 -640 3360 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+substrate "w_n700_n1060#" 0 0 -700 -1060 pw 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "p_cs1/G0" "p_iso/a_129_n200#" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "p_iso/a_129_n200#" "n_cs1/G0"
+merge "n_cs1/G0" "n_iso/a_129_n100#"
+merge "n_iso/a_129_n100#" "m1_4173_n62#"
+connect 11384 4719 11452 4722 m1 "m1_4173_n62#" "p_cs1/G0"
+connect 5794 5117 5828 5131 m1 "m1_4173_n62#" "p_iso/a_129_n200#"
+connect 6416 141 6424 172 m1 "m1_4173_n62#" "n_cs1/G0"
+connect 4196 4 4230 18 m1 "m1_4173_n62#" "n_iso/a_129_n100#"
+merge "p_cs1/a_129_n400#" "p_cs2/G1" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "p_cs2/G1" "p_b1/G1"
+merge "p_b1/G1" "p_b1/G0"
+merge "p_b1/G0" "n_buf/G0"
+merge "n_buf/G0" "n_cs1/S1"
+merge "n_cs1/S1" "n_cs2/G1"
+merge "n_cs2/G1" "m1_5016_132#"
+connect 11638 4917 11672 4931 m1 "m1_5016_132#" "p_cs1/a_129_n400#"
+connect 7826 4719 7894 4722 m1 "m1_5016_132#" "p_cs2/G1"
+connect 12940 3919 13008 3922 m1 "m1_5016_132#" "p_b1/G1"
+connect 12782 3919 12850 3922 m1 "m1_5016_132#" "p_b1/G0"
+connect 7998 841 8006 872 m1 "m1_5016_132#" "n_buf/G0"
+connect 6512 4 6546 18 m1 "m1_5016_132#" "n_cs1/S1"
+connect 5022 141 5030 172 m1 "m1_5016_132#" "n_cs2/G1"
+merge "p_iso/G0" "p_rs1/D0" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "p_rs1/D0" "p_x/G1"
+merge "p_x/G1" "p_x/D0"
+merge "p_x/D0" "n_x4/G"
+merge "n_x4/G" "n_iso/G0"
+merge "n_iso/G0" "n_x3/D"
+merge "n_x3/D" "m1_1489_5051#"
+connect 5540 4919 5608 4922 m1 "m1_1489_5051#" "p_iso/G0"
+connect 1512 5117 1546 5131 m1 "m1_1489_5051#" "p_rs1/D0"
+connect 3740 4319 3808 4322 m1 "m1_1489_5051#" "p_x/G1"
+connect 3520 4517 3554 4531 m1 "m1_1489_5051#" "p_x/D0"
+connect 2908 441 2916 472 m1 "m1_1489_5051#" "n_x4/G"
+connect 3942 141 3950 172 m1 "m1_1489_5051#" "n_iso/G0"
+connect 1822 304 1856 318 m1 "m1_1489_5051#" "n_x3/D"
+merge "p_iso/G1" "p_rs1/a_129_n200#" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "p_rs1/a_129_n200#" "p_x/G0"
+merge "p_x/G0" "p_x/a_129_n800#"
+merge "p_x/a_129_n800#" "n_x3/G"
+merge "n_x3/G" "n_iso/G1"
+merge "n_iso/G1" "n_x4/D"
+merge "n_x4/D" "m1_1805_5051#"
+connect 5698 4919 5766 4922 m1 "m1_1805_5051#" "p_iso/G1"
+connect 1828 5117 1862 5131 m1 "m1_1805_5051#" "p_rs1/a_129_n200#"
+connect 3582 4319 3650 4322 m1 "m1_1805_5051#" "p_x/G0"
+connect 3836 4517 3870 4531 m1 "m1_1805_5051#" "p_x/a_129_n800#"
+connect 1884 441 1892 472 m1 "m1_1805_5051#" "n_x3/G"
+connect 4100 141 4108 172 m1 "m1_1805_5051#" "n_iso/G1"
+connect 2846 304 2880 318 m1 "m1_1805_5051#" "n_x4/D"
+merge "p_iso/VSUBS" "p_rs1/VSUBS" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "p_rs1/VSUBS" "p_rs2/VSUBS"
+merge "p_rs2/VSUBS" "p_b1/VSUBS"
+merge "p_b1/VSUBS" "p_cs1/VSUBS"
+merge "p_cs1/VSUBS" "p_b2/VSUBS"
+merge "p_b2/VSUBS" "p_cs2/VSUBS"
+merge "p_cs2/VSUBS" "p_x/VSUBS"
+merge "p_x/VSUBS" "n_buf/S1"
+merge "n_buf/S1" "n_tail/S"
+merge "n_tail/S" "n_buf/B"
+merge "n_buf/B" "n_cs1/a_129_n100#"
+merge "n_cs1/a_129_n100#" "n_cs1/D0"
+merge "n_cs1/D0" "n_cs1/B"
+merge "n_cs1/B" "n_cs2/a_129_n100#"
+merge "n_cs2/a_129_n100#" "n_iso/S1"
+merge "n_iso/S1" "n_iso/B"
+merge "n_iso/B" "n_cs2/D0"
+merge "n_cs2/D0" "n_cs2/B"
+merge "n_cs2/B" "n_x4/B"
+merge "n_x4/B" "n_tail/B"
+merge "n_tail/B" "n_x3/B"
+merge "n_x3/B" "n_pair/B"
+merge "n_pair/B" "gnd"
+merge "gnd" "w_n700_n1060#"
+connect 8094 704 8128 718 m1 "gnd" "n_buf/S1"
+connect 1216 704 1250 718 m1 "gnd" "n_tail/S"
+connect 7752 -1058 8470 341 pw "w_n700_n1060#" "n_buf/B"
+connect 6670 4 6704 18 m1 "gnd" "n_cs1/a_129_n100#"
+connect 6354 4 6388 18 m1 "gnd" "n_cs1/D0"
+connect 6170 -358 6301 341 pw "w_n700_n1060#" "n_cs1/B"
+connect 5118 4 5152 18 m1 "gnd" "n_cs2/a_129_n100#"
+connect 4038 4 4072 18 m1 "gnd" "n_iso/S1"
+connect 3696 -358 4414 341 pw "w_n700_n1060#" "n_iso/B"
+connect 4802 4 4836 18 m1 "gnd" "n_cs2/D0"
+connect 4618 -358 4901 341 pw "w_n700_n1060#" "n_cs2/B"
+connect 2662 -658 3222 341 pw "w_n700_n1060#" "n_x4/B"
+connect 874 -1058 1434 341 pw "w_n700_n1060#" "n_tail/B"
+connect 1638 -658 2101 341 pw "w_n700_n1060#" "n_x3/B"
+connect 0 -961 34 -920 li "gnd" "n_pair/B"
+connect -48 -1058 670 341 pw "w_n700_n1060#" "n_pair/B"
+merge "p_b1/B" "p_b2/B" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "p_b2/B" "p_x/B"
+merge "p_x/B" "p_cs1/D0"
+merge "p_cs1/D0" "p_cs1/B"
+merge "p_cs1/B" "p_cs2/D0"
+merge "p_cs2/D0" "p_cs2/B"
+merge "p_cs2/B" "p_iso/S1"
+merge "p_iso/S1" "p_iso/B"
+merge "p_iso/B" "p_rs1/S1"
+merge "p_rs1/S1" "p_rs1/B"
+merge "p_rs1/B" "p_rs2/S1"
+merge "p_rs2/S1" "p_rs2/B"
+merge "p_rs2/B" "p_b1/S1"
+merge "p_b1/S1" "p_b2/S1"
+merge "p_b2/S1" "p_x/S1"
+merge "p_x/S1" "vdda"
+connect 12586 6554 12637 6588 v0 "vdda" "p_b1/B"
+connect 9600 6554 9651 6588 v0 "vdda" "p_b2/B"
+connect 3386 6154 3437 6188 v0 "vdda" "p_x/B"
+connect 11322 4917 11356 4931 m1 "vdda" "p_cs1/D0"
+connect 11188 5754 11239 5788 v0 "vdda" "p_cs1/B"
+connect 7606 4917 7640 4931 m1 "vdda" "p_cs2/D0"
+connect 7472 5754 7523 5788 v0 "vdda" "p_cs2/B"
+connect 5636 5117 5670 5131 m1 "vdda" "p_iso/S1"
+connect 5344 5554 5395 5588 v0 "vdda" "p_iso/B"
+connect 1670 5117 1704 5131 m1 "vdda" "p_rs1/S1"
+connect 1378 5554 1429 5588 v0 "vdda" "p_rs1/B"
+connect 292 5117 326 5131 m1 "vdda" "p_rs2/S1"
+connect 0 5554 51 5588 v0 "vdda" "p_rs2/B"
+connect 12878 4117 12912 4131 m1 "vdda" "p_b1/S1"
+connect 9892 4117 9926 4131 m1 "vdda" "p_b2/S1"
+connect 3678 4517 3712 4531 m1 "vdda" "p_x/S1"
+merge "p_rs1/G1" "p_rs1/G0" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "p_rs1/G0" "p_rs2/G1"
+merge "p_rs2/G1" "p_rs2/G0"
+merge "p_rs2/G0" "n_tail/G"
+merge "n_tail/G" "clk"
+connect 1732 4919 1800 4922 m1 "clk" "p_rs1/G1"
+connect 1574 4919 1642 4922 m1 "clk" "p_rs1/G0"
+connect 354 4919 422 4922 m1 "clk" "p_rs2/G1"
+connect 196 4919 264 4922 m1 "clk" "p_rs2/G0"
+connect 1120 841 1128 872 m1 "clk" "n_tail/G"
+merge "p_cs2/G0" "p_iso/D0" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "p_iso/D0" "n_iso/D0"
+merge "n_iso/D0" "n_cs2/G0"
+merge "n_cs2/G0" "m1_3857_n62#"
+connect 7668 4719 7701 4722 m1 "m1_3857_n62#" "p_cs2/G0"
+connect 5478 5117 5512 5131 m1 "m1_3857_n62#" "p_iso/D0"
+connect 3880 4 3914 18 m1 "m1_3857_n62#" "n_iso/D0"
+connect 4864 141 4872 172 m1 "m1_3857_n62#" "n_cs2/G0"
+merge "p_b2/a_129_n1200#" "p_b2/D0" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "p_b2/D0" "n_buf/a_129_n800#"
+merge "n_buf/a_129_n800#" "q"
+connect 10050 4117 10084 4131 m1 "q" "p_b2/a_129_n1200#"
+connect 9734 4117 9768 4131 m1 "q" "p_b2/D0"
+connect 8252 704 8286 718 m1 "q" "n_buf/a_129_n800#"
+merge "p_b1/a_129_n1200#" "p_b1/D0" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "p_b1/D0" "n_buf/D0"
+merge "n_buf/D0" "qb"
+connect 13036 4117 13070 4131 m1 "qb" "p_b1/a_129_n1200#"
+connect 12720 4117 12754 4131 m1 "qb" "p_b1/D0"
+connect 7936 704 7970 718 m1 "qb" "n_buf/D0"
+merge "n_tail/D" "n_pair/S1" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "n_pair/S1" "m1_271_638#"
+connect 1058 704 1092 718 m1 "m1_271_638#" "n_tail/D"
+connect 294 704 328 718 m1 "m1_271_638#" "n_pair/S1"
+merge "n_pair/G0" "inp" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+connect 198 841 206 872 m1 "inp" "n_pair/G0"
+merge "p_rs2/a_129_n200#" "n_pair/a_129_n800#" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "n_pair/a_129_n800#" "n_x4/S"
+merge "n_x4/S" "m1_427_5051#"
+connect 450 5117 484 5131 m1 "m1_427_5051#" "p_rs2/a_129_n200#"
+connect 452 704 486 718 m1 "m1_427_5051#" "n_pair/a_129_n800#"
+connect 3004 304 3038 318 m1 "m1_427_5051#" "n_x4/S"
+merge "n_pair/G1" "inn" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+connect 356 841 364 872 m1 "inn" "n_pair/G1"
+merge "p_cs1/G1" "p_cs2/a_129_n400#" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "p_cs2/a_129_n400#" "p_b2/G1"
+merge "p_b2/G1" "p_b2/G0"
+merge "p_b2/G0" "n_buf/G1"
+merge "n_buf/G1" "n_cs1/G1"
+merge "n_cs1/G1" "n_cs2/S1"
+merge "n_cs2/S1" "m1_4937_n62#"
+connect 11542 4719 11610 4722 m1 "m1_4937_n62#" "p_cs1/G1"
+connect 7922 4917 7956 4931 m1 "m1_4937_n62#" "p_cs2/a_129_n400#"
+connect 9954 3919 10022 3922 m1 "m1_4937_n62#" "p_b2/G1"
+connect 9796 3919 9864 3922 m1 "m1_4937_n62#" "p_b2/G0"
+connect 8156 841 8164 872 m1 "m1_4937_n62#" "n_buf/G1"
+connect 6574 141 6582 172 m1 "m1_4937_n62#" "n_cs1/G1"
+connect 4960 4 4994 18 m1 "m1_4937_n62#" "n_cs2/S1"
+merge "p_rs2/D0" "n_pair/D0" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "n_pair/D0" "n_x3/S"
+merge "n_x3/S" "m1_111_5051#"
+connect 134 5117 168 5131 m1 "m1_111_5051#" "p_rs2/D0"
+connect 136 704 170 718 m1 "m1_111_5051#" "n_pair/D0"
+connect 1980 304 2014 318 m1 "m1_111_5051#" "n_x3/S"

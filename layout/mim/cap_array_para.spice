@@ -1,0 +1,17 @@
+* SPICE3 file created from cap_array.ext - technology: sky130A
+
+X0 cs_t cs_b sky130_fd_pr__cap_mim_m3_1 l=22.2 w=22.2
+X1 cs_t cs_b sky130_fd_pr__cap_mim_m3_1 l=22.2 w=22.2
+X2 g ci_b sky130_fd_pr__cap_mim_m3_1 l=22.2 w=22.2
+X3 g ci_b sky130_fd_pr__cap_mim_m3_1 l=22.2 w=22.2
+X4 g ci_b sky130_fd_pr__cap_mim_m3_1 l=22.2 w=22.2
+X5 g ci_b sky130_fd_pr__cap_mim_m3_1 l=22.2 w=22.2
+C0 cs_b cs_t 95.84721f
+C1 cs_b ci_b 0.38518f
+C2 cs_t ci_b 0.39593f
+C3 cs_t g 0.01114f
+C4 ci_b g 0.19171p
+C5 g VSUBS 19.37984f
+C6 ci_b VSUBS 51.04873f
+C7 cs_t VSUBS 10.02911f
+C8 cs_b VSUBS 26.09691f

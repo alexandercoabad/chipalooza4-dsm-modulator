@@ -1,0 +1,5 @@
+order N ['n_pair', 'n_tail', 'n_x3', 'n_x4', 'n_iso', 'n_cs2', 'n_cs1', 'n_buf']
+order P ['p_rs2', 'p_rs1', 'p_x', 'p_iso', 'p_cs2', 'p_b2', 'p_cs1', 'p_b1']
+wirelength cost 50235
+extra gaps [0, 0, 0, 260, 270, 0, 630, 660, 0, 0, 630, 580, 750, 750, 210, 20] channel conflicts 0 iterations 112
+devices(cells) 16 tracks 16 width um 69.82000000000001

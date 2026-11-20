@@ -1,0 +1,15 @@
+* NGSPICE file created from cap_array.ext - technology: sky130A
+
+.subckt sky130_fd_pr__cap_mim_m3_1_JS2Y8Z C2 C1
+X0 C1 C2 sky130_fd_pr__cap_mim_m3_1 l=22.2 w=22.2
+.ends
+
+.subckt cap_array g ci_b cs_b cs_t
+Xc1r0 cs_b cs_t sky130_fd_pr__cap_mim_m3_1_JS2Y8Z
+Xc1r1 cs_b cs_t sky130_fd_pr__cap_mim_m3_1_JS2Y8Z
+Xc2r0 ci_b g sky130_fd_pr__cap_mim_m3_1_JS2Y8Z
+Xc2r1 ci_b g sky130_fd_pr__cap_mim_m3_1_JS2Y8Z
+Xc0r0 ci_b g sky130_fd_pr__cap_mim_m3_1_JS2Y8Z
+Xc0r1 ci_b g sky130_fd_pr__cap_mim_m3_1_JS2Y8Z
+.ends
+

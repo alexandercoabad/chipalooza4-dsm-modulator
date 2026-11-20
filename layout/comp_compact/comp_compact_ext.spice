@@ -1,0 +1,59 @@
+* NGSPICE file created from comp_compact.ext - technology: sky130A
+
+.subckt sky130_fd_pr__pfet_g5v0d10v5_FKTA3B B D0 G0 S1 G1 a_129_n1200#
+X0 S1 G0 D0 B sky130_fd_pr__pfet_g5v0d10v5 ad=1.74 pd=12.29 as=3.48 ps=24.58 w=12 l=0.5
+X1 a_129_n1200# G1 S1 B sky130_fd_pr__pfet_g5v0d10v5 ad=3.48 pd=24.58 as=1.74 ps=12.29 w=12 l=0.5
+.ends
+
+.subckt sky130_fd_pr__pfet_g5v0d10v5_C8JDP9 B D0 G0 S1 G1 a_129_n200#
+X0 a_129_n200# G1 S1 B sky130_fd_pr__pfet_g5v0d10v5 ad=0.58 pd=4.58 as=0.29 ps=2.29 w=2 l=0.5
+X1 S1 G0 D0 B sky130_fd_pr__pfet_g5v0d10v5 ad=0.29 pd=2.29 as=0.58 ps=4.58 w=2 l=0.5
+.ends
+
+.subckt sky130_fd_pr__pfet_g5v0d10v5_9HGTJJ B D0 G0 S1 G1 a_129_n400#
+X0 S1 G0 D0 B sky130_fd_pr__pfet_g5v0d10v5 ad=0.58 pd=4.29 as=1.16 ps=8.58 w=4 l=0.5
+X1 a_129_n400# G1 S1 B sky130_fd_pr__pfet_g5v0d10v5 ad=1.16 pd=8.58 as=0.58 ps=4.29 w=4 l=0.5
+.ends
+
+.subckt sky130_fd_pr__nfet_g5v0d10v5_RQVLVT B D0 G0 S1 G1 a_129_n100#
+X0 a_129_n100# G1 S1 B sky130_fd_pr__nfet_g5v0d10v5 ad=0.29 pd=2.58 as=0.145 ps=1.29 w=1 l=0.5
+X1 S1 G0 D0 B sky130_fd_pr__nfet_g5v0d10v5 ad=0.145 pd=1.29 as=0.29 ps=2.58 w=1 l=0.5
+.ends
+
+.subckt sky130_fd_pr__nfet_g5v0d10v5_Z77CMW B D0 G0 S1 G1 a_129_n800#
+X0 a_129_n800# G1 S1 B sky130_fd_pr__nfet_g5v0d10v5 ad=2.32 pd=16.58 as=1.16 ps=8.29 w=8 l=0.5
+X1 S1 G0 D0 B sky130_fd_pr__nfet_g5v0d10v5 ad=1.16 pd=8.29 as=2.32 ps=16.58 w=8 l=0.5
+.ends
+
+.subckt sky130_fd_pr__nfet_g5v0d10v5_YJRXUS B D S G
+X0 S G D B sky130_fd_pr__nfet_g5v0d10v5 ad=2.32 pd=16.58 as=2.32 ps=16.58 w=8 l=0.5
+.ends
+
+.subckt sky130_fd_pr__pfet_g5v0d10v5_4L8FHD B D0 G0 S1 G1 a_129_n800#
+X0 a_129_n800# G1 S1 B sky130_fd_pr__pfet_g5v0d10v5 ad=2.32 pd=16.58 as=1.16 ps=8.29 w=8 l=0.5
+X1 S1 G0 D0 B sky130_fd_pr__pfet_g5v0d10v5 ad=1.16 pd=8.29 as=2.32 ps=16.58 w=8 l=0.5
+.ends
+
+.subckt sky130_fd_pr__nfet_g5v0d10v5_2PPV84 B D S G
+X0 S G D B sky130_fd_pr__nfet_g5v0d10v5 ad=1.16 pd=8.58 as=1.16 ps=8.58 w=4 l=0.5
+.ends
+
+.subckt comp_compact qb gnd inn inp q clk vdda
+Xp_b2 vdda q p_b2/G1 vdda p_b2/G1 q sky130_fd_pr__pfet_g5v0d10v5_FKTA3B
+Xp_rs1 vdda p_x/G1 clk vdda clk p_x/G0 sky130_fd_pr__pfet_g5v0d10v5_C8JDP9
+Xp_rs2 vdda n_x3/S clk vdda clk n_x4/S sky130_fd_pr__pfet_g5v0d10v5_C8JDP9
+Xp_cs1 vdda vdda p_cs1/G0 p_cs1/S1 p_b2/G1 p_b1/G1 sky130_fd_pr__pfet_g5v0d10v5_9HGTJJ
+Xp_cs2 vdda vdda p_iso/D0 p_cs2/S1 p_b1/G1 p_b2/G1 sky130_fd_pr__pfet_g5v0d10v5_9HGTJJ
+Xn_iso gnd p_iso/D0 p_x/G1 gnd p_x/G0 p_cs1/G0 sky130_fd_pr__nfet_g5v0d10v5_RQVLVT
+Xn_pair gnd n_x3/S inp n_tail/D inn n_x4/S sky130_fd_pr__nfet_g5v0d10v5_Z77CMW
+Xn_tail gnd n_tail/D gnd clk sky130_fd_pr__nfet_g5v0d10v5_YJRXUS
+Xp_iso vdda p_iso/D0 p_x/G1 vdda p_x/G0 p_cs1/G0 sky130_fd_pr__pfet_g5v0d10v5_C8JDP9
+Xp_x vdda p_x/G1 p_x/G0 vdda p_x/G1 p_x/G0 sky130_fd_pr__pfet_g5v0d10v5_4L8FHD
+Xn_x3 gnd p_x/G1 n_x3/S p_x/G0 sky130_fd_pr__nfet_g5v0d10v5_2PPV84
+Xn_buf gnd qb p_b1/G1 gnd p_b2/G1 q sky130_fd_pr__nfet_g5v0d10v5_Z77CMW
+Xn_x4 gnd p_x/G0 n_x4/S p_x/G1 sky130_fd_pr__nfet_g5v0d10v5_2PPV84
+Xn_cs1 gnd gnd p_cs1/G0 p_b1/G1 p_b2/G1 gnd sky130_fd_pr__nfet_g5v0d10v5_RQVLVT
+Xn_cs2 gnd gnd p_iso/D0 p_b2/G1 p_b1/G1 gnd sky130_fd_pr__nfet_g5v0d10v5_RQVLVT
+Xp_b1 vdda qb p_b1/G1 vdda p_b1/G1 qb sky130_fd_pr__pfet_g5v0d10v5_FKTA3B
+.ends
+

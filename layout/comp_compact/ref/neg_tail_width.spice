@@ -1,0 +1,32 @@
+* Comparator reference: analog/cells.py strongarm() as simulated (isolated NOR latch variant), 50 fF placeholder loads removed
+.subckt comp inp inn clk q qb vdda gnd
+Xcmt_0 ctail clk gnd gnd sky130_fd_pr__nfet_g5v0d10v5 w=4.0000 l=0.5 nf=1
+Xcm1_0 cx1 inp ctail gnd sky130_fd_pr__nfet_g5v0d10v5 w=8.0000 l=0.5 nf=1
+Xcm2_0 cx2 inn ctail gnd sky130_fd_pr__nfet_g5v0d10v5 w=8.0000 l=0.5 nf=1
+Xcm3_0 con cop cx1 gnd sky130_fd_pr__nfet_g5v0d10v5 w=4.0000 l=0.5 nf=1
+Xcm4_0 cop con cx2 gnd sky130_fd_pr__nfet_g5v0d10v5 w=4.0000 l=0.5 nf=1
+Xcm5_0 con cop vdda vdda sky130_fd_pr__pfet_g5v0d10v5 w=8.0000 l=0.5 nf=1
+Xcm6_0 cop con vdda vdda sky130_fd_pr__pfet_g5v0d10v5 w=8.0000 l=0.5 nf=1
+Xcm7_0 con clk vdda vdda sky130_fd_pr__pfet_g5v0d10v5 w=2.0000 l=0.5 nf=1
+Xcm8_0 cop clk vdda vdda sky130_fd_pr__pfet_g5v0d10v5 w=2.0000 l=0.5 nf=1
+Xcm9_0 cx1 clk vdda vdda sky130_fd_pr__pfet_g5v0d10v5 w=2.0000 l=0.5 nf=1
+Xcm10_0 cx2 clk vdda vdda sky130_fd_pr__pfet_g5v0d10v5 w=2.0000 l=0.5 nf=1
+Xciso1n_0 conn con gnd gnd sky130_fd_pr__nfet_g5v0d10v5 w=1.0000 l=0.5 nf=1
+Xciso1p_0 conn con vdda vdda sky130_fd_pr__pfet_g5v0d10v5 w=2.0000 l=0.5 nf=1
+Xciso2n_0 copn cop gnd gnd sky130_fd_pr__nfet_g5v0d10v5 w=1.0000 l=0.5 nf=1
+Xciso2p_0 copn cop vdda vdda sky130_fd_pr__pfet_g5v0d10v5 w=2.0000 l=0.5 nf=1
+Xcs1na_0 cQ copn gnd gnd sky130_fd_pr__nfet_g5v0d10v5 w=1.0000 l=0.5 nf=1
+Xcs1nb_0 cQ cQb gnd gnd sky130_fd_pr__nfet_g5v0d10v5 w=1.0000 l=0.5 nf=1
+Xcs1pa_0 cs1_m copn vdda vdda sky130_fd_pr__pfet_g5v0d10v5 w=4.0000 l=0.5 nf=1
+Xcs1pb_0 cQ cQb cs1_m vdda sky130_fd_pr__pfet_g5v0d10v5 w=4.0000 l=0.5 nf=1
+Xcs2na_0 cQb conn gnd gnd sky130_fd_pr__nfet_g5v0d10v5 w=1.0000 l=0.5 nf=1
+Xcs2nb_0 cQb cQ gnd gnd sky130_fd_pr__nfet_g5v0d10v5 w=1.0000 l=0.5 nf=1
+Xcs2pa_0 cs2_m conn vdda vdda sky130_fd_pr__pfet_g5v0d10v5 w=4.0000 l=0.5 nf=1
+Xcs2pb_0 cQb cQ cs2_m vdda sky130_fd_pr__pfet_g5v0d10v5 w=4.0000 l=0.5 nf=1
+Xcb1n_0 qb cQ gnd gnd sky130_fd_pr__nfet_g5v0d10v5 w=8.0000 l=0.5 nf=1
+Xcb1p_0 qb cQ vdda vdda sky130_fd_pr__pfet_g5v0d10v5 w=12.0000 l=0.5 nf=1
+Xcb1p_1 qb cQ vdda vdda sky130_fd_pr__pfet_g5v0d10v5 w=12.0000 l=0.5 nf=1
+Xcb2n_0 q cQb gnd gnd sky130_fd_pr__nfet_g5v0d10v5 w=8.0000 l=0.5 nf=1
+Xcb2p_0 q cQb vdda vdda sky130_fd_pr__pfet_g5v0d10v5 w=12.0000 l=0.5 nf=1
+Xcb2p_1 q cQb vdda vdda sky130_fd_pr__pfet_g5v0d10v5 w=12.0000 l=0.5 nf=1
+.ends

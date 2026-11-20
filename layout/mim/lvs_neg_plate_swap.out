@@ -1,0 +1,61 @@
+Flattening unmatched subcell sky130_fd_pr__cap_mim_m3_1_JS2Y8Z in circuit cap_array (0)(6 instances)
+Class cap_array:  Merged 4 devices.
+Class cap_array:  Merged 3 devices.
+
+Subcircuit summary:
+Circuit 1: cap_array                       |Circuit 2: cap_array                       
+-------------------------------------------|-------------------------------------------
+sky130_fd_pr__cap_mim_m3_1 (2)             |sky130_fd_pr__cap_mim_m3_1 (3) **Mismatch* 
+Number of devices: 2 **Mismatch**          |Number of devices: 3 **Mismatch**          
+Number of nets: 4                          |Number of nets: 4                          
+---------------------------------------------------------------------------------------
+NET mismatches: Class fragments follow (with fanout counts):
+Circuit 1: cap_array                       |Circuit 2: cap_array                       
+
+---------------------------------------------------------------------------------------
+Net: cs_b                                  |Net: cs_b                                  
+  sky130_fd_pr__cap_mim_m3_1/2 = 1         |  sky130_fd_pr__cap_mim_m3_1/2 = 1         
+                                           |                                           
+Net: ci_b                                  |Net: cs_t                                  
+  sky130_fd_pr__cap_mim_m3_1/2 = 1         |  sky130_fd_pr__cap_mim_m3_1/1 = 1         
+                                           |                                           
+Net: cs_t                                  |(no matching net)                          
+  sky130_fd_pr__cap_mim_m3_1/1 = 1         |                                           
+                                           |                                           
+Net: g                                     |(no matching net)                          
+  sky130_fd_pr__cap_mim_m3_1/1 = 1         |                                           
+---------------------------------------------------------------------------------------
+
+---------------------------------------------------------------------------------------
+(no matching net)                          |Net: ci_b                                  
+                                           |  sky130_fd_pr__cap_mim_m3_1/2 = 1         
+                                           |  sky130_fd_pr__cap_mim_m3_1/1 = 1         
+                                           |                                           
+(no matching net)                          |Net: g                                     
+                                           |  sky130_fd_pr__cap_mim_m3_1/1 = 1         
+                                           |  sky130_fd_pr__cap_mim_m3_1/2 = 1         
+---------------------------------------------------------------------------------------
+DEVICE mismatches: Class fragments follow (with node fanout counts):
+Circuit 1: cap_array                       |Circuit 2: cap_array                       
+
+---------------------------------------------------------------------------------------
+Instance: sky130_fd_pr__cap_mim_m3_1_JS2Y8 |Instance: sky130_fd_pr__cap_mim_m3_1Cs0    
+  1 = 1                                    |  1 = 1                                    
+  2 = 1                                    |  2 = 1                                    
+                                           |                                           
+Instance: sky130_fd_pr__cap_mim_m3_1_JS2Y8 |(no matching instance)                     
+  1 = 1                                    |                                           
+  2 = 1                                    |                                           
+---------------------------------------------------------------------------------------
+
+---------------------------------------------------------------------------------------
+(no matching instance)                     |Instance: sky130_fd_pr__cap_mim_m3_1Ci3    
+                                           |  1 = 2                                    
+                                           |  2 = 2                                    
+                                           |                                           
+(no matching instance)                     |Instance: sky130_fd_pr__cap_mim_m3_1Ci0    
+                                           |  1 = 2                                    
+                                           |  2 = 2                                    
+---------------------------------------------------------------------------------------
+Netlists do not match.
+Netlists do not match.

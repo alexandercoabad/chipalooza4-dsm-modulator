@@ -1,0 +1,73 @@
+* Clock generator reference: analog/cells.py clockgen('g','clk') as simulated; ideal delay capacitors replaced by cap_mim_m3_1 (sizes from cap_size.py)
+.subckt clkgen clk p1a p1ab p1 p1b p2 p2b cc vdda gnd
+Xgckn_0 gclkb clk gnd gnd sky130_fd_pr__nfet_g5v0d10v5 w=2.0000 l=0.5 nf=1
+Xgckp_0 gclkb clk vdda vdda sky130_fd_pr__pfet_g5v0d10v5 w=6.0000 l=0.5 nf=1
+Xgn1na_0 gp1r gclkb gnd gnd sky130_fd_pr__nfet_g5v0d10v5 w=2.0000 l=0.5 nf=1
+Xgn1nb_0 gp1r gp2d gnd gnd sky130_fd_pr__nfet_g5v0d10v5 w=2.0000 l=0.5 nf=1
+Xgn1pa_0 gn1_m gclkb vdda vdda sky130_fd_pr__pfet_g5v0d10v5 w=12.0000 l=0.5 nf=1
+Xgn1pb_0 gp1r gp2d gn1_m vdda sky130_fd_pr__pfet_g5v0d10v5 w=12.0000 l=0.5 nf=1
+Xgn2na_0 gp2r clk gnd gnd sky130_fd_pr__nfet_g5v0d10v5 w=2.0000 l=0.5 nf=1
+Xgn2nb_0 gp2r gp1d gnd gnd sky130_fd_pr__nfet_g5v0d10v5 w=2.0000 l=0.5 nf=1
+Xgn2pa_0 gn2_m clk vdda vdda sky130_fd_pr__pfet_g5v0d10v5 w=12.0000 l=0.5 nf=1
+Xgn2pb_0 gp2r gp1d gn2_m vdda sky130_fd_pr__pfet_g5v0d10v5 w=12.0000 l=0.5 nf=1
+Xgdg1i0n_0 gdg1_d0 p1 gnd gnd sky130_fd_pr__nfet_g5v0d10v5 w=1.0000 l=4.0 nf=1
+Xgdg1i0p_0 gdg1_d0 p1 vdda vdda sky130_fd_pr__pfet_g5v0d10v5 w=2.0000 l=4.0 nf=1
+XCgdg1_0 gdg1_d0 gnd sky130_fd_pr__cap_mim_m3_1 w=3.0 l=3.0
+Xgdg1i1n_0 gp1d gdg1_d0 gnd gnd sky130_fd_pr__nfet_g5v0d10v5 w=1.0000 l=4.0 nf=1
+Xgdg1i1p_0 gp1d gdg1_d0 vdda vdda sky130_fd_pr__pfet_g5v0d10v5 w=2.0000 l=4.0 nf=1
+XCgdg1_1 gp1d gnd sky130_fd_pr__cap_mim_m3_1 w=3.0 l=3.0
+Xgdg2i0n_0 gdg2_d0 p2 gnd gnd sky130_fd_pr__nfet_g5v0d10v5 w=1.0000 l=4.0 nf=1
+Xgdg2i0p_0 gdg2_d0 p2 vdda vdda sky130_fd_pr__pfet_g5v0d10v5 w=2.0000 l=4.0 nf=1
+XCgdg2_0 gdg2_d0 gnd sky130_fd_pr__cap_mim_m3_1 w=3.0 l=3.0
+Xgdg2i1n_0 gp2d gdg2_d0 gnd gnd sky130_fd_pr__nfet_g5v0d10v5 w=1.0000 l=4.0 nf=1
+Xgdg2i1p_0 gp2d gdg2_d0 vdda vdda sky130_fd_pr__pfet_g5v0d10v5 w=2.0000 l=4.0 nf=1
+XCgdg2_1 gp2d gnd sky130_fd_pr__cap_mim_m3_1 w=3.0 l=3.0
+Xga1n_0 gp1an gp1r gnd gnd sky130_fd_pr__nfet_g5v0d10v5 w=4.0000 l=0.5 nf=1
+Xga1p_0 gp1an gp1r vdda vdda sky130_fd_pr__pfet_g5v0d10v5 w=12.0000 l=0.5 nf=1
+Xga2n_0 p1a gp1an gnd gnd sky130_fd_pr__nfet_g5v0d10v5 w=4.0000 l=0.5 nf=1
+Xga2p_0 p1a gp1an vdda vdda sky130_fd_pr__pfet_g5v0d10v5 w=12.0000 l=0.5 nf=1
+Xga2p_1 p1a gp1an vdda vdda sky130_fd_pr__pfet_g5v0d10v5 w=12.0000 l=0.5 nf=1
+Xga3n_0 p1ab p1a gnd gnd sky130_fd_pr__nfet_g5v0d10v5 w=8.0000 l=0.5 nf=1
+Xga3p_0 p1ab p1a vdda vdda sky130_fd_pr__pfet_g5v0d10v5 w=12.0000 l=0.5 nf=1
+Xga3p_1 p1ab p1a vdda vdda sky130_fd_pr__pfet_g5v0d10v5 w=12.0000 l=0.5 nf=1
+Xgdei0n_0 gde_d0 p1a gnd gnd sky130_fd_pr__nfet_g5v0d10v5 w=1.0000 l=4.0 nf=1
+Xgdei0p_0 gde_d0 p1a vdda vdda sky130_fd_pr__pfet_g5v0d10v5 w=2.0000 l=4.0 nf=1
+XCgde_0 gde_d0 gnd sky130_fd_pr__cap_mim_m3_1 w=3.0 l=3.0
+Xgdei1n_0 gp1e gde_d0 gnd gnd sky130_fd_pr__nfet_g5v0d10v5 w=1.0000 l=4.0 nf=1
+Xgdei1p_0 gp1e gde_d0 vdda vdda sky130_fd_pr__pfet_g5v0d10v5 w=2.0000 l=4.0 nf=1
+XCgde_1 gp1e gnd sky130_fd_pr__cap_mim_m3_1 w=3.0 l=3.0
+Xge1n_0 gp1en gp1e gnd gnd sky130_fd_pr__nfet_g5v0d10v5 w=4.0000 l=0.5 nf=1
+Xge1p_0 gp1en gp1e vdda vdda sky130_fd_pr__pfet_g5v0d10v5 w=12.0000 l=0.5 nf=1
+Xge2n_0 p1 gp1en gnd gnd sky130_fd_pr__nfet_g5v0d10v5 w=8.0000 l=0.5 nf=1
+Xge2p_0 p1 gp1en vdda vdda sky130_fd_pr__pfet_g5v0d10v5 w=12.0000 l=0.5 nf=1
+Xge2p_1 p1 gp1en vdda vdda sky130_fd_pr__pfet_g5v0d10v5 w=12.0000 l=0.5 nf=1
+Xge3n_0 p1b p1 gnd gnd sky130_fd_pr__nfet_g5v0d10v5 w=8.0000 l=0.5 nf=1
+Xge3p_0 p1b p1 vdda vdda sky130_fd_pr__pfet_g5v0d10v5 w=12.0000 l=0.5 nf=1
+Xge3p_1 p1b p1 vdda vdda sky130_fd_pr__pfet_g5v0d10v5 w=12.0000 l=0.5 nf=1
+Xgb1n_0 gp2n gp2r gnd gnd sky130_fd_pr__nfet_g5v0d10v5 w=4.0000 l=0.5 nf=1
+Xgb1p_0 gp2n gp2r vdda vdda sky130_fd_pr__pfet_g5v0d10v5 w=12.0000 l=0.5 nf=1
+Xgb2n_0 p2 gp2n gnd gnd sky130_fd_pr__nfet_g5v0d10v5 w=8.0000 l=0.5 nf=1
+Xgb2p_0 p2 gp2n vdda vdda sky130_fd_pr__pfet_g5v0d10v5 w=12.0000 l=0.5 nf=1
+Xgb2p_1 p2 gp2n vdda vdda sky130_fd_pr__pfet_g5v0d10v5 w=12.0000 l=0.5 nf=1
+Xgb3n_0 p2b p2 gnd gnd sky130_fd_pr__nfet_g5v0d10v5 w=8.0000 l=0.5 nf=1
+Xgb3p_0 p2b p2 vdda vdda sky130_fd_pr__pfet_g5v0d10v5 w=12.0000 l=0.5 nf=1
+Xgb3p_1 p2b p2 vdda vdda sky130_fd_pr__pfet_g5v0d10v5 w=12.0000 l=0.5 nf=1
+Xgdci0n_0 gdc_d0 p1a gnd gnd sky130_fd_pr__nfet_g5v0d10v5 w=1.0000 l=4.0 nf=1
+Xgdci0p_0 gdc_d0 p1a vdda vdda sky130_fd_pr__pfet_g5v0d10v5 w=2.0000 l=4.0 nf=1
+XCgdc_0 gdc_d0 gnd sky130_fd_pr__cap_mim_m3_1 w=5.32 l=5.32
+Xgdci1n_0 gdc_d1 gdc_d0 gnd gnd sky130_fd_pr__nfet_g5v0d10v5 w=1.0000 l=4.0 nf=1
+Xgdci1p_0 gdc_d1 gdc_d0 vdda vdda sky130_fd_pr__pfet_g5v0d10v5 w=2.0000 l=4.0 nf=1
+XCgdc_1 gdc_d1 gnd sky130_fd_pr__cap_mim_m3_1 w=5.32 l=5.32
+Xgdci2n_0 gdc_d2 gdc_d1 gnd gnd sky130_fd_pr__nfet_g5v0d10v5 w=1.0000 l=4.0 nf=1
+Xgdci2p_0 gdc_d2 gdc_d1 vdda vdda sky130_fd_pr__pfet_g5v0d10v5 w=2.0000 l=4.0 nf=1
+XCgdc_2 gdc_d2 gnd sky130_fd_pr__cap_mim_m3_1 w=5.32 l=5.32
+Xgdci3n_0 gp1c gdc_d2 gnd gnd sky130_fd_pr__nfet_g5v0d10v5 w=1.0000 l=4.0 nf=1
+Xgdci3p_0 gp1c gdc_d2 vdda vdda sky130_fd_pr__pfet_g5v0d10v5 w=2.0000 l=4.0 nf=1
+XCgdc_3 gp1c gnd sky130_fd_pr__cap_mim_m3_1 w=5.32 l=5.32
+Xgcnna_0 gccn p1a gcn_m gnd sky130_fd_pr__nfet_g5v0d10v5 w=4.0000 l=0.5 nf=1
+Xgcnnb_0 gcn_m gp1c gnd gnd sky130_fd_pr__nfet_g5v0d10v5 w=4.0000 l=0.5 nf=1
+Xgcnpa_0 gccn p1a vdda vdda sky130_fd_pr__pfet_g5v0d10v5 w=6.0000 l=0.5 nf=1
+Xgcnpb_0 gccn gp1c vdda vdda sky130_fd_pr__pfet_g5v0d10v5 w=6.0000 l=0.5 nf=1
+Xgcbn_0 cc gccn gnd gnd sky130_fd_pr__nfet_g5v0d10v5 w=4.0000 l=0.5 nf=1
+Xgcbp_0 cc gccn vdda vdda sky130_fd_pr__pfet_g5v0d10v5 w=12.0000 l=0.5 nf=1
+.ends

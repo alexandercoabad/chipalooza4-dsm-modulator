@@ -1,0 +1,10 @@
+* Cs = 2 units, Ci = 4 units, unit = sky130_fd_pr__cap_mim_m3_1 w=l=22.2 (1.00 pF typical), c0 = top plate (capm/metal4), c1 = bottom plate (metal3)
+* Ci: top = g (the OTA input, virtual ground), bottom = ci_b (OTA output).  Cs: top = cs_t (switched to vcm / g in the modulator), bottom = cs_b (sampling/DAC side)
+.subckt cap_array g cs_t cs_b ci_b
+XCs0 cs_t cs_b sky130_fd_pr__cap_mim_m3_1 w=22.2 l=22.2
+XCs1 g cs_b sky130_fd_pr__cap_mim_m3_1 w=22.2 l=22.2
+XCi0 g ci_b sky130_fd_pr__cap_mim_m3_1 w=22.2 l=22.2
+XCi1 g ci_b sky130_fd_pr__cap_mim_m3_1 w=22.2 l=22.2
+XCi2 g ci_b sky130_fd_pr__cap_mim_m3_1 w=22.2 l=22.2
+XCi3 g ci_b sky130_fd_pr__cap_mim_m3_1 w=22.2 l=22.2
+.ends

@@ -1,0 +1,61 @@
+magic
+tech sky130A
+magscale 1 2
+timestamp 0
+use sky130_fd_pr__cap_mim_m3_1_JS2Y8Z  c0r0
+timestamp 0
+transform 1 0 0 0 1 0
+box -2436 -2260 2436 2260
+use sky130_fd_pr__cap_mim_m3_1_JS2Y8Z  c0r1
+timestamp 0
+transform 1 0 0 0 1 5400
+box -2436 -2260 2436 2260
+use sky130_fd_pr__cap_mim_m3_1_JS2Y8Z  c1r0
+timestamp 0
+transform 1 0 5200 0 1 0
+box -2436 -2260 2436 2260
+use sky130_fd_pr__cap_mim_m3_1_JS2Y8Z  c1r1
+timestamp 0
+transform 1 0 5200 0 1 5400
+box -2436 -2260 2436 2260
+use sky130_fd_pr__cap_mim_m3_1_JS2Y8Z  c2r0
+timestamp 0
+transform 1 0 10400 0 1 0
+box -2436 -2260 2436 2260
+use sky130_fd_pr__cap_mim_m3_1_JS2Y8Z  c2r1
+timestamp 0
+transform 1 0 10400 0 1 5400
+box -2436 -2260 2436 2260
+<< checkpaint >>
+rect -2000 -2000 2000 2000
+<< metal4 >>
+rect -860 -2000 -740 7400
+rect -860 -3100 -740 -2000
+rect 4340 -2000 4460 7400
+rect 9540 -2000 9660 7400
+rect 9540 -3100 9660 -2000
+rect -860 -3100 9660 -2900
+rect 2344 2248 2424 3152
+rect 7544 2248 7624 3152
+rect 12744 2248 12824 3152
+rect 2344 7648 2424 8400
+rect 12744 7648 12824 8400
+rect 2344 8200 12824 8400
+rect 7464 2580 7704 2820
+rect 4280 2580 4520 2820
+<< via4 >>
+rect 7466 2582 7702 2818
+rect 4282 2582 4518 2818
+<< metal5 >>
+rect 7424 2540 7744 8800
+rect 4240 2540 4560 8800
+<< labels >>
+flabel metal4 9600 -3000 9600 -3000 0 FreeSans 120 0 0 0 g
+port 1 nsew
+flabel metal4 12784 8300 12784 8300 0 FreeSans 120 0 0 0 ci_b
+port 2 nsew
+flabel metal5 7584 8600 7584 8600 0 FreeSans 120 0 0 0 cs_b
+port 3 nsew
+flabel metal5 4400 8600 4400 8600 0 FreeSans 120 0 0 0 cs_t
+port 4 nsew
+<< end >>

@@ -1,0 +1,36 @@
+Flattening unmatched subcell sky130_fd_pr__pfet_g5v0d10v5_FKTA3B in circuit comp_compact (0)(2 instances)
+Flattening unmatched subcell sky130_fd_pr__pfet_g5v0d10v5_C8JDP9 in circuit comp_compact (0)(3 instances)
+Flattening unmatched subcell sky130_fd_pr__pfet_g5v0d10v5_9HGTJJ in circuit comp_compact (0)(2 instances)
+Flattening unmatched subcell sky130_fd_pr__nfet_g5v0d10v5_RQVLVT in circuit comp_compact (0)(3 instances)
+Flattening unmatched subcell sky130_fd_pr__nfet_g5v0d10v5_Z77CMW in circuit comp_compact (0)(2 instances)
+Flattening unmatched subcell sky130_fd_pr__nfet_g5v0d10v5_YJRXUS in circuit comp_compact (0)(1 instance)
+Flattening unmatched subcell sky130_fd_pr__pfet_g5v0d10v5_4L8FHD in circuit comp_compact (0)(1 instance)
+Flattening unmatched subcell sky130_fd_pr__nfet_g5v0d10v5_2PPV84 in circuit comp_compact (0)(2 instances)
+Class comp_compact:  Merged 2 devices.
+Class comp:  Merged 2 devices.
+
+Subcircuit summary:
+Circuit 1: comp_compact                    |Circuit 2: comp                            
+-------------------------------------------|-------------------------------------------
+sky130_fd_pr__pfet_g5v0d10v5 (14)          |sky130_fd_pr__pfet_g5v0d10v5 (14)          
+sky130_fd_pr__nfet_g5v0d10v5 (13)          |sky130_fd_pr__nfet_g5v0d10v5 (13)          
+Number of devices: 27                      |Number of devices: 27                      
+Number of nets: 18                         |Number of nets: 18                         
+---------------------------------------------------------------------------------------
+Netlists match uniquely.
+Circuits match correctly.
+
+Subcircuit pins:
+Circuit 1: comp_compact                    |Circuit 2: comp                            
+-------------------------------------------|-------------------------------------------
+inn                                        |inn                                        
+inp                                        |inp                                        
+gnd                                        |gnd                                        
+clk                                        |clk                                        
+qb                                         |qb                                         
+q                                          |q                                          
+vdda                                       |vdda                                       
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes comp_compact and comp are equivalent.
+Circuits match uniquely.

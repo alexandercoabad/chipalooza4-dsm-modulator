@@ -1,0 +1,78 @@
+
+Magic 8.3 revision 704 - Compiled on Thu Nov 19 02:31:29 UTC 2026.
+Starting magic under Tcl interpreter
+Using the terminal as the console.
+WARNING: RLIMIT_NOFILE is above 1024 and Tcl_Version<9 this may cause runtime issues [rlim_cur=20000]
+Using NULL graphics device.
+Processing system .magicrc file
+Switching to WIRING tool.
+Switching to NETLIST tool.
+Switching to PICK tool.
+Switching to BOX tool.
+Sourcing design .magicrc for technology sky130A ...
+2 Magic internal units = 1 Lambda
+Input style sky130(): scaleFactor=2, multiplier=2
+The following types are not handled by extraction and will be treated as non-electrical types:
+    ubm 
+Scaled tech values by 2 / 1 to match internal grid scaling
+Loading sky130A Device Generator Menu ...
+Loading "pex.tcl" from command line.
+Cell comp_compact read from current working directory
+"comp_compact" has a zero timestamp; it should be written out
+    to establish a correct timestamp.
+Processing timestamp mismatches.
+Cell sky130_fd_pr__pfet_g5v0d10v5_FKTA3B read from current working directory
+Cell sky130_fd_pr__pfet_g5v0d10v5_9HGTJJ read from current working directory
+Cell sky130_fd_pr__pfet_g5v0d10v5_C8JDP9 read from current working directory
+Cell sky130_fd_pr__pfet_g5v0d10v5_4L8FHD read from current working directory
+Cell sky130_fd_pr__nfet_g5v0d10v5_Z77CMW read from current working directory
+Cell sky130_fd_pr__nfet_g5v0d10v5_RQVLVT read from current working directory
+Cell sky130_fd_pr__nfet_g5v0d10v5_2PPV84 read from current working directory
+Cell sky130_fd_pr__nfet_g5v0d10v5_YJRXUS read from current working directory
+Timestamp mismatches found in these cells: sky130_fd_pr__nfet_g5v0d10v5_YJRXUS, sky130_fd_pr__nfet_g5v0d10v5_2PPV84, sky130_fd_pr__nfet_g5v0d10v5_RQVLVT, sky130_fd_pr__nfet_g5v0d10v5_Z77CMW, sky130_fd_pr__pfet_g5v0d10v5_4L8FHD, sky130_fd_pr__pfet_g5v0d10v5_C8JDP9, sky130_fd_pr__pfet_g5v0d10v5_9HGTJJ, sky130_fd_pr__pfet_g5v0d10v5_FKTA3B.
+Extracting sky130_fd_pr__nfet_g5v0d10v5_Z77CMW into sky130_fd_pr__nfet_g5v0d10v5_Z77CMW.ext:
+Extracting sky130_fd_pr__nfet_g5v0d10v5_2PPV84 into sky130_fd_pr__nfet_g5v0d10v5_2PPV84.ext:
+Extracting sky130_fd_pr__nfet_g5v0d10v5_YJRXUS into sky130_fd_pr__nfet_g5v0d10v5_YJRXUS.ext:
+Extracting sky130_fd_pr__nfet_g5v0d10v5_RQVLVT into sky130_fd_pr__nfet_g5v0d10v5_RQVLVT.ext:
+Extracting sky130_fd_pr__pfet_g5v0d10v5_C8JDP9 into sky130_fd_pr__pfet_g5v0d10v5_C8JDP9.ext:
+Extracting sky130_fd_pr__pfet_g5v0d10v5_4L8FHD into sky130_fd_pr__pfet_g5v0d10v5_4L8FHD.ext:
+Extracting sky130_fd_pr__pfet_g5v0d10v5_9HGTJJ into sky130_fd_pr__pfet_g5v0d10v5_9HGTJJ.ext:
+Extracting sky130_fd_pr__pfet_g5v0d10v5_FKTA3B into sky130_fd_pr__pfet_g5v0d10v5_FKTA3B.ext:
+Extracting comp_compact into comp_compact.ext:
+Processing cell sky130_fd_pr__nfet_g5v0d10v5_Z77CMW for resistance extraction.
+Total Nets: 6
+Nets extracted: 0 (0.000000)
+Nets output: 0 (0.000000)
+Processing cell sky130_fd_pr__nfet_g5v0d10v5_2PPV84 for resistance extraction.
+Total Nets: 4
+Nets extracted: 0 (0.000000)
+Nets output: 0 (0.000000)
+Processing cell sky130_fd_pr__nfet_g5v0d10v5_YJRXUS for resistance extraction.
+Total Nets: 4
+Nets extracted: 0 (0.000000)
+Nets output: 0 (0.000000)
+Processing cell sky130_fd_pr__nfet_g5v0d10v5_RQVLVT for resistance extraction.
+Total Nets: 6
+Nets extracted: 0 (0.000000)
+Nets output: 0 (0.000000)
+Processing cell sky130_fd_pr__pfet_g5v0d10v5_C8JDP9 for resistance extraction.
+Total Nets: 7
+Nets extracted: 0 (0.000000)
+Nets output: 0 (0.000000)
+Processing cell sky130_fd_pr__pfet_g5v0d10v5_4L8FHD for resistance extraction.
+Total Nets: 7
+Nets extracted: 0 (0.000000)
+Nets output: 0 (0.000000)
+Processing cell sky130_fd_pr__pfet_g5v0d10v5_9HGTJJ for resistance extraction.
+Total Nets: 7
+Nets extracted: 0 (0.000000)
+Nets output: 0 (0.000000)
+Processing cell sky130_fd_pr__pfet_g5v0d10v5_FKTA3B for resistance extraction.
+Total Nets: 7
+Nets extracted: 0 (0.000000)
+Nets output: 0 (0.000000)
+Processing cell comp_compact for resistance extraction.
+Total Nets: 17
+Nets extracted: 0 (0.000000)
+Nets output: 0 (0.000000)
+exttospice finished.

@@ -1,0 +1,76 @@
+Flattening unmatched subcell sky130_fd_pr__cap_mim_m3_1_JS2Y8Z in circuit cap_array (0)(6 instances)
+Class cap_array:  Merged 4 devices.
+Class cap_array:  Merged 4 devices.
+
+Subcircuit summary:
+Circuit 1: cap_array                       |Circuit 2: cap_array                       
+-------------------------------------------|-------------------------------------------
+sky130_fd_pr__cap_mim_m3_1 (2)             |sky130_fd_pr__cap_mim_m3_1 (2)             
+Number of devices: 2                       |Number of devices: 2                       
+Number of nets: 4                          |Number of nets: 4                          
+---------------------------------------------------------------------------------------
+Circuit 1 parallel/series network does not match Circuit 2
+Circuit 1 instance sky130_fd_pr__cap_mim_m3_1_JS2Y8Zc1r0/sky130_fd_pr__cap_mim_m3_10 network:
+  w = 22.2
+  l = 22.2
+  M = 2
+Circuit 2 instance sky130_fd_pr__cap_mim_m3_1Ci0 network:
+  l = 22.2
+  w = 22.2
+  M = 3
+  l = 22.2
+  w = 20
+Circuit 1 parallel/series network does not match Circuit 2
+Circuit 1 instance sky130_fd_pr__cap_mim_m3_1_JS2Y8Zc2r0/sky130_fd_pr__cap_mim_m3_10 network:
+  w = 22.2
+  l = 22.2
+  M = 4
+Circuit 2 instance sky130_fd_pr__cap_mim_m3_1Ci0 network:
+  l = 22.2
+  w = 22.2
+  M = 3
+  l = 22.2
+  w = 20
+Circuit 1 parallel/series network does not match Circuit 2
+Circuit 1 instance sky130_fd_pr__cap_mim_m3_1_JS2Y8Zc2r0/sky130_fd_pr__cap_mim_m3_10 network:
+  w = 22.2
+  l = 22.2
+  M = 4
+Circuit 2 instance sky130_fd_pr__cap_mim_m3_1Ci0 network:
+  l = 22.2
+  w = 22.2
+  M = 3
+  l = 22.2
+  w = 20
+Netlists match uniquely.
+Netlists match uniquely.
+Circuits match correctly.
+There were property errors.
+sky130_fd_pr__cap_mim_m3_1_JS2Y8Zc2r0/sky130_fd_pr__cap_mim_m3_10 vs. sky130_fd_pr__cap_mim_m3_1Ci0:
+ w circuit1: 22.2   circuit2: 20   (delta=10.4%, cutoff=1%)
+ M circuit1: 4   circuit2: 1   (delta=3, cutoff=0)
+Circuit 1 parallel/series network does not match Circuit 2
+Circuit 1 instance sky130_fd_pr__cap_mim_m3_1_JS2Y8Zc2r0/sky130_fd_pr__cap_mim_m3_10 network:
+  w = 22.2
+  l = 22.2
+  M = 4
+Circuit 2 instance sky130_fd_pr__cap_mim_m3_1Ci0 network:
+  l = 22.2
+  w = 20
+  l = 22.2
+  w = 22.2
+  M = 3
+
+Subcircuit pins:
+Circuit 1: cap_array                       |Circuit 2: cap_array                       
+-------------------------------------------|-------------------------------------------
+cs_t                                       |cs_t                                       
+g                                          |g                                          
+cs_b                                       |cs_b                                       
+ci_b                                       |ci_b                                       
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes cap_array and cap_array are equivalent.
+Circuits match uniquely.
+Property errors were found.
+The following cells had property errors: cap_array
