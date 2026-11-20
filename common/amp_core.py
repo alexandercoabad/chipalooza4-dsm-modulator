@@ -1,4 +1,4 @@
-"""Inverter-amplifier core netlist generator (ngspice, SkyWater sky130 models): device emitter, self-biased inverter and switch cells. Taken from earlier inverter-amplifier work (previous joint work with a coauthor); used here for the modulator integrator amplifier and switches."""
+"""Inverter-amplifier core netlist generator (ngspice, SkyWater sky130 models): device emitter, self-biased inverter and switch cells. Taken from the author's Chipalooza #4 inverter-amplifier design; used here for the modulator integrator amplifier and switches."""
 import numpy as np
 RF = 100e3          # fixed feedback resistor
 L, WN, WP = 2.0, 32.0, 128.0      # core inverter (thick-oxide 3.3 V devices)
