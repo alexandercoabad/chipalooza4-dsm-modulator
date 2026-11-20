@@ -6,7 +6,7 @@ usage: [COMP_TEMP=125 COMP_VDD=3.0] python3 tb_comp_pex.py LABEL KIND [PEXFILE S
 KIND = sch50 (schematic with the 50 fF placeholder loads), sch0 (schematic, no placeholder), pex (extracted netlist: devices + wiring capacitance to substrate, no wire resistance).
 Same test bench as tb_comp.py; appends the result to ../results/analog/comp_postlayout.jsonl."""
 import sys, os, json, numpy as np
-sys.path.insert(0, os.path.join(os.path.dirname(os.path.abspath(__file__)), '..', 'v2', 'sim'))
+sys.path.insert(0, os.path.join(os.path.dirname(os.path.abspath(__file__)), '..', 'common'))
 import cells, simlib
 label, kind = sys.argv[1], sys.argv[2]; pexf = sys.argv[3] if kind == 'pex' else None; sub = sys.argv[4] if kind == 'pex' else None
 corner = sys.argv[-1] if sys.argv[-1] in ('tt','ss','ff','sf','fs') else 'tt'; temp = float(os.environ.get('COMP_TEMP', 27)); vdd = float(os.environ.get('COMP_VDD', 3.3))   # optional overrides, defaults as before

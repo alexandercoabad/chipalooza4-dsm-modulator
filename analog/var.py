@@ -1,5 +1,5 @@
 import sys, os, numpy as np
-sys.path.insert(0, os.path.join(os.path.dirname(os.path.abspath(__file__)), '..', 'v2', 'sim'))
+sys.path.insert(0, os.path.join(os.path.dirname(os.path.abspath(__file__)), '..', 'common'))
 import cells, simlib
 vdd=3.3; vcm=1.624; T=1/1.024e6; step=1e-3; up=-20e-3+step*np.arange(41); seq=np.concatenate([up,up[::-1]])
 def off(**kw):

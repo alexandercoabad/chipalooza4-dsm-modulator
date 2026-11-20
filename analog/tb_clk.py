@@ -1,8 +1,8 @@
 """Clock generator test bench: edge timing of every phase, with the modulator's switch loads attached.
 usage: python3 tb_clk.py [corner] [temp] [vdd] [key=value ...]   (keys: gap_ln, gap_cl, early_ln, early_cl, cmp_ln, cmp_cl, cmp_st)"""
 import sys, os, json, numpy as np
-sys.path.insert(0, os.path.join(os.path.dirname(os.path.abspath(__file__)), '..', 'v2', 'sim'))
-import cells, simlib, v2
+sys.path.insert(0, os.path.join(os.path.dirname(os.path.abspath(__file__)), '..', 'common'))
+import cells, simlib, amp_core
 def main(corner='tt', temp=27, vdd=3.3, fclk=1.024e6, kv=None, ncyc=4):
     kv = kv or {}; T = 1/fclk
     dk = dict(gap=dict(ln=kv.get('gap_ln', 4.0), lp=kv.get('gap_ln', 4.0), cload=kv.get('gap_cl', 20e-15)),
@@ -10,9 +10,9 @@ def main(corner='tt', temp=27, vdd=3.3, fclk=1.024e6, kv=None, ncyc=4):
               cmp=dict(ln=kv.get('cmp_ln', 4.0), lp=kv.get('cmp_ln', 4.0), cload=kv.get('cmp_cl', 60e-15), stages=int(kv.get('cmp_st', 4))))
     net = f"Vdda vdda 0 {vdd}\nVclk clk 0 PULSE(0 {vdd} 5n 2n 2n {T/2-2e-9:.6g} {T:.6g})\n"
     net += cells.clockgen('g', 'clk', **dk)
-    v2.TG_WN, v2.TG_WP = 8.0, 24.0                       # switch loads as in the modulator: sin (p1), st1 (p1a), sb2 + st2 (p2)
-    net += v2.tg('ls', 'la', 'lb', 'p1', 'p1b') + v2.tg('l1', 'lc', 'ld', 'p1a', 'p1ab')
-    net += v2.tg('l2', 'le', 'lf', 'p2', 'p2b') + v2.tg('l3', 'lg', 'lh', 'p2', 'p2b')
+    amp_core.TG_WN, amp_core.TG_WP = 8.0, 24.0                       # switch loads as in the modulator: sin (p1), st1 (p1a), sb2 + st2 (p2)
+    net += amp_core.tg('ls', 'la', 'lb', 'p1', 'p1b') + amp_core.tg('l1', 'lc', 'ld', 'p1a', 'p1ab')
+    net += amp_core.tg('l2', 'le', 'lf', 'p2', 'p2b') + amp_core.tg('l3', 'lg', 'lh', 'p2', 'p2b')
     for x in 'abcdefgh': net += f"Cl{x} l{x} 0 100f\n"
     net += f".options reltol=1e-4 vntol=1e-7\n.control\ntran 0.2n {ncyc*T:.6g}\nwrdata OUT v(clk) v(p1a) v(p1ab) v(p1) v(p1b) v(p2) v(p2b) v(cc) i(Vdda)\n.endc\n"
     a, so = simlib.run(net, corner, temp, tag='clk'); t = a[:, 0]

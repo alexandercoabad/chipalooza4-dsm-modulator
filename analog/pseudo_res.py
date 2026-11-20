@@ -2,7 +2,7 @@
 Anti-parallel pair of diode-connected PMOS (g5v0d10v5), each bulk tied to its own source:  M1 S=a D=b G=b B=a,  M2 S=b D=a G=a B=b.
 usage: python3 pseudo_res.py W L [corner] [temp] [rc]   -> I(V) for V = va - vb, with vb = vcm = 1.624 V; prints R = V/I at each V"""
 import sys, os, json, numpy as np
-H = os.path.dirname(os.path.abspath(__file__)); sys.path.insert(0, os.path.join(H, '..', 'v2', 'sim'))
+H = os.path.dirname(os.path.abspath(__file__)); sys.path.insert(0, os.path.join(H, '..', 'common'))
 import simlib, mylib
 def pr(name, a, b, W, L, nf=1, N=1, bulk='src', wmax=16.0):
     """N anti-parallel pairs in series between a and b; each device of total width W is emitted as parallel copies of <= wmax um (as v2.mos does).

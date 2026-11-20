@@ -17,7 +17,7 @@ pdk:                                  ## fetch the pinned Sky130 device models
 	@mkdir -p $(SIMTMP)
 
 smoke: pdk                            ## checks ngspice + PDK setup, expects 25.50 dB (inverter amplifier helper)
-	cd v2/sim && python3 smoke_test.py
+	cd common && python3 smoke_test.py
 
 ideal:                                ## ideal first-order model (57.3 / 55.2 dB)
 	cd dsm1/sim && python3 ideal_model.py | tee ../results/ideal_model.txt

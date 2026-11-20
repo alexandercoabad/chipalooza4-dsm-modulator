@@ -4,7 +4,7 @@
  3. supply current averaged over a clock period
 usage: python3 tb_comp.py [corner] [temp] [vdd]"""
 import sys, os, json, numpy as np
-sys.path.insert(0, os.path.join(os.path.dirname(os.path.abspath(__file__)), '..', 'v2', 'sim'))
+sys.path.insert(0, os.path.join(os.path.dirname(os.path.abspath(__file__)), '..', 'common'))
 import cells, simlib
 corner = sys.argv[1] if len(sys.argv) > 1 else 'tt'; temp = float(sys.argv[2]) if len(sys.argv) > 2 else 27; vdd = float(sys.argv[3]) if len(sys.argv) > 3 else 3.3
 vcm = 1.624 * vdd / 3.3; T = 1/1.024e6

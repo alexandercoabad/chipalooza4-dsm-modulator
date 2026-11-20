@@ -4,7 +4,7 @@ A 3.3 V, single-ended, first-order, one-bit switched-capacitor delta-sigma modul
 self-biased inverter amplifier (thick-oxide `g5v0d10v5`), StrongARM comparator with NOR SR latch, six transmission-gate switches, a vcm replica and its own
 two-phase clock generator. 1.024 MHz clock, oversampling ratio 128, 4 kHz band. The proposal is in `docs/`.
 Status: proposal stage. All results are schematic or extracted-capacitance simulation at the typical corner unless stated; there is no silicon.
-This repository holds only the modulator; the decimator, level shifter and full-ADC work are in a separate project.
+The modulator is the work of a single author; it builds on earlier joint inverter-amplifier work (see `common/` below and the proposal references). This repository holds only the modulator; the decimator, level shifter and full-ADC work are in a separate project.
 
 ## Layout of this repository
 
@@ -13,7 +13,7 @@ This repository holds only the modulator; the decimator, level shifter and full-
 | `dsm1/` | System-level modulator simulations (`dsm1/sim/`), results and plots (`dsm1/results/`), and `dsm1/README.md` with the method, numbers and limitations |
 | `analog/` | Comparator and clock-generator test benches (schematic and post-layout), cell generators, pseudo-resistor notes |
 | `layout/` | Block layouts with build, DRC (Magic and KLayout) and LVS (Netgen) scripts: `tg_mf`, `ota`, `mim`, `comp_compact`, `clkgen`, `vcm`; `top/` is `dsm_top` with extraction (`top/pex/`); `top_compact/` is a 17 % smaller floorplan of the same blocks. `layout/README.md` has the per-block log |
-| `v2/sim/` | Device and netlist helpers (`v2.py`, `simlib.py`, `mylib.py`) shared with the inverter-amplifier repository; the modulator scripts import them |
+| `common/` | Device and netlist helpers (`amp_core.py`, `simlib.py`, `mylib.py`) taken from the earlier inverter-amplifier work (previous joint work with a coauthor, https://github.com/alexandercoabad/Chipalooza4); the modulator scripts import them |
 | `results/analog/` | Comparator and clock-generator corner results (JSON lines) |
 | `docs/` | Chipalooza #4 proposal for this block (Word and PDF), the test equipment list (sent separately, rule 6) and the block diagram. The proposal quotes the `layout/top/` floorplan (390 x 158 um, 0.061 mm2) |
 

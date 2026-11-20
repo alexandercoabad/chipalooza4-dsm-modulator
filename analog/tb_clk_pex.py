@@ -6,7 +6,7 @@ KIND = sch_ideal : analog/cells.py clockgen (ideal delay capacitors; what dsm1/ 
 rc = res/cap corner file of the PDK models (default res_typical__cap_typical); only the MIM and wire capacitance depend on it.
 Appends to ../results/analog/clk_postlayout.jsonl."""
 import sys, os, json, re
-H = os.path.dirname(os.path.abspath(__file__)); sys.path.insert(0, H); sys.path.insert(0, os.path.join(H, '..', 'v2', 'sim'))
+H = os.path.dirname(os.path.abspath(__file__)); sys.path.insert(0, H); sys.path.insert(0, os.path.join(H, '..', 'common'))
 import cells, mylib, tb_clk
 kind = sys.argv[1]; corner = sys.argv[2] if len(sys.argv) > 2 else 'tt'; temp = float(sys.argv[3]) if len(sys.argv) > 3 else 27
 vdd = float(sys.argv[4]) if len(sys.argv) > 4 else 3.3; rc = sys.argv[5] if len(sys.argv) > 5 else None

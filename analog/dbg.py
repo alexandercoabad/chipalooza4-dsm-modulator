@@ -1,5 +1,5 @@
 import sys, os, numpy as np
-sys.path.insert(0, os.path.join(os.path.dirname(os.path.abspath(__file__)), '..', 'v2', 'sim'))
+sys.path.insert(0, os.path.join(os.path.dirname(os.path.abspath(__file__)), '..', 'common'))
 import cells, simlib
 vcm=1.624; T=1/1.024e6; vdd=3.3
 dvs=[10e-3,10e-3,-10e-3,-10e-3,10e-3]
