@@ -1,7 +1,0 @@
-ideal 1st-order, OSR128, -6 dBFS, N=8192 M=17: SNDR 57.3 dB, ENOB 9.23, tone -6.03 dBFS
-ideal 1st-order, OSR128, -6 dBFS, N=4096 M=5: SNDR 55.2 dB, ENOB 8.87, tone -6.02 dBFS
-leak sensitivity (N=8192, M=17):
- integrator leak per cycle 1e-04 -> SNDR 57.7 dB
- integrator leak per cycle 1e-03 -> SNDR 59.1 dB
- integrator leak per cycle 1e-02 -> SNDR 60.9 dB
- integrator leak per cycle 3e-02 -> SNDR 56.0 dB
