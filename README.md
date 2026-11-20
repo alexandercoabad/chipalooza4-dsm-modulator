@@ -4,7 +4,7 @@ A 3.3 V, single-ended, first-order, one-bit switched-capacitor delta-sigma modul
 self-biased inverter amplifier (thick-oxide `g5v0d10v5`), StrongARM comparator with NOR SR latch, six transmission-gate switches, a vcm replica and its own
 two-phase clock generator. 1.024 MHz clock, oversampling ratio 128, 4 kHz band. The proposal is in `docs/`.
 Status: proposal stage. All results are schematic or extracted-capacitance simulation at the typical corner unless stated; there is no silicon.
-The modulator is the work of a single author; it reuses the device sizes, switch cell and helper scripts of the author's Chipalooza #4 inverter-amplifier design (see `common/` below and the proposal references; that design continues a Tiny Tapeout v1 amplifier made with a coauthor). This repository holds only the modulator; the decimator, level shifter and full-ADC work are in a separate project.
+The modulator is the work of a single author; it reuses the device sizes, switch cell and helper scripts of the author's Chipalooza #4 inverter-amplifier design (see `common/` below and the proposal references; that design continues a Tiny Tapeout v1 amplifier made with a coauthor; its gain-select circuitry was joint work with the coauthor and is not used here). This repository holds only the modulator; the decimator, level shifter and full-ADC work are in a separate project.
 
 ## Layout of this repository
 
