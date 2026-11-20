@@ -1,0 +1,4 @@
+.simtmp/
+pdk/
+__pycache__/
+*.pyc
