@@ -1,0 +1,51 @@
+Flattening unmatched subcell sky130_fd_pr__cap_mim_m3_1_64QFDR in circuit clkgen (0)(4 instances)
+Flattening unmatched subcell sky130_fd_pr__pfet_g5v0d10v5_QUWD6C in circuit clkgen (0)(4 instances)
+Flattening unmatched subcell sky130_fd_pr__pfet_g5v0d10v5_FKTA3B in circuit clkgen (0)(8 instances)
+Flattening unmatched subcell sky130_fd_pr__pfet_g5v0d10v5_P2LHF6 in circuit clkgen (0)(5 instances)
+Flattening unmatched subcell sky130_fd_pr__nfet_g5v0d10v5_HKK92S in circuit clkgen (0)(5 instances)
+Flattening unmatched subcell sky130_fd_pr__nfet_g5v0d10v5_2PPV84 in circuit clkgen (0)(4 instances)
+Flattening unmatched subcell sky130_fd_pr__nfet_g5v0d10v5_YJRXUS in circuit clkgen (0)(6 instances)
+Flattening unmatched subcell sky130_fd_pr__cap_mim_m3_1_MHCNCU in circuit clkgen (0)(6 instances)
+Flattening unmatched subcell sky130_fd_pr__pfet_g5v0d10v5_99RJQ2 in circuit clkgen (0)(1 instance)
+Flattening unmatched subcell sky130_fd_pr__pfet_g5v0d10v5_P7LTMB in circuit clkgen (0)(1 instance)
+Flattening unmatched subcell sky130_fd_pr__nfet_g5v0d10v5_9BDQA4 in circuit clkgen (0)(1 instance)
+Flattening unmatched subcell sky130_fd_pr__nfet_g5v0d10v5_WB2VJZ in circuit clkgen (0)(2 instances)
+Flattening unmatched subcell sky130_fd_pr__nfet_g5v0d10v5_KYRSGX in circuit clkgen (0)(1 instance)
+Class clkgen:  Merged 6 devices.
+Class clkgen:  Merged 6 devices.
+
+Subcircuit summary:
+Circuit 1: clkgen                          |Circuit 2: clkgen                          
+-------------------------------------------|-------------------------------------------
+sky130_fd_pr__cap_mim_m3_1 (10)            |sky130_fd_pr__cap_mim_m3_1 (10)            
+sky130_fd_pr__pfet_g5v0d10v5 (27)          |sky130_fd_pr__pfet_g5v0d10v5 (27)          
+sky130_fd_pr__nfet_g5v0d10v5 (27)          |sky130_fd_pr__nfet_g5v0d10v5 (27)          
+Number of devices: 64                      |Number of devices: 64                      
+Number of nets: 30                         |Number of nets: 30                         
+---------------------------------------------------------------------------------------
+Circuits match uniquely.
+Property errors were found.
+Netlists match uniquely.
+There were property errors.
+sky130_fd_pr__nfet_g5v0d10v5_YJRXUSn_a2/sky130_fd_pr__nfet_g5v0d10v50 vs. sky130_fd_pr__nfet_g5v0d10v5ga2n_0:
+ w circuit1: 8   circuit2: 4   (delta=66.7%, cutoff=1%)
+
+Subcircuit pins:
+Circuit 1: clkgen                          |Circuit 2: clkgen                          
+-------------------------------------------|-------------------------------------------
+p1ab                                       |p1ab                                       
+p1b                                        |p1b                                        
+p2b                                        |p2b                                        
+cc                                         |cc                                         
+p1                                         |p1                                         
+p2                                         |p2                                         
+p1a                                        |p1a                                        
+clk                                        |clk                                        
+vdda                                       |vdda                                       
+gnd                                        |gnd                                        
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes clkgen and clkgen are equivalent.
+Circuits match uniquely.
+Property errors were found.
+The following cells had property errors: clkgen

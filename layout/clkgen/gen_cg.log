@@ -1,0 +1,7 @@
+cells 38 caps 10 fingers 60
+order N ['n_dc23', 'n_cn', 'n_cb', 'n_dc01', 'n_de', 'n_b3', 'n_dg2', 'n_b2', 'n_b1', 'n_a2', 'n_a1', 'n_n1', 'n_ck', 'n_n2', 'n_dg1', 'n_e2', 'n_e1', 'n_a3', 'n_e3']
+order P ['p_dc23', 'p_cn', 'p_cb', 'p_dc01', 'p_b3', 'p_dg2', 'p_b2', 'p_b1', 'p_n1', 'p_ck', 'p_n2', 'p_a1', 'p_a2', 'p_a3', 'p_de', 'p_e1', 'p_e2', 'p_e3', 'p_dg1']
+wirelength cost 196687
+extra gaps [0, 0, 0, 110, 0, 0, 0, 0, 0, 0, 0, 0, 0, 770, 0, 620, 770, 40, 0, 0, 0, 10, 0, 0, 0, 0, 0, 0, 640, 0, 0, 650, 650, 0, 0, 660, 710, 520, 0, 90, 0, 60, 0, 0, 0, 40, 580, 0] channel conflicts 0 iterations 63
+seed 2 conflicts 0
+cells 38 caps 10 tracks 27 width um 223.55

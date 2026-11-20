@@ -1,0 +1,559 @@
+timestamp 0
+version 8.3
+tech sky130A
+style ngspice()
+scale 1000 1 500000
+resistclasses 4400000 2200000 950000 3050000 120000 197000 114000 191000 120000 197000 114000 191000 48200 319800 2000000 48200 48200 12800 125 125 47 47 29 5
+use sky130_fd_pr__nfet_g5v0d10v5_2PPV84 n_cb 1 0 3476 0 1 0
+use sky130_fd_pr__nfet_g5v0d10v5_HKK92S n_dc23 1 0 1011 0 1 0
+use sky130_fd_pr__nfet_g5v0d10v5_KYRSGX n_cn 1 0 2633 0 1 0
+use sky130_fd_pr__nfet_g5v0d10v5_HKK92S n_de 1 0 7451 0 1 0
+use sky130_fd_pr__nfet_g5v0d10v5_HKK92S n_dc01 1 0 5129 0 1 0
+use sky130_fd_pr__nfet_g5v0d10v5_YJRXUS n_b3 1 0 8994 0 1 0
+use sky130_fd_pr__nfet_g5v0d10v5_HKK92S n_dg2 1 0 10537 0 1 0
+use sky130_fd_pr__nfet_g5v0d10v5_YJRXUS n_a2 1 0 13608 0 1 0
+use sky130_fd_pr__nfet_g5v0d10v5_YJRXUS n_b2 1 0 12080 0 1 0
+use sky130_fd_pr__nfet_g5v0d10v5_2PPV84 n_a1 1 0 14372 0 1 0
+use sky130_fd_pr__nfet_g5v0d10v5_2PPV84 n_b1 1 0 12844 0 1 0
+use sky130_fd_pr__nfet_g5v0d10v5_HKK92S n_dg1 1 0 19293 0 1 0
+use sky130_fd_pr__nfet_g5v0d10v5_WB2VJZ n_n2 1 0 17671 0 1 0
+use sky130_fd_pr__nfet_g5v0d10v5_WB2VJZ n_n1 1 0 15215 0 1 0
+use sky130_fd_pr__nfet_g5v0d10v5_9BDQA4 n_ck 1 0 16058 0 1 0
+use sky130_fd_pr__nfet_g5v0d10v5_YJRXUS n_e2 1 0 21456 0 1 0
+use sky130_fd_pr__cap_mim_m3_1_MHCNCU c_XCgdg1_0 1 0 26306 0 1 540
+use sky130_fd_pr__nfet_g5v0d10v5_YJRXUS n_e3 1 0 24558 0 1 0
+use sky130_fd_pr__nfet_g5v0d10v5_YJRXUS n_a3 1 0 23794 0 1 0
+use sky130_fd_pr__nfet_g5v0d10v5_2PPV84 n_e1 1 0 22990 0 1 0
+use sky130_fd_pr__cap_mim_m3_1_MHCNCU c_XCgde_0 1 0 28970 0 1 540
+use sky130_fd_pr__cap_mim_m3_1_MHCNCU c_XCgdg2_0 1 0 27638 0 1 540
+use sky130_fd_pr__cap_mim_m3_1_64QFDR c_XCgdc_2 1 0 32910 0 1 308
+use sky130_fd_pr__cap_mim_m3_1_64QFDR c_XCgdc_0 1 0 30534 0 1 308
+use sky130_fd_pr__pfet_g5v0d10v5_P2LHF6 p_dc23 1 0 1009 0 1 6709
+use sky130_fd_pr__pfet_g5v0d10v5_P7LTMB p_cn 1 0 3087 0 1 6709
+use sky130_fd_pr__pfet_g5v0d10v5_P2LHF6 p_dc01 1 0 6395 0 1 6709
+use sky130_fd_pr__pfet_g5v0d10v5_QUWD6C p_cb 1 0 4396 0 1 6709
+use sky130_fd_pr__pfet_g5v0d10v5_P2LHF6 p_dg2 1 0 10551 0 1 6709
+use sky130_fd_pr__pfet_g5v0d10v5_FKTA3B p_b3 1 0 8473 0 1 6709
+use sky130_fd_pr__pfet_g5v0d10v5_FKTA3B p_b2 1 0 12629 0 1 6709
+use sky130_fd_pr__pfet_g5v0d10v5_QUWD6C p_b1 1 0 13928 0 1 6709
+use sky130_fd_pr__pfet_g5v0d10v5_FKTA3B p_n2 1 0 18465 0 1 6709
+use sky130_fd_pr__pfet_g5v0d10v5_FKTA3B p_n1 1 0 15227 0 1 6709
+use sky130_fd_pr__pfet_g5v0d10v5_99RJQ2 p_ck 1 0 17166 0 1 6709
+use sky130_fd_pr__pfet_g5v0d10v5_FKTA3B p_a2 1 0 21713 0 1 6709
+use sky130_fd_pr__pfet_g5v0d10v5_QUWD6C p_a1 1 0 19764 0 1 6709
+use sky130_fd_pr__pfet_g5v0d10v5_P2LHF6 p_de 1 0 25819 0 1 6709
+use sky130_fd_pr__pfet_g5v0d10v5_FKTA3B p_a3 1 0 23741 0 1 6709
+use sky130_fd_pr__pfet_g5v0d10v5_FKTA3B p_e2 1 0 29777 0 1 6709
+use sky130_fd_pr__pfet_g5v0d10v5_QUWD6C p_e1 1 0 27818 0 1 6709
+use sky130_fd_pr__pfet_g5v0d10v5_FKTA3B p_e3 1 0 31865 0 1 6709
+use sky130_fd_pr__pfet_g5v0d10v5_P2LHF6 p_dg1 1 0 34463 0 1 6709
+use sky130_fd_pr__cap_mim_m3_1_MHCNCU c_XCgde_1 1 0 40262 0 1 5620
+use sky130_fd_pr__cap_mim_m3_1_MHCNCU c_XCgdg2_1 1 0 38930 0 1 5620
+use sky130_fd_pr__cap_mim_m3_1_MHCNCU c_XCgdg1_1 1 0 37538 0 1 5620
+use sky130_fd_pr__cap_mim_m3_1_64QFDR c_XCgdc_3 1 0 43662 0 1 5852
+use sky130_fd_pr__cap_mim_m3_1_64QFDR c_XCgdc_1 1 0 41866 0 1 5852
+port "p1b" 8 -640 4620 -640 4620 m2
+port "p1ab" 7 -640 4480 -640 4480 m2
+port "p2b" 9 -640 4760 -640 4760 m2
+port "cc" 3 -640 2100 -640 2100 m2
+port "clk" 5 -640 4200 -640 4200 m2
+port "p1" 2 -640 1960 -640 1960 m2
+port "p2" 6 -640 4340 -640 4340 m2
+port "p1a" 4 -640 2940 -640 2940 m2
+port "gnd" 1 -640 1260 -640 1260 m2
+port "vdda" 10 -640 4900 -640 4900 m2
+node "p1b" 0 14883.2 -640 4620 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "m1_21416_832#" 0 9072.18 21416 832 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "p1ab" 0 12007.4 -640 4480 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "m1_13568_832#" 0 9275.29 13568 832 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "m1_12804_432#" 0 7214.04 12804 432 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "m1_14332_432#" 0 7069.81 14332 432 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "m1_12040_832#" 0 6471.24 12040 832 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "p2b" 0 6594.52 -640 4760 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "cc" 0 4315.36 -640 2100 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "clk" 0 12266.5 -640 4200 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "m1_15096_232#" 0 6146.83 15096 232 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "m1_2435_238#" 0 6052.23 2435 238 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "p1" 0 23259.3 -640 1960 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "p2" 0 14378.7 -640 4340 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "p1a" 0 25324.5 -640 2940 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "m1_17710_232#" 0 13503.4 17710 232 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "m1_18395_n62#" 0 12483.1 18395 -62 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "m1_8269_n62#" 0 17815 8269 -62 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "m1_6553_n62#" 0 14391.3 6553 -62 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "m1_11355_n62#" 0 16080.9 11355 -62 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "m1_9639_n62#" 0 13132.2 9639 -62 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "m1_540_6395#" 0 21815 540 6395 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "m1_4231_n62#" 0 15736.8 4231 -62 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "m1_1827_6591#" 0 21593.5 1827 6591 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "m1_111_6591#" 0 17941.7 111 6591 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "gnd" 0 61024.4 -640 1260 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "vdda" 0 57574.9 -640 4900 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+substrate "w_n700_n1060#" 0 0 -700 -1060 pw 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "p_e3/B" "p_e2/B" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "p_e2/B" "p_e1/B"
+merge "p_e1/B" "p_a3/B"
+merge "p_a3/B" "p_a2/B"
+merge "p_a2/B" "p_a1/B"
+merge "p_a1/B" "p_n2/B"
+merge "p_n2/B" "p_ck/B"
+merge "p_ck/B" "p_n1/B"
+merge "p_n1/B" "p_b1/B"
+merge "p_b1/B" "p_b2/B"
+merge "p_b2/B" "p_b3/B"
+merge "p_b3/B" "p_cb/B"
+merge "p_cb/B" "p_cn/B"
+merge "p_cn/B" "p_dg1/S1"
+merge "p_dg1/S1" "p_dg1/B"
+merge "p_dg1/B" "p_de/S1"
+merge "p_de/S1" "p_de/B"
+merge "p_de/B" "p_ck/S"
+merge "p_ck/S" "p_dg2/S1"
+merge "p_dg2/S1" "p_dg2/B"
+merge "p_dg2/B" "p_dc01/S1"
+merge "p_dc01/S1" "p_dc01/B"
+merge "p_dc01/B" "p_cn/a_129_n600#"
+merge "p_cn/a_129_n600#" "p_cn/D0"
+merge "p_cn/D0" "p_dc23/S1"
+merge "p_dc23/S1" "p_dc23/B"
+merge "p_dc23/B" "p_e3/S1"
+merge "p_e3/S1" "p_e2/S1"
+merge "p_e2/S1" "p_e1/S"
+merge "p_e1/S" "p_a3/S1"
+merge "p_a3/S1" "p_a2/S1"
+merge "p_a2/S1" "p_a1/S"
+merge "p_a1/S" "p_n2/D0"
+merge "p_n2/D0" "p_n1/D0"
+merge "p_n1/D0" "p_b1/S"
+merge "p_b1/S" "p_b2/S1"
+merge "p_b2/S1" "p_b3/S1"
+merge "p_b3/S1" "p_cb/S"
+merge "p_cb/S" "vdda"
+connect 31556 8094 31607 8128 v0 "vdda" "p_e3/B"
+connect 29468 8094 29519 8128 v0 "vdda" "p_e2/B"
+connect 27588 8094 27639 8128 v0 "vdda" "p_e1/B"
+connect 23432 8094 23483 8128 v0 "vdda" "p_a3/B"
+connect 21404 8094 21455 8128 v0 "vdda" "p_a2/B"
+connect 19534 8094 19585 8128 v0 "vdda" "p_a1/B"
+connect 18156 8094 18207 8128 v0 "vdda" "p_n2/B"
+connect 16936 7494 16987 7528 v0 "vdda" "p_ck/B"
+connect 14918 8094 14969 8128 v0 "vdda" "p_n1/B"
+connect 13698 8094 13749 8128 v0 "vdda" "p_b1/B"
+connect 12320 8094 12371 8128 v0 "vdda" "p_b2/B"
+connect 8164 8094 8215 8128 v0 "vdda" "p_b3/B"
+connect 4166 8094 4217 8128 v0 "vdda" "p_cb/B"
+connect 2778 7494 2829 7528 v0 "vdda" "p_cn/B"
+connect 34446 6657 34480 6671 m1 "vdda" "p_dg1/S1"
+connect 33454 7094 33505 7128 v0 "vdda" "p_dg1/B"
+connect 25802 6657 25836 6671 m1 "vdda" "p_de/S1"
+connect 24810 7094 24861 7128 v0 "vdda" "p_de/B"
+connect 17228 6257 17262 6271 m1 "vdda" "p_ck/S"
+connect 10534 6657 10568 6671 m1 "vdda" "p_dg2/S1"
+connect 9542 7094 9593 7128 v0 "vdda" "p_dg2/B"
+connect 6378 6657 6412 6671 m1 "vdda" "p_dc01/S1"
+connect 5386 7094 5437 7128 v0 "vdda" "p_dc01/B"
+connect 3228 6257 3262 6271 m1 "vdda" "p_cn/a_129_n600#"
+connect 2912 6257 2946 6271 m1 "vdda" "p_cn/D0"
+connect 992 6657 1026 6671 m1 "vdda" "p_dc23/S1"
+connect 0 7094 51 7128 v0 "vdda" "p_dc23/B"
+connect 31848 5657 31882 5671 m1 "vdda" "p_e3/S1"
+connect 29760 5657 29794 5671 m1 "vdda" "p_e2/S1"
+connect 27880 5657 27914 5671 m1 "vdda" "p_e1/S"
+connect 23724 5657 23758 5671 m1 "vdda" "p_a3/S1"
+connect 21696 5657 21701 5671 m1 "vdda" "p_a2/S1"
+connect 19826 5657 19860 5671 m1 "vdda" "p_a1/S"
+connect 18290 5657 18324 5671 m1 "vdda" "p_n2/D0"
+connect 15052 5657 15086 5671 m1 "vdda" "p_n1/D0"
+connect 13990 5657 14024 5671 m1 "vdda" "p_b1/S"
+connect 12612 5657 12646 5671 m1 "vdda" "p_b2/S1"
+connect 8456 5657 8490 5671 m1 "vdda" "p_b3/S1"
+connect 4458 5657 4492 5671 m1 "vdda" "p_cb/S"
+merge "p_cb/D" "n_cb/D" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "n_cb/D" "cc"
+connect 4300 5657 4334 5671 m1 "cc" "p_cb/D"
+connect 3380 304 3414 318 m1 "cc" "n_cb/D"
+merge "p_b3/a_129_n1200#" "p_b3/D0" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "p_b3/D0" "n_b3/D"
+merge "n_b3/D" "p2b"
+connect 8614 5657 8648 5671 m1 "p2b" "p_b3/a_129_n1200#"
+connect 8298 5657 8332 5671 m1 "p2b" "p_b3/D0"
+connect 8898 704 8932 718 m1 "p2b" "n_b3/D"
+merge "p_dg1/a_829_n200#" "c_XCgdg1_1/C1" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "c_XCgdg1_1/C1" "p_n2/G1"
+merge "p_n2/G1" "n_dg1/a_829_n100#"
+merge "n_dg1/a_829_n100#" "n_n2/G1"
+merge "n_n2/G1" "m1_17710_232#"
+connect 35304 6657 35338 6671 m1 "m1_17710_232#" "p_dg1/a_829_n200#"
+connect 37332 5360 37392 5656 m4 "m1_17710_232#" "c_XCgdg1_1/C1"
+connect 18510 5459 18578 5462 m1 "m1_17710_232#" "p_n2/G1"
+connect 20134 4 20168 18 m1 "m1_17710_232#" "n_dg1/a_829_n100#"
+connect 17716 241 17724 272 m1 "m1_17710_232#" "n_n2/G1"
+merge "p_dc23/G1" "p_dc23/D0" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "p_dc23/D0" "c_XCgdc_2/C1"
+merge "c_XCgdc_2/C1" "n_dc23/G1"
+merge "n_dc23/G1" "n_dc23/D0"
+merge "n_dc23/D0" "m1_111_6591#"
+connect 1398 6459 1478 6462 m1 "m1_111_6591#" "p_dc23/G1"
+connect 134 6657 168 6671 m1 "m1_111_6591#" "p_dc23/D0"
+connect 32704 272 32764 341 m4 "m1_111_6591#" "c_XCgdc_2/C1"
+connect 1400 141 1414 172 m1 "m1_111_6591#" "n_dc23/G1"
+connect 136 4 170 18 m1 "m1_111_6591#" "n_dc23/D0"
+merge "p_e3/a_129_n1200#" "p_e3/D0" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "p_e3/D0" "n_e3/D"
+merge "n_e3/D" "p1b"
+connect 32006 5657 32040 5671 m1 "p1b" "p_e3/a_129_n1200#"
+connect 31690 5657 31724 5671 m1 "p1b" "p_e3/D0"
+connect 24462 704 24496 718 m1 "p1b" "n_e3/D"
+merge "p_de/G0" "p_dc01/G0" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "p_dc01/G0" "p_cn/G0"
+merge "p_cn/G0" "p_a3/G1"
+merge "p_a3/G1" "p_a3/G0"
+merge "p_a3/G0" "p_a2/a_129_n1200#"
+merge "p_a2/a_129_n1200#" "p_a2/D0"
+merge "p_a2/D0" "n_a3/G"
+merge "n_a3/G" "n_a2/D"
+merge "n_a2/D" "n_cn/G0"
+merge "n_cn/G0" "n_de/G0"
+merge "n_de/G0" "n_dc01/G0"
+merge "n_dc01/G0" "p1a"
+connect 25350 6459 25430 6462 m1 "p1a" "p_de/G0"
+connect 5926 6459 6006 6462 m1 "p1a" "p_dc01/G0"
+connect 2974 6059 3042 6062 m1 "p1a" "p_cn/G0"
+connect 23786 5459 23854 5462 m1 "p1a" "p_a3/G1"
+connect 23628 5459 23696 5462 m1 "p1a" "p_a3/G0"
+connect 21854 5657 21888 5671 m1 "p1a" "p_a2/a_129_n1200#"
+connect 21538 5657 21572 5671 m1 "p1a" "p_a2/D0"
+connect 23760 841 23768 872 m1 "p1a" "n_a3/G"
+connect 13512 704 13546 718 m1 "p1a" "n_a2/D"
+connect 2520 441 2528 472 m1 "p1a" "n_cn/G0"
+connect 6982 141 6996 172 m1 "p1a" "n_de/G0"
+connect 4660 141 4674 172 m1 "p1a" "n_dc01/G0"
+merge "p_dg1/VSUBS" "p_de/VSUBS" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "p_de/VSUBS" "p_dg2/VSUBS"
+merge "p_dg2/VSUBS" "p_dc01/VSUBS"
+merge "p_dc01/VSUBS" "p_dc23/VSUBS"
+merge "p_dc23/VSUBS" "c_XCgdc_3/C2"
+merge "c_XCgdc_3/C2" "c_XCgdc_3/w_n748_n572#"
+merge "c_XCgdc_3/w_n748_n572#" "c_XCgdc_1/C2"
+merge "c_XCgdc_1/C2" "c_XCgdc_1/w_n748_n572#"
+merge "c_XCgdc_1/w_n748_n572#" "c_XCgde_1/C2"
+merge "c_XCgde_1/C2" "c_XCgdg2_1/C2"
+merge "c_XCgdg2_1/C2" "c_XCgde_1/w_n516_n340#"
+merge "c_XCgde_1/w_n516_n340#" "c_XCgdg1_1/C2"
+merge "c_XCgdg1_1/C2" "c_XCgdg2_1/w_n516_n340#"
+merge "c_XCgdg2_1/w_n516_n340#" "c_XCgdg1_1/w_n516_n340#"
+merge "c_XCgdg1_1/w_n516_n340#" "p_e3/VSUBS"
+merge "p_e3/VSUBS" "p_e2/VSUBS"
+merge "p_e2/VSUBS" "p_e1/VSUBS"
+merge "p_e1/VSUBS" "p_a3/VSUBS"
+merge "p_a3/VSUBS" "p_a2/VSUBS"
+merge "p_a2/VSUBS" "p_a1/VSUBS"
+merge "p_a1/VSUBS" "p_n2/VSUBS"
+merge "p_n2/VSUBS" "p_ck/VSUBS"
+merge "p_ck/VSUBS" "p_n1/VSUBS"
+merge "p_n1/VSUBS" "p_b1/VSUBS"
+merge "p_b1/VSUBS" "p_b2/VSUBS"
+merge "p_b2/VSUBS" "p_b3/VSUBS"
+merge "p_b3/VSUBS" "p_cb/VSUBS"
+merge "p_cb/VSUBS" "p_cn/VSUBS"
+merge "p_cn/VSUBS" "c_XCgdc_2/C2"
+merge "c_XCgdc_2/C2" "c_XCgdc_0/C2"
+merge "c_XCgdc_0/C2" "c_XCgde_0/C2"
+merge "c_XCgde_0/C2" "c_XCgdg2_0/C2"
+merge "c_XCgdg2_0/C2" "c_XCgdg1_0/C2"
+merge "c_XCgdg1_0/C2" "n_e3/S"
+merge "n_e3/S" "n_a3/S"
+merge "n_a3/S" "n_e2/S"
+merge "n_e2/S" "n_a2/S"
+merge "n_a2/S" "n_b2/S"
+merge "n_b2/S" "n_b3/S"
+merge "n_b3/S" "c_XCgdc_2/w_n748_n572#"
+merge "c_XCgdc_2/w_n748_n572#" "c_XCgdc_0/w_n748_n572#"
+merge "c_XCgdc_0/w_n748_n572#" "c_XCgde_0/w_n516_n340#"
+merge "c_XCgde_0/w_n516_n340#" "c_XCgdg2_0/w_n516_n340#"
+merge "c_XCgdg2_0/w_n516_n340#" "c_XCgdg1_0/w_n516_n340#"
+merge "c_XCgdg1_0/w_n516_n340#" "n_a3/B"
+merge "n_a3/B" "n_e3/B"
+merge "n_e3/B" "n_e1/S"
+merge "n_e1/S" "n_e1/B"
+merge "n_e1/B" "n_e2/B"
+merge "n_e2/B" "n_dg1/S1"
+merge "n_dg1/S1" "n_n2/a_129_n200#"
+merge "n_n2/a_129_n200#" "n_dg1/B"
+merge "n_dg1/B" "n_ck/S"
+merge "n_ck/S" "n_n2/D0"
+merge "n_n2/D0" "n_n2/B"
+merge "n_n2/B" "n_ck/B"
+merge "n_ck/B" "n_n1/a_129_n200#"
+merge "n_n1/a_129_n200#" "n_n1/D0"
+merge "n_n1/D0" "n_n1/B"
+merge "n_n1/B" "n_a1/S"
+merge "n_a1/S" "n_a1/B"
+merge "n_a1/B" "n_a2/B"
+merge "n_a2/B" "n_b1/S"
+merge "n_b1/S" "n_b1/B"
+merge "n_b1/B" "n_b2/B"
+merge "n_b2/B" "n_dg2/S1"
+merge "n_dg2/S1" "n_dg2/B"
+merge "n_dg2/B" "n_b3/B"
+merge "n_b3/B" "n_de/S1"
+merge "n_de/S1" "n_de/B"
+merge "n_de/B" "n_dc01/S1"
+merge "n_dc01/S1" "n_dc01/B"
+merge "n_dc01/B" "n_cb/S"
+merge "n_cb/S" "n_cn/a_129_n400#"
+merge "n_cn/a_129_n400#" "n_cn/B"
+merge "n_cn/B" "n_cb/B"
+merge "n_cb/B" "n_dc23/S1"
+merge "n_dc23/S1" "n_dc23/B"
+merge "n_dc23/B" "gnd"
+merge "gnd" "w_n700_n1060#"
+connect 44328 5308 44388 5941 m4 "gnd" "c_XCgdc_3/C2"
+connect 42914 5280 44101 5941 pw "w_n700_n1060#" "c_XCgdc_3/w_n748_n572#"
+connect 42532 5308 42592 5941 m4 "gnd" "c_XCgdc_1/C2"
+connect 41118 5280 41301 5941 pw "w_n700_n1060#" "c_XCgdc_1/w_n748_n572#"
+connect 40696 5308 40756 5932 m4 "gnd" "c_XCgde_1/C2"
+connect 39364 5308 39424 5932 m4 "gnd" "c_XCgdg2_1/C2"
+connect 39746 5280 39901 5941 pw "w_n700_n1060#" "c_XCgde_1/w_n516_n340#"
+connect 37972 5308 38032 5932 m4 "gnd" "c_XCgdg1_1/C2"
+connect 38414 5280 38501 5941 pw "w_n700_n1060#" "c_XCgdg2_1/w_n516_n340#"
+connect 37022 5280 37101 5941 pw "w_n700_n1060#" "c_XCgdg1_1/w_n516_n340#"
+connect 33576 812 33636 852 m4 "gnd" "c_XCgdc_2/C2"
+connect 31200 812 31260 852 m4 "gnd" "c_XCgdc_0/C2"
+connect 29404 812 29464 852 m4 "gnd" "c_XCgde_0/C2"
+connect 28072 812 28132 852 m4 "gnd" "c_XCgdg2_0/C2"
+connect 26740 812 26800 852 m4 "gnd" "c_XCgdg1_0/C2"
+connect 24620 704 24654 718 m1 "gnd" "n_e3/S"
+connect 23856 704 23890 718 m1 "gnd" "n_a3/S"
+connect 21518 704 21552 718 m1 "gnd" "n_e2/S"
+connect 13670 704 13704 718 m1 "gnd" "n_a2/S"
+connect 12142 704 12176 718 m1 "gnd" "n_b2/S"
+connect 9056 704 9090 718 m1 "gnd" "n_b3/S"
+connect 32162 -264 32901 341 pw "w_n700_n1060#" "c_XCgdc_2/w_n748_n572#"
+connect 29786 -264 30101 341 pw "w_n700_n1060#" "c_XCgdc_0/w_n748_n572#"
+connect 28454 200 28701 341 pw "w_n700_n1060#" "c_XCgde_0/w_n516_n340#"
+connect 27122 200 27301 341 pw "w_n700_n1060#" "c_XCgdg2_0/w_n516_n340#"
+connect 25790 200 25901 341 pw "w_n700_n1060#" "c_XCgdg1_0/w_n516_n340#"
+connect 23514 -1058 24074 341 pw "w_n700_n1060#" "n_a3/B"
+connect 24278 -1058 24501 341 pw "w_n700_n1060#" "n_e3/B"
+connect 23052 304 23086 318 m1 "gnd" "n_e1/S"
+connect 22710 -658 23101 341 pw "w_n700_n1060#" "n_e1/B"
+connect 21176 -1058 21701 341 pw "w_n700_n1060#" "n_e2/B"
+connect 19276 4 19310 18 m1 "gnd" "n_dg1/S1"
+connect 17812 104 17846 118 m1 "gnd" "n_n2/a_129_n200#"
+connect 18234 -358 18901 341 pw "w_n700_n1060#" "n_dg1/B"
+connect 16120 104 16154 118 m1 "gnd" "n_ck/S"
+connect 17496 104 17501 118 m1 "gnd" "n_n2/D0"
+connect 17312 -458 17501 341 pw "w_n700_n1060#" "n_n2/B"
+connect 15778 -458 16101 341 pw "w_n700_n1060#" "n_ck/B"
+connect 15356 104 15390 118 m1 "gnd" "n_n1/a_129_n200#"
+connect 15040 104 15074 118 m1 "gnd" "n_n1/D0"
+connect 14856 -458 15574 341 pw "w_n700_n1060#" "n_n1/B"
+connect 14434 304 14468 318 m1 "gnd" "n_a1/S"
+connect 14092 -658 14652 341 pw "w_n700_n1060#" "n_a1/B"
+connect 13328 -1058 13888 341 pw "w_n700_n1060#" "n_a2/B"
+connect 12906 304 12940 318 m1 "gnd" "n_b1/S"
+connect 12564 -658 13124 341 pw "w_n700_n1060#" "n_b1/B"
+connect 11800 -1058 11901 341 pw "w_n700_n1060#" "n_b2/B"
+connect 10520 4 10554 18 m1 "gnd" "n_dg2/S1"
+connect 9478 -358 10501 341 pw "w_n700_n1060#" "n_dg2/B"
+connect 8714 -1058 9101 341 pw "w_n700_n1060#" "n_b3/B"
+connect 7434 4 7468 18 m1 "gnd" "n_de/S1"
+connect 6392 -358 7701 341 pw "w_n700_n1060#" "n_de/B"
+connect 5112 4 5146 18 m1 "gnd" "n_dc01/S1"
+connect 4070 -358 4901 341 pw "w_n700_n1060#" "n_dc01/B"
+connect 3538 304 3572 318 m1 "gnd" "n_cb/S"
+connect 2774 304 2808 318 m1 "gnd" "n_cn/a_129_n400#"
+connect 2274 -658 2992 341 pw "w_n700_n1060#" "n_cn/B"
+connect 3196 -658 3501 341 pw "w_n700_n1060#" "n_cb/B"
+connect 994 4 1028 18 m1 "gnd" "n_dc23/S1"
+connect 0 -261 34 -220 li "gnd" "n_dc23/B"
+connect -48 -358 701 341 pw "w_n700_n1060#" "n_dc23/B"
+merge "p_dg2/a_829_n200#" "c_XCgdg2_1/C1" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "c_XCgdg2_1/C1" "p_n1/G1"
+merge "p_n1/G1" "n_n1/G1"
+merge "n_n1/G1" "n_dg2/a_829_n100#"
+merge "n_dg2/a_829_n100#" "m1_11355_n62#"
+connect 11392 6657 11426 6671 m1 "m1_11355_n62#" "p_dg2/a_829_n200#"
+connect 38724 5360 38784 5656 m4 "m1_11355_n62#" "c_XCgdg2_1/C1"
+connect 15272 5459 15340 5462 m1 "m1_11355_n62#" "p_n1/G1"
+connect 15260 241 15268 272 m1 "m1_11355_n62#" "n_n1/G1"
+connect 11378 4 11412 18 m1 "m1_11355_n62#" "n_dg2/a_829_n100#"
+merge "p_e2/G1" "p_e2/G0" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "p_e2/G0" "p_e1/D"
+merge "p_e1/D" "n_e2/G"
+merge "n_e2/G" "n_e1/D"
+merge "n_e1/D" "m1_21416_832#"
+connect 29822 5459 29890 5462 m1 "m1_21416_832#" "p_e2/G1"
+connect 29664 5459 29732 5462 m1 "m1_21416_832#" "p_e2/G0"
+connect 27722 5657 27756 5671 m1 "m1_21416_832#" "p_e1/D"
+connect 21422 841 21430 872 m1 "m1_21416_832#" "n_e2/G"
+connect 22894 304 22928 318 m1 "m1_21416_832#" "n_e1/D"
+merge "p_dg2/G0" "p_b2/a_129_n1200#" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "p_b2/a_129_n1200#" "p_b2/D0"
+merge "p_b2/D0" "p_b3/G1"
+merge "p_b3/G1" "p_b3/G0"
+merge "p_b3/G0" "n_b2/D"
+merge "n_b2/D" "n_b3/G"
+merge "n_b3/G" "n_dg2/G0"
+merge "n_dg2/G0" "p2"
+connect 10082 6459 10162 6462 m1 "p2" "p_dg2/G0"
+connect 12770 5657 12804 5671 m1 "p2" "p_b2/a_129_n1200#"
+connect 12454 5657 12488 5671 m1 "p2" "p_b2/D0"
+connect 8518 5459 8586 5462 m1 "p2" "p_b3/G1"
+connect 8360 5459 8428 5462 m1 "p2" "p_b3/G0"
+connect 11984 704 12018 718 m1 "p2" "n_b2/D"
+connect 8960 841 8968 872 m1 "p2" "n_b3/G"
+connect 10068 141 10082 172 m1 "p2" "n_dg2/G0"
+merge "p_ck/G" "p_n2/G0" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "p_n2/G0" "n_n2/G0"
+merge "n_n2/G0" "n_ck/G"
+merge "n_ck/G" "clk"
+connect 17132 6059 17200 6062 m1 "clk" "p_ck/G"
+connect 18352 5459 18420 5462 m1 "clk" "p_n2/G0"
+connect 17558 241 17566 272 m1 "clk" "n_n2/G0"
+connect 16024 241 16032 272 m1 "clk" "n_ck/G"
+merge "p_b1/D" "p_b2/G1" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "p_b2/G1" "p_b2/G0"
+merge "p_b2/G0" "n_b2/G"
+merge "n_b2/G" "n_b1/D"
+merge "n_b1/D" "m1_12040_832#"
+connect 13832 5657 13866 5671 m1 "m1_12040_832#" "p_b1/D"
+connect 12674 5459 12742 5462 m1 "m1_12040_832#" "p_b2/G1"
+connect 12516 5459 12584 5462 m1 "m1_12040_832#" "p_b2/G0"
+connect 12046 841 12054 872 m1 "m1_12040_832#" "n_b2/G"
+connect 12748 304 12782 318 m1 "m1_12040_832#" "n_b1/D"
+merge "p_dg1/G0" "p_e3/G1" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "p_e3/G1" "p_e3/G0"
+merge "p_e3/G0" "p_e2/a_129_n1200#"
+merge "p_e2/a_129_n1200#" "p_e2/D0"
+merge "p_e2/D0" "n_e3/G"
+merge "n_e3/G" "n_e2/D"
+merge "n_e2/D" "n_dg1/G0"
+merge "n_dg1/G0" "p1"
+connect 33994 6459 34074 6462 m1 "p1" "p_dg1/G0"
+connect 31910 5459 31978 5462 m1 "p1" "p_e3/G1"
+connect 31752 5459 31820 5462 m1 "p1" "p_e3/G0"
+connect 29918 5657 29952 5671 m1 "p1" "p_e2/a_129_n1200#"
+connect 29602 5657 29636 5671 m1 "p1" "p_e2/D0"
+connect 24524 841 24532 872 m1 "p1" "n_e3/G"
+connect 21360 704 21394 718 m1 "p1" "n_e2/D"
+connect 18824 141 18838 172 m1 "p1" "n_dg1/G0"
+merge "p_dc01/a_829_n200#" "p_dc23/G0" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "p_dc23/G0" "c_XCgdc_1/C1"
+merge "c_XCgdc_1/C1" "n_dc01/a_829_n100#"
+merge "n_dc01/a_829_n100#" "n_dc23/G0"
+merge "n_dc23/G0" "m1_540_6395#"
+connect 7236 6657 7270 6671 m1 "m1_540_6395#" "p_dc01/a_829_n200#"
+connect 540 6459 620 6462 m1 "m1_540_6395#" "p_dc23/G0"
+connect 41660 5360 41720 5888 m4 "m1_540_6395#" "c_XCgdc_1/C1"
+connect 5970 4 6004 18 m1 "m1_540_6395#" "n_dc01/a_829_n100#"
+connect 542 141 556 172 m1 "m1_540_6395#" "n_dc23/G0"
+merge "p_a3/a_129_n1200#" "p_a3/D0" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "p_a3/D0" "n_a3/D"
+merge "n_a3/D" "p1ab"
+connect 23882 5657 23916 5671 m1 "p1ab" "p_a3/a_129_n1200#"
+connect 23566 5657 23600 5671 m1 "p1ab" "p_a3/D0"
+connect 23698 704 23732 718 m1 "p1ab" "n_a3/D"
+merge "p_de/G1" "p_de/D0" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "p_de/D0" "c_XCgde_0/C1"
+merge "c_XCgde_0/C1" "n_de/G1"
+merge "n_de/G1" "n_de/D0"
+merge "n_de/D0" "m1_6553_n62#"
+connect 26208 6459 26288 6462 m1 "m1_6553_n62#" "p_de/G1"
+connect 24944 6657 24978 6671 m1 "m1_6553_n62#" "p_de/D0"
+connect 28764 504 28824 800 m4 "m1_6553_n62#" "c_XCgde_0/C1"
+connect 7840 141 7854 172 m1 "m1_6553_n62#" "n_de/G1"
+connect 6576 4 6610 18 m1 "m1_6553_n62#" "n_de/D0"
+merge "p_a1/G" "p_n1/a_129_n1200#" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "p_n1/a_129_n1200#" "n_a1/G"
+merge "n_a1/G" "n_n1/S1"
+merge "n_n1/S1" "m1_14332_432#"
+connect 19730 5459 19798 5462 m1 "m1_14332_432#" "p_a1/G"
+connect 15368 5657 15402 5671 m1 "m1_14332_432#" "p_n1/a_129_n1200#"
+connect 14338 441 14346 472 m1 "m1_14332_432#" "n_a1/G"
+connect 15198 104 15232 118 m1 "m1_14332_432#" "n_n1/S1"
+merge "p_n2/a_129_n1200#" "p_b1/G" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "p_b1/G" "n_b1/G"
+merge "n_b1/G" "n_n2/S1"
+merge "n_n2/S1" "m1_12804_432#"
+connect 18606 5657 18640 5671 m1 "m1_12804_432#" "p_n2/a_129_n1200#"
+connect 13894 5459 13962 5462 m1 "m1_12804_432#" "p_b1/G"
+connect 12810 441 12818 472 m1 "m1_12804_432#" "n_b1/G"
+connect 17654 104 17688 118 m1 "m1_12804_432#" "n_n2/S1"
+merge "p_a2/G1" "p_a2/G0" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "p_a2/G0" "p_a1/D"
+merge "p_a1/D" "n_a2/G"
+merge "n_a2/G" "n_a1/D"
+merge "n_a1/D" "m1_13568_832#"
+connect 21758 5459 21826 5462 m1 "m1_13568_832#" "p_a2/G1"
+connect 21600 5459 21668 5462 m1 "m1_13568_832#" "p_a2/G0"
+connect 19668 5657 19702 5671 m1 "m1_13568_832#" "p_a1/D"
+connect 13574 841 13582 872 m1 "m1_13568_832#" "n_a2/G"
+connect 14276 304 14310 318 m1 "m1_13568_832#" "n_a1/D"
+merge "p_dg1/G1" "p_dg1/D0" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "p_dg1/D0" "c_XCgdg1_0/C1"
+merge "c_XCgdg1_0/C1" "n_dg1/G1"
+merge "n_dg1/G1" "n_dg1/D0"
+merge "n_dg1/D0" "m1_18395_n62#"
+connect 34852 6459 34932 6462 m1 "m1_18395_n62#" "p_dg1/G1"
+connect 33588 6657 33622 6671 m1 "m1_18395_n62#" "p_dg1/D0"
+connect 26100 504 26160 800 m4 "m1_18395_n62#" "c_XCgdg1_0/C1"
+connect 19682 141 19696 172 m1 "m1_18395_n62#" "n_dg1/G1"
+connect 18418 4 18452 18 m1 "m1_18395_n62#" "n_dg1/D0"
+merge "p_cn/S1" "p_cb/G" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "p_cb/G" "n_cb/G"
+merge "n_cb/G" "n_cn/D0"
+merge "n_cn/D0" "m1_2435_238#"
+connect 3070 6257 3104 6271 m1 "m1_2435_238#" "p_cn/S1"
+connect 4362 5459 4430 5462 m1 "m1_2435_238#" "p_cb/G"
+connect 3442 441 3450 472 m1 "m1_2435_238#" "n_cb/G"
+connect 2458 304 2492 318 m1 "m1_2435_238#" "n_cn/D0"
+merge "p_dg2/G1" "p_dg2/D0" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "p_dg2/D0" "c_XCgdg2_0/C1"
+merge "c_XCgdg2_0/C1" "n_dg2/G1"
+merge "n_dg2/G1" "n_dg2/D0"
+merge "n_dg2/D0" "m1_9639_n62#"
+connect 10940 6459 11020 6462 m1 "m1_9639_n62#" "p_dg2/G1"
+connect 9676 6657 9710 6671 m1 "m1_9639_n62#" "p_dg2/D0"
+connect 27432 504 27492 800 m4 "m1_9639_n62#" "c_XCgdg2_0/C1"
+connect 10926 141 10940 172 m1 "m1_9639_n62#" "n_dg2/G1"
+connect 9662 4 9696 18 m1 "m1_9639_n62#" "n_dg2/D0"
+merge "p_de/a_829_n200#" "c_XCgde_1/C1" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "c_XCgde_1/C1" "p_e1/G"
+merge "p_e1/G" "n_e1/G"
+merge "n_e1/G" "n_de/a_829_n100#"
+merge "n_de/a_829_n100#" "m1_8269_n62#"
+connect 26660 6657 26694 6671 m1 "m1_8269_n62#" "p_de/a_829_n200#"
+connect 40056 5360 40116 5656 m4 "m1_8269_n62#" "c_XCgde_1/C1"
+connect 27784 5459 27852 5462 m1 "m1_8269_n62#" "p_e1/G"
+connect 22956 441 22964 472 m1 "m1_8269_n62#" "n_e1/G"
+connect 8292 4 8326 18 m1 "m1_8269_n62#" "n_de/a_829_n100#"
+merge "p_ck/D" "p_n1/G0" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "p_n1/G0" "n_ck/D"
+merge "n_ck/D" "n_n1/G0"
+merge "n_n1/G0" "m1_15096_232#"
+connect 17070 6257 17104 6271 m1 "m1_15096_232#" "p_ck/D"
+connect 15114 5459 15182 5462 m1 "m1_15096_232#" "p_n1/G0"
+connect 15962 104 15996 118 m1 "m1_15096_232#" "n_ck/D"
+connect 15102 241 15110 272 m1 "m1_15096_232#" "n_n1/G0"
+merge "p_dc01/G1" "p_dc01/D0" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "p_dc01/D0" "c_XCgdc_0/C1"
+merge "c_XCgdc_0/C1" "n_dc01/G1"
+merge "n_dc01/G1" "n_dc01/D0"
+merge "n_dc01/D0" "m1_4231_n62#"
+connect 6784 6459 6864 6462 m1 "m1_4231_n62#" "p_dc01/G1"
+connect 5520 6657 5554 6671 m1 "m1_4231_n62#" "p_dc01/D0"
+connect 30328 272 30388 341 m4 "m1_4231_n62#" "c_XCgdc_0/C1"
+connect 5518 141 5532 172 m1 "m1_4231_n62#" "n_dc01/G1"
+connect 4254 4 4288 18 m1 "m1_4231_n62#" "n_dc01/D0"
+merge "p_cn/G1" "p_dc23/a_829_n200#" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "p_dc23/a_829_n200#" "c_XCgdc_3/C1"
+merge "c_XCgdc_3/C1" "n_cn/G1"
+merge "n_cn/G1" "n_dc23/a_829_n100#"
+merge "n_dc23/a_829_n100#" "m1_1827_6591#"
+connect 3132 6059 3200 6062 m1 "m1_1827_6591#" "p_cn/G1"
+connect 1850 6657 1884 6671 m1 "m1_1827_6591#" "p_dc23/a_829_n200#"
+connect 43456 5360 43516 5888 m4 "m1_1827_6591#" "c_XCgdc_3/C1"
+connect 2678 441 2686 472 m1 "m1_1827_6591#" "n_cn/G1"
+connect 1852 4 1886 18 m1 "m1_1827_6591#" "n_dc23/a_829_n100#"

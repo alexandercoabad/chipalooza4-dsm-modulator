@@ -1,0 +1,108 @@
+
+Magic 8.3 revision 704 - Compiled on Thu Nov 19 02:31:29 UTC 2026.
+Starting magic under Tcl interpreter
+Using the terminal as the console.
+WARNING: RLIMIT_NOFILE is above 1024 and Tcl_Version<9 this may cause runtime issues [rlim_cur=20000]
+Using NULL graphics device.
+Processing system .magicrc file
+Switching to WIRING tool.
+Switching to NETLIST tool.
+Switching to PICK tool.
+Switching to BOX tool.
+Sourcing design .magicrc for technology sky130A ...
+2 Magic internal units = 1 Lambda
+Input style sky130(): scaleFactor=2, multiplier=2
+The following types are not handled by extraction and will be treated as non-electrical types:
+    ubm 
+Scaled tech values by 2 / 1 to match internal grid scaling
+Loading sky130A Device Generator Menu ...
+Loading "pex.tcl" from command line.
+Cell clkgen read from current working directory
+"clkgen" has a zero timestamp; it should be written out
+    to establish a correct timestamp.
+Processing timestamp mismatches.
+Cell sky130_fd_pr__cap_mim_m3_1_64QFDR read from current working directory
+Cell sky130_fd_pr__cap_mim_m3_1_MHCNCU read from current working directory
+Cell sky130_fd_pr__pfet_g5v0d10v5_P2LHF6 read from current working directory
+Cell sky130_fd_pr__pfet_g5v0d10v5_FKTA3B read from current working directory
+Cell sky130_fd_pr__pfet_g5v0d10v5_QUWD6C read from current working directory
+Cell sky130_fd_pr__pfet_g5v0d10v5_99RJQ2 read from current working directory
+Cell sky130_fd_pr__pfet_g5v0d10v5_P7LTMB read from current working directory
+Cell sky130_fd_pr__nfet_g5v0d10v5_YJRXUS read from current working directory
+Cell sky130_fd_pr__nfet_g5v0d10v5_2PPV84 read from current working directory
+Cell sky130_fd_pr__nfet_g5v0d10v5_HKK92S read from current working directory
+Cell sky130_fd_pr__nfet_g5v0d10v5_WB2VJZ read from current working directory
+Cell sky130_fd_pr__nfet_g5v0d10v5_9BDQA4 read from current working directory
+Cell sky130_fd_pr__nfet_g5v0d10v5_KYRSGX read from current working directory
+Timestamp mismatches found in these cells: sky130_fd_pr__nfet_g5v0d10v5_KYRSGX, sky130_fd_pr__nfet_g5v0d10v5_9BDQA4, sky130_fd_pr__nfet_g5v0d10v5_WB2VJZ, sky130_fd_pr__nfet_g5v0d10v5_HKK92S, sky130_fd_pr__nfet_g5v0d10v5_2PPV84, sky130_fd_pr__nfet_g5v0d10v5_YJRXUS, sky130_fd_pr__pfet_g5v0d10v5_P7LTMB, sky130_fd_pr__pfet_g5v0d10v5_99RJQ2, sky130_fd_pr__pfet_g5v0d10v5_QUWD6C, sky130_fd_pr__pfet_g5v0d10v5_FKTA3B, sky130_fd_pr__pfet_g5v0d10v5_P2LHF6, sky130_fd_pr__cap_mim_m3_1_MHCNCU, sky130_fd_pr__cap_mim_m3_1_64QFDR.
+Extracting sky130_fd_pr__nfet_g5v0d10v5_2PPV84 into sky130_fd_pr__nfet_g5v0d10v5_2PPV84.ext:
+Extracting sky130_fd_pr__nfet_g5v0d10v5_HKK92S into sky130_fd_pr__nfet_g5v0d10v5_HKK92S.ext:
+Extracting sky130_fd_pr__nfet_g5v0d10v5_KYRSGX into sky130_fd_pr__nfet_g5v0d10v5_KYRSGX.ext:
+Extracting sky130_fd_pr__nfet_g5v0d10v5_YJRXUS into sky130_fd_pr__nfet_g5v0d10v5_YJRXUS.ext:
+Extracting sky130_fd_pr__nfet_g5v0d10v5_WB2VJZ into sky130_fd_pr__nfet_g5v0d10v5_WB2VJZ.ext:
+Extracting sky130_fd_pr__nfet_g5v0d10v5_9BDQA4 into sky130_fd_pr__nfet_g5v0d10v5_9BDQA4.ext:
+Extracting sky130_fd_pr__cap_mim_m3_1_MHCNCU into sky130_fd_pr__cap_mim_m3_1_MHCNCU.ext:
+Extracting sky130_fd_pr__cap_mim_m3_1_64QFDR into sky130_fd_pr__cap_mim_m3_1_64QFDR.ext:
+Extracting sky130_fd_pr__pfet_g5v0d10v5_P2LHF6 into sky130_fd_pr__pfet_g5v0d10v5_P2LHF6.ext:
+Extracting sky130_fd_pr__pfet_g5v0d10v5_P7LTMB into sky130_fd_pr__pfet_g5v0d10v5_P7LTMB.ext:
+Extracting sky130_fd_pr__pfet_g5v0d10v5_QUWD6C into sky130_fd_pr__pfet_g5v0d10v5_QUWD6C.ext:
+Extracting sky130_fd_pr__pfet_g5v0d10v5_FKTA3B into sky130_fd_pr__pfet_g5v0d10v5_FKTA3B.ext:
+Extracting sky130_fd_pr__pfet_g5v0d10v5_99RJQ2 into sky130_fd_pr__pfet_g5v0d10v5_99RJQ2.ext:
+Extracting clkgen into clkgen.ext:
+Processing cell sky130_fd_pr__nfet_g5v0d10v5_2PPV84 for resistance extraction.
+Total Nets: 4
+Nets extracted: 0 (0.000000)
+Nets output: 0 (0.000000)
+Processing cell sky130_fd_pr__nfet_g5v0d10v5_HKK92S for resistance extraction.
+Total Nets: 6
+Nets extracted: 0 (0.000000)
+Nets output: 0 (0.000000)
+Processing cell sky130_fd_pr__nfet_g5v0d10v5_KYRSGX for resistance extraction.
+Total Nets: 6
+Nets extracted: 0 (0.000000)
+Nets output: 0 (0.000000)
+Processing cell sky130_fd_pr__nfet_g5v0d10v5_YJRXUS for resistance extraction.
+Total Nets: 4
+Nets extracted: 0 (0.000000)
+Nets output: 0 (0.000000)
+Processing cell sky130_fd_pr__nfet_g5v0d10v5_WB2VJZ for resistance extraction.
+Total Nets: 6
+Nets extracted: 0 (0.000000)
+Nets output: 0 (0.000000)
+Processing cell sky130_fd_pr__nfet_g5v0d10v5_9BDQA4 for resistance extraction.
+Total Nets: 4
+Nets extracted: 0 (0.000000)
+Nets output: 0 (0.000000)
+Processing cell sky130_fd_pr__cap_mim_m3_1_MHCNCU for resistance extraction.
+Total Nets: 3
+Nets extracted: 0 (0.000000)
+Nets output: 0 (0.000000)
+Processing cell sky130_fd_pr__cap_mim_m3_1_64QFDR for resistance extraction.
+Total Nets: 3
+Nets extracted: 0 (0.000000)
+Nets output: 0 (0.000000)
+Processing cell sky130_fd_pr__pfet_g5v0d10v5_P2LHF6 for resistance extraction.
+Total Nets: 7
+Nets extracted: 0 (0.000000)
+Nets output: 0 (0.000000)
+Processing cell sky130_fd_pr__pfet_g5v0d10v5_P7LTMB for resistance extraction.
+Total Nets: 7
+Nets extracted: 0 (0.000000)
+Nets output: 0 (0.000000)
+Processing cell sky130_fd_pr__pfet_g5v0d10v5_QUWD6C for resistance extraction.
+Total Nets: 5
+Nets extracted: 0 (0.000000)
+Nets output: 0 (0.000000)
+Processing cell sky130_fd_pr__pfet_g5v0d10v5_FKTA3B for resistance extraction.
+Total Nets: 7
+Nets extracted: 0 (0.000000)
+Nets output: 0 (0.000000)
+Processing cell sky130_fd_pr__pfet_g5v0d10v5_99RJQ2 for resistance extraction.
+Total Nets: 5
+Nets extracted: 0 (0.000000)
+Nets output: 0 (0.000000)
+Processing cell clkgen for resistance extraction.
+Total Nets: 28
+Nets extracted: 0 (0.000000)
+Nets output: 0 (0.000000)
+exttospice finished.
