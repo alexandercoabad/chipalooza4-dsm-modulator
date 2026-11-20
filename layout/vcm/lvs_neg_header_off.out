@@ -1,0 +1,64 @@
+Flattening unmatched subcell sky130_fd_pr__nfet_g5v0d10v5_ET2AWD in circuit vcm_replica (0)(1 instance)
+Flattening unmatched subcell sky130_fd_pr__pfet_g5v0d10v5_JZRWPF in circuit vcm_replica (0)(1 instance)
+Flattening unmatched subcell sky130_fd_pr__nfet_g5v0d10v5_7LT2GF in circuit vcm_replica (0)(1 instance)
+Flattening unmatched subcell sky130_fd_pr__pfet_g5v0d10v5_MXRB4E in circuit vcm_replica (0)(1 instance)
+Class vcm_replica:  Merged 16 devices.
+
+Subcircuit summary:
+Circuit 1: vcm_replica                     |Circuit 2: vcm_replica                     
+-------------------------------------------|-------------------------------------------
+sky130_fd_pr__nfet_g5v0d10v5 (2)           |sky130_fd_pr__nfet_g5v0d10v5 (2)           
+sky130_fd_pr__pfet_g5v0d10v5 (2)           |sky130_fd_pr__pfet_g5v0d10v5 (2)           
+Number of devices: 4                       |Number of devices: 4                       
+Number of nets: 5                          |Number of nets: 5                          
+---------------------------------------------------------------------------------------
+NET mismatches: Class fragments follow (with fanout counts):
+Circuit 1: vcm_replica                     |Circuit 2: vcm_replica                     
+
+---------------------------------------------------------------------------------------
+Net: vdda                                  |Net: gnd                                   
+  sky130_fd_pr__nfet_g5v0d10v5/2 = 1       |  sky130_fd_pr__nfet_g5v0d10v5/4 = 2       
+  sky130_fd_pr__pfet_g5v0d10v5/(1|3) = 1   |  sky130_fd_pr__nfet_g5v0d10v5/(1|3) = 1   
+  sky130_fd_pr__pfet_g5v0d10v5/4 = 1       |                                           
+                                           |                                           
+Net: mp/B                                  |Net: rcp                                   
+  sky130_fd_pr__pfet_g5v0d10v5/(1|3) = 2   |  sky130_fd_pr__pfet_g5v0d10v5/(1|3) = 2   
+  sky130_fd_pr__pfet_g5v0d10v5/4 = 1       |  sky130_fd_pr__pfet_g5v0d10v5/4 = 1       
+---------------------------------------------------------------------------------------
+
+---------------------------------------------------------------------------------------
+Net: vcm                                   |Net: vcm                                   
+  sky130_fd_pr__nfet_g5v0d10v5/2 = 1       |  sky130_fd_pr__pfet_g5v0d10v5/(1|3) = 1   
+  sky130_fd_pr__nfet_g5v0d10v5/(1|3) = 1   |  sky130_fd_pr__pfet_g5v0d10v5/2 = 1       
+  sky130_fd_pr__pfet_g5v0d10v5/2 = 1       |  sky130_fd_pr__nfet_g5v0d10v5/(1|3) = 1   
+  sky130_fd_pr__pfet_g5v0d10v5/(1|3) = 1   |  sky130_fd_pr__nfet_g5v0d10v5/2 = 1       
+                                           |                                           
+Net: gnd                                   |Net: vdda                                  
+  sky130_fd_pr__nfet_g5v0d10v5/4 = 2       |  sky130_fd_pr__pfet_g5v0d10v5/2 = 1       
+  sky130_fd_pr__nfet_g5v0d10v5/(1|3) = 1   |  sky130_fd_pr__pfet_g5v0d10v5/(1|3) = 1   
+  sky130_fd_pr__pfet_g5v0d10v5/2 = 1       |  sky130_fd_pr__pfet_g5v0d10v5/4 = 1       
+                                           |  sky130_fd_pr__nfet_g5v0d10v5/2 = 1       
+---------------------------------------------------------------------------------------
+DEVICE mismatches: Class fragments follow (with node fanout counts):
+Circuit 1: vcm_replica                     |Circuit 2: vcm_replica                     
+
+---------------------------------------------------------------------------------------
+Instance: sky130_fd_pr__pfet_g5v0d10v5_MXR |Instance: sky130_fd_pr__pfet_g5v0d10v5Mhp  
+  (1,3) = (3,3)                            |  (1,3) = (4,3)                            
+  2 = 4                                    |  2 = 4                                    
+  4 = 3                                    |  4 = 4                                    
+---------------------------------------------------------------------------------------
+
+---------------------------------------------------------------------------------------
+Instance: sky130_fd_pr__nfet_g5v0d10v5_7LT |Instance: sky130_fd_pr__nfet_g5v0d10v5Mhn  
+  (1,3) = (4,2)                            |  (1,3) = (3,2)                            
+  2 = 3                                    |  2 = 4                                    
+  4 = 4                                    |  4 = 3                                    
+                                           |                                           
+Instance: sky130_fd_pr__nfet_g5v0d10v5_ET2 |Instance: sky130_fd_pr__nfet_g5v0d10v5Mn   
+  (1,3) = (4,2)                            |  (1,3) = (4,2)                            
+  2 = 4                                    |  2 = 4                                    
+  4 = 4                                    |  4 = 3                                    
+---------------------------------------------------------------------------------------
+Netlists do not match.
+Netlists do not match.

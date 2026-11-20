@@ -1,0 +1,4 @@
+corner   vcm replica   OTA core self-bias   difference (mV)
+tt         1.6314 V        1.6286 V      +2.8
+ss         1.6086 V        1.6069 V      +1.6
+ff         1.6509 V        1.6487 V      +2.1

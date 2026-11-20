@@ -1,0 +1,41 @@
+* NGSPICE file created from vcm_replica.ext - technology: sky130A
+
+.subckt sky130_fd_pr__nfet_g5v0d10v5_ET2AWD B D S G
+X0 S G D B sky130_fd_pr__nfet_g5v0d10v5 ad=1.16 pd=8.58 as=1.16 ps=8.58 w=4 l=2
+.ends
+
+.subckt sky130_fd_pr__pfet_g5v0d10v5_JZRWPF B D0 G S1 D2 S3 D4 S4
+X0 S3 G D2 B sky130_fd_pr__pfet_g5v0d10v5 ad=0.464 pd=3.49 as=0.464 ps=3.49 w=3.2 l=2
+X1 S1 G D0 B sky130_fd_pr__pfet_g5v0d10v5 ad=0.464 pd=3.49 as=0.928 ps=6.98 w=3.2 l=2
+X2 D4 G S3 B sky130_fd_pr__pfet_g5v0d10v5 ad=0.464 pd=3.49 as=0.464 ps=3.49 w=3.2 l=2
+X3 D2 G S1 B sky130_fd_pr__pfet_g5v0d10v5 ad=0.464 pd=3.49 as=0.464 ps=3.49 w=3.2 l=2
+X4 S4 G D4 B sky130_fd_pr__pfet_g5v0d10v5 ad=0.928 pd=6.98 as=0.464 ps=3.49 w=3.2 l=2
+.ends
+
+.subckt sky130_fd_pr__nfet_g5v0d10v5_7LT2GF B D0 G S1 D2 S3 a_287_n313#
+X0 D2 G S1 B sky130_fd_pr__nfet_g5v0d10v5 ad=0.45385 pd=3.42 as=0.45385 ps=3.42 w=3.13 l=0.5
+X1 S1 G D0 B sky130_fd_pr__nfet_g5v0d10v5 ad=0.45385 pd=3.42 as=0.9077 ps=6.84 w=3.13 l=0.5
+X2 a_287_n313# G S3 B sky130_fd_pr__nfet_g5v0d10v5 ad=0.9077 pd=6.84 as=0.45385 ps=3.42 w=3.13 l=0.5
+X3 S3 G D2 B sky130_fd_pr__nfet_g5v0d10v5 ad=0.45385 pd=3.42 as=0.45385 ps=3.42 w=3.13 l=0.5
+.ends
+
+.subckt sky130_fd_pr__pfet_g5v0d10v5_MXRB4E B D0 G S1 D2 S3 D4 S5 D6 S7 D8 S9 a_761_n375#
+X0 S5 G D4 B sky130_fd_pr__pfet_g5v0d10v5 ad=0.54375 pd=4.04 as=0.54375 ps=4.04 w=3.75 l=0.5
+X1 S9 G D8 B sky130_fd_pr__pfet_g5v0d10v5 ad=0.54375 pd=4.04 as=0.54375 ps=4.04 w=3.75 l=0.5
+X2 S1 G D0 B sky130_fd_pr__pfet_g5v0d10v5 ad=0.54375 pd=4.04 as=1.0875 ps=8.08 w=3.75 l=0.5
+X3 D4 G S3 B sky130_fd_pr__pfet_g5v0d10v5 ad=0.54375 pd=4.04 as=0.54375 ps=4.04 w=3.75 l=0.5
+X4 a_761_n375# G S9 B sky130_fd_pr__pfet_g5v0d10v5 ad=1.0875 pd=8.08 as=0.54375 ps=4.04 w=3.75 l=0.5
+X5 S7 G D6 B sky130_fd_pr__pfet_g5v0d10v5 ad=0.54375 pd=4.04 as=0.54375 ps=4.04 w=3.75 l=0.5
+X6 S3 G D2 B sky130_fd_pr__pfet_g5v0d10v5 ad=0.54375 pd=4.04 as=0.54375 ps=4.04 w=3.75 l=0.5
+X7 D6 G S5 B sky130_fd_pr__pfet_g5v0d10v5 ad=0.54375 pd=4.04 as=0.54375 ps=4.04 w=3.75 l=0.5
+X8 D8 G S7 B sky130_fd_pr__pfet_g5v0d10v5 ad=0.54375 pd=4.04 as=0.54375 ps=4.04 w=3.75 l=0.5
+X9 D2 G S1 B sky130_fd_pr__pfet_g5v0d10v5 ad=0.54375 pd=4.04 as=0.54375 ps=4.04 w=3.75 l=0.5
+.ends
+
+.subckt vcm_replica en enb vdda gnd vcm
+Xmn gnd vcm mn/S vcm sky130_fd_pr__nfet_g5v0d10v5_ET2AWD
+Xmp mp/B vcm vcm mp/B vcm mp/B vcm mp/B sky130_fd_pr__pfet_g5v0d10v5_JZRWPF
+Xhn gnd mn/S en gnd mn/S gnd mn/S sky130_fd_pr__nfet_g5v0d10v5_7LT2GF
+Xhp vdda mp/B enb vdda mp/B vdda mp/B vdda mp/B vdda mp/B vdda mp/B sky130_fd_pr__pfet_g5v0d10v5_MXRB4E
+.ends
+

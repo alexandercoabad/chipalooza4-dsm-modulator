@@ -1,0 +1,30 @@
+reserved pins: 11
+net p1a    2 pins  0.7s
+net p1ab   2 pins  1.5s
+net p1     2 pins  2.5s
+net p1b    2 pins  2.2s
+net p2     3 pins  0.9s
+net p2b    3 pins  0.6s
+net q      4 pins  1.9s
+net qb     4 pins  1.3s
+net clk    2 pins  0.4s
+net cc     2 pins  4.0s
+net vin    2 pins  0.4s
+net vrp    2 pins  0.2s
+net vrn    2 pins  0.6s
+net t      3 pins  0.7s
+net b      3 pins  0.9s
+net dac    3 pins  0.7s
+net vcm    4 pins  3.1s
+net g      4 pins  1.4s
+net out    4 pins  3.5s
+net vdda  13 pins  20.4s
+net gnd   13 pins  23.2s
+min-area met3 lengthened 14 stuck 0
+min-area met4 lengthened 1 stuck 0
+notch fill met1 19 skipped 0
+notch fill met2 0 skipped 0
+notch fill met3 2 skipped 0
+notch fill met4 1 skipped 0
+failures: {}
+wrote /tmp/claude-0/-home-claude/7545b770-50dc-5ec2-b083-503f83550bf6/scratchpad/u17/layout/top/dsm_top.gds

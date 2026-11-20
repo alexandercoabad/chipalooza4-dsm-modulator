@@ -1,0 +1,1 @@
+{"kind": "pexp", "corner": "tt", "temp": 27.0, "vdd": 3.3, "ncyc": 32, "vcm_V": 1.631, "vin_+0.0": {"density": 0.5, "ideal": 0.5, "n": 16}, "vin_+0.3": {"density": 0.688, "ideal": 0.688, "n": 16}, "vin_-0.4": {"density": 0.25, "ideal": 0.25, "n": 16}, "out_swing_V": [1.07, 2.12]}

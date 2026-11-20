@@ -1,0 +1,33 @@
+Flattening unmatched subcell sky130_fd_pr__nfet_g5v0d10v5_ET2AWD in circuit vcm_replica (0)(1 instance)
+Flattening unmatched subcell sky130_fd_pr__pfet_g5v0d10v5_JZRWPF in circuit vcm_replica (0)(1 instance)
+Flattening unmatched subcell sky130_fd_pr__nfet_g5v0d10v5_7LT2GF in circuit vcm_replica (0)(1 instance)
+Flattening unmatched subcell sky130_fd_pr__pfet_g5v0d10v5_MXRB4E in circuit vcm_replica (0)(1 instance)
+Class vcm_replica:  Merged 16 devices.
+
+Subcircuit summary:
+Circuit 1: vcm_replica                     |Circuit 2: vcm_replica                     
+-------------------------------------------|-------------------------------------------
+sky130_fd_pr__nfet_g5v0d10v5 (2)           |sky130_fd_pr__nfet_g5v0d10v5 (2)           
+sky130_fd_pr__pfet_g5v0d10v5 (2)           |sky130_fd_pr__pfet_g5v0d10v5 (2)           
+Number of devices: 4                       |Number of devices: 4                       
+Number of nets: 5                          |Number of nets: 5                          
+---------------------------------------------------------------------------------------
+Circuits match uniquely.
+Property errors were found.
+Netlists match uniquely.
+There were property errors.
+sky130_fd_pr__pfet_g5v0d10v5_JZRWPFmp/sky130_fd_pr__pfet_g5v0d10v50 vs. sky130_fd_pr__pfet_g5v0d10v5Mp:
+ w circuit1: 16   circuit2: 8   (delta=66.7%, cutoff=1%)
+
+Subcircuit pins:
+Circuit 1: vcm_replica                     |Circuit 2: vcm_replica                     
+-------------------------------------------|-------------------------------------------
+vdda                                       |vdda                                       
+gnd                                        |gnd                                        
+vcm                                        |vcm                                        
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes vcm_replica and vcm_replica are equivalent.
+Circuits match uniquely.
+Property errors were found.
+The following cells had property errors: vcm_replica

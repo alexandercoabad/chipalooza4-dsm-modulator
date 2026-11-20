@@ -1,0 +1,7 @@
+* vcm replica: v2 core at 1/8 width, output tied to input (self-biased), header on (gate enb, tied to gnd by the top level), footer on (gate en, tied to vdda by the top level) -- dsm1/sim/dsm1.py
+.subckt vcm_replica vcm vdda gnd en enb
+XMhp rcp vdda vdda vdda sky130_fd_pr__pfet_g5v0d10v5 w=37.5 l=0.5
+XMp  vcm vcm rcp  rcp  sky130_fd_pr__pfet_g5v0d10v5 w=16 l=2
+XMn  vcm vcm rcn  gnd  sky130_fd_pr__nfet_g5v0d10v5 w=4 l=2
+XMhn rcn en gnd gnd  sky130_fd_pr__nfet_g5v0d10v5 w=12.5 l=0.5
+.ends

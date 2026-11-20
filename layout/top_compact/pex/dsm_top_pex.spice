@@ -1,0 +1,842 @@
+* NGSPICE file created from dsm_top.ext - technology: sky130A
+
+X0 vcm_replica_0/mn/S vcm vcm gnd sky130_fd_pr__nfet_g5v0d10v5 ad=1.16 pd=8.58 as=1.16 ps=8.58 w=4 l=2
+X1 vcm_replica_0/mp/B vcm vcm vcm_replica_0/mp/B sky130_fd_pr__pfet_g5v0d10v5 ad=0.464 pd=3.49 as=0.464 ps=3.49 w=3.2 l=2
+X2 vcm_replica_0/mp/B vcm vcm vcm_replica_0/mp/B sky130_fd_pr__pfet_g5v0d10v5 ad=0.464 pd=3.49 as=0.928 ps=6.98 w=3.2 l=2
+X3 vcm vcm vcm_replica_0/mp/B vcm_replica_0/mp/B sky130_fd_pr__pfet_g5v0d10v5 ad=0.464 pd=3.49 as=0.464 ps=3.49 w=3.2 l=2
+X4 vcm vcm vcm_replica_0/mp/B vcm_replica_0/mp/B sky130_fd_pr__pfet_g5v0d10v5 ad=0.464 pd=3.49 as=0.464 ps=3.49 w=3.2 l=2
+X5 vcm_replica_0/mp/B vcm vcm vcm_replica_0/mp/B sky130_fd_pr__pfet_g5v0d10v5 ad=0.928 pd=6.98 as=0.464 ps=3.49 w=3.2 l=2
+X6 vcm_replica_0/mn/S vdda gnd gnd sky130_fd_pr__nfet_g5v0d10v5 ad=0.45385 pd=3.42 as=0.45385 ps=3.42 w=3.13 l=0.5
+X7 gnd vdda vcm_replica_0/mn/S gnd sky130_fd_pr__nfet_g5v0d10v5 ad=0.45385 pd=3.42 as=0.9077 ps=6.84 w=3.13 l=0.5
+X8 vcm_replica_0/mn/S vdda gnd gnd sky130_fd_pr__nfet_g5v0d10v5 ad=0.9077 pd=6.84 as=0.45385 ps=3.42 w=3.13 l=0.5
+X9 gnd vdda vcm_replica_0/mn/S gnd sky130_fd_pr__nfet_g5v0d10v5 ad=0.45385 pd=3.42 as=0.45385 ps=3.42 w=3.13 l=0.5
+X10 vdda gnd vcm_replica_0/mp/B vdda sky130_fd_pr__pfet_g5v0d10v5 ad=0.54375 pd=4.04 as=0.54375 ps=4.04 w=3.75 l=0.5
+X11 vdda gnd vcm_replica_0/mp/B vdda sky130_fd_pr__pfet_g5v0d10v5 ad=0.54375 pd=4.04 as=0.54375 ps=4.04 w=3.75 l=0.5
+X12 vdda gnd vcm_replica_0/mp/B vdda sky130_fd_pr__pfet_g5v0d10v5 ad=0.54375 pd=4.04 as=1.0875 ps=8.08 w=3.75 l=0.5
+X13 vcm_replica_0/mp/B gnd vdda vdda sky130_fd_pr__pfet_g5v0d10v5 ad=0.54375 pd=4.04 as=0.54375 ps=4.04 w=3.75 l=0.5
+X14 vcm_replica_0/mp/B gnd vdda vdda sky130_fd_pr__pfet_g5v0d10v5 ad=1.0875 pd=8.08 as=0.54375 ps=4.04 w=3.75 l=0.5
+X15 vdda gnd vcm_replica_0/mp/B vdda sky130_fd_pr__pfet_g5v0d10v5 ad=0.54375 pd=4.04 as=0.54375 ps=4.04 w=3.75 l=0.5
+X16 vdda gnd vcm_replica_0/mp/B vdda sky130_fd_pr__pfet_g5v0d10v5 ad=0.54375 pd=4.04 as=0.54375 ps=4.04 w=3.75 l=0.5
+X17 vcm_replica_0/mp/B gnd vdda vdda sky130_fd_pr__pfet_g5v0d10v5 ad=0.54375 pd=4.04 as=0.54375 ps=4.04 w=3.75 l=0.5
+X18 vcm_replica_0/mp/B gnd vdda vdda sky130_fd_pr__pfet_g5v0d10v5 ad=0.54375 pd=4.04 as=0.54375 ps=4.04 w=3.75 l=0.5
+X19 vcm_replica_0/mp/B gnd vdda vdda sky130_fd_pr__pfet_g5v0d10v5 ad=0.54375 pd=4.04 as=0.54375 ps=4.04 w=3.75 l=0.5
+X20 clkgen_0/p_dc23/G0 gnd sky130_fd_pr__cap_mim_m3_1 l=5.32 w=5.32
+X21 vdda clkgen_0/p_a1/D clkgen_0/p1a vdda sky130_fd_pr__pfet_g5v0d10v5 ad=1.74 pd=12.29 as=3.48 ps=24.58 w=12 l=0.5
+X22 clkgen_0/p1a clkgen_0/p_a1/D vdda vdda sky130_fd_pr__pfet_g5v0d10v5 ad=3.48 pd=24.58 as=1.74 ps=12.29 w=12 l=0.5
+X23 vdda clkgen_0/p_a1/G clkgen_0/p_a1/D vdda sky130_fd_pr__pfet_g5v0d10v5 ad=3.48 pd=24.58 as=3.48 ps=24.58 w=12 l=0.5
+X24 vdda clkgen_0/p_b1/D clkgen_0/p2 vdda sky130_fd_pr__pfet_g5v0d10v5 ad=112.1575 pd=810.03998 as=6.96 ps=49.16 w=12 l=0.5
+X25 clkgen_0/p2 clkgen_0/p_b1/D vdda vdda sky130_fd_pr__pfet_g5v0d10v5 ad=0 pd=0 as=0 ps=0 w=12 l=0.5
+X26 vdda clkgen_0/p2 clkgen_0/p2b vdda sky130_fd_pr__pfet_g5v0d10v5 ad=0 pd=0 as=6.96 ps=49.16 w=12 l=0.5
+X27 clkgen_0/p2b clkgen_0/p2 vdda vdda sky130_fd_pr__pfet_g5v0d10v5 ad=0 pd=0 as=0 ps=0 w=12 l=0.5
+X28 vdda clkgen_0/p2 clkgen_0/p_dg2/G1 vdda sky130_fd_pr__pfet_g5v0d10v5 ad=0.29 pd=2.29 as=0.58 ps=4.58 w=2 l=4
+X29 clkgen_0/p_n1/G1 clkgen_0/p_dg2/G1 vdda vdda sky130_fd_pr__pfet_g5v0d10v5 ad=0.58 pd=4.58 as=0.29 ps=2.29 w=2 l=4
+X30 clkgen_0/p_dc23/G0 clkgen_0/p_dc01/G1 gnd gnd sky130_fd_pr__nfet_g5v0d10v5 ad=0.29 pd=2.58 as=0.145 ps=1.29 w=1 l=4
+X31 gnd clkgen_0/p1a clkgen_0/p_dc01/G1 gnd sky130_fd_pr__nfet_g5v0d10v5 ad=0.145 pd=1.29 as=0.29 ps=2.58 w=1 l=4
+X32 clkgen_0/p_cn/G1 clkgen_0/p_dc23/G1 gnd gnd sky130_fd_pr__nfet_g5v0d10v5 ad=0.29 pd=2.58 as=46.4754 ps=343.72 w=1 l=4
+X33 gnd clkgen_0/p_dc23/G0 clkgen_0/p_dc23/G1 gnd sky130_fd_pr__nfet_g5v0d10v5 ad=0 pd=0 as=0.29 ps=2.58 w=1 l=4
+X34 vdda clkgen_0/p1a clkgen_0/p1ab vdda sky130_fd_pr__pfet_g5v0d10v5 ad=0 pd=0 as=6.96 ps=49.16 w=12 l=0.5
+X35 clkgen_0/p1ab clkgen_0/p1a vdda vdda sky130_fd_pr__pfet_g5v0d10v5 ad=0 pd=0 as=0 ps=0 w=12 l=0.5
+X36 clkgen_0/p_dc23/G1 gnd sky130_fd_pr__cap_mim_m3_1 l=5.32 w=5.32
+X37 clkgen_0/p_cn/G1 gnd sky130_fd_pr__cap_mim_m3_1 l=5.32 w=5.32
+X38 gnd clkgen_0/p_e1/G clkgen_0/p_e1/D gnd sky130_fd_pr__nfet_g5v0d10v5 ad=1.16 pd=8.58 as=1.16 ps=8.58 w=4 l=0.5
+X39 gnd clkgen_0/p_e1/D clkgen_0/p1 gnd sky130_fd_pr__nfet_g5v0d10v5 ad=2.32 pd=16.58 as=2.32 ps=16.58 w=8 l=0.5
+X40 gnd clkgen_0/p1 clkgen_0/p1b gnd sky130_fd_pr__nfet_g5v0d10v5 ad=0 pd=0 as=2.32 ps=16.58 w=8 l=0.5
+X41 vdda clkgen_0/p_cb/G clkgen_0/cc vdda sky130_fd_pr__pfet_g5v0d10v5 ad=0 pd=0 as=3.48 ps=24.58 w=12 l=0.5
+X42 gnd clkgen_0/p_b1/G clkgen_0/p_b1/D gnd sky130_fd_pr__nfet_g5v0d10v5 ad=0 pd=0 as=1.16 ps=8.58 w=4 l=0.5
+X43 gnd clkgen_0/p_b1/D clkgen_0/p2 gnd sky130_fd_pr__nfet_g5v0d10v5 ad=0 pd=0 as=2.32 ps=16.58 w=8 l=0.5
+X44 gnd clkgen_0/p_a1/G clkgen_0/p_a1/D gnd sky130_fd_pr__nfet_g5v0d10v5 ad=0 pd=0 as=1.16 ps=8.58 w=4 l=0.5
+X45 vdda clkgen_0/p1a clkgen_0/p_de/G1 vdda sky130_fd_pr__pfet_g5v0d10v5 ad=0 pd=0 as=0.58 ps=4.58 w=2 l=4
+X46 clkgen_0/p_e1/G clkgen_0/p_de/G1 vdda vdda sky130_fd_pr__pfet_g5v0d10v5 ad=0.58 pd=4.58 as=0 ps=0 w=2 l=4
+X47 gnd clkgen_0/p_a1/D clkgen_0/p1a gnd sky130_fd_pr__nfet_g5v0d10v5 ad=0 pd=0 as=2.32 ps=16.58 w=8 l=0.5
+X48 gnd clkgen_0/p2 clkgen_0/p2b gnd sky130_fd_pr__nfet_g5v0d10v5 ad=0 pd=0 as=2.32 ps=16.58 w=8 l=0.5
+X49 vdda clkgen_0/p1a clkgen_0/p_dc01/G1 vdda sky130_fd_pr__pfet_g5v0d10v5 ad=0 pd=0 as=0.58 ps=4.58 w=2 l=4
+X50 clkgen_0/p_dc23/G0 clkgen_0/p_dc01/G1 vdda vdda sky130_fd_pr__pfet_g5v0d10v5 ad=0.58 pd=4.58 as=0 ps=0 w=2 l=4
+X51 vdda clkgen_0/p_dc23/G0 clkgen_0/p_dc23/G1 vdda sky130_fd_pr__pfet_g5v0d10v5 ad=0 pd=0 as=0.58 ps=4.58 w=2 l=4
+X52 clkgen_0/p_cn/G1 clkgen_0/p_dc23/G1 vdda vdda sky130_fd_pr__pfet_g5v0d10v5 ad=0.58 pd=4.58 as=0 ps=0 w=2 l=4
+X53 clkgen_0/p_dg2/G1 gnd sky130_fd_pr__cap_mim_m3_1 l=3 w=3
+X54 gnd clkgen_0/p1a clkgen_0/p1ab gnd sky130_fd_pr__nfet_g5v0d10v5 ad=0 pd=0 as=2.32 ps=16.58 w=8 l=0.5
+X55 clkgen_0/p_n1/G1 gnd sky130_fd_pr__cap_mim_m3_1 l=3 w=3
+X56 vdda clk clkgen_0/p_ck/D vdda sky130_fd_pr__pfet_g5v0d10v5 ad=1.74 pd=12.58 as=1.74 ps=12.58 w=6 l=0.5
+X57 clkgen_0/p_n2/G1 clkgen_0/p_dg1/G1 gnd gnd sky130_fd_pr__nfet_g5v0d10v5 ad=0.29 pd=2.58 as=0 ps=0 w=1 l=4
+X58 gnd clkgen_0/p1 clkgen_0/p_dg1/G1 gnd sky130_fd_pr__nfet_g5v0d10v5 ad=0 pd=0 as=0.29 ps=2.58 w=1 l=4
+X59 clkgen_0/p_n1/G1 clkgen_0/p_dg2/G1 gnd gnd sky130_fd_pr__nfet_g5v0d10v5 ad=0.29 pd=2.58 as=0 ps=0 w=1 l=4
+X60 gnd clkgen_0/p2 clkgen_0/p_dg2/G1 gnd sky130_fd_pr__nfet_g5v0d10v5 ad=0 pd=0 as=0.29 ps=2.58 w=1 l=4
+X61 clkgen_0/p_n1/S1 clkgen_0/p_ck/D vdda vdda sky130_fd_pr__pfet_g5v0d10v5 ad=3.48 pd=24.58 as=0 ps=0 w=12 l=0.5
+X62 clkgen_0/p_a1/G clkgen_0/p_n1/G1 clkgen_0/p_n1/S1 vdda sky130_fd_pr__pfet_g5v0d10v5 ad=3.48 pd=24.58 as=0 ps=0 w=12 l=0.5
+X63 vdda clkgen_0/p_cn/G1 clkgen_0/p_cb/G vdda sky130_fd_pr__pfet_g5v0d10v5 ad=1.74 pd=12.58 as=0.87 ps=6.29 w=6 l=0.5
+X64 clkgen_0/p_cb/G clkgen_0/p1a vdda vdda sky130_fd_pr__pfet_g5v0d10v5 ad=0.87 pd=6.29 as=1.74 ps=12.58 w=6 l=0.5
+X65 gnd clkgen_0/p_cb/G clkgen_0/cc gnd sky130_fd_pr__nfet_g5v0d10v5 ad=0 pd=0 as=1.16 ps=8.58 w=4 l=0.5
+X66 clkgen_0/p_n2/S1 clk vdda vdda sky130_fd_pr__pfet_g5v0d10v5 ad=3.48 pd=24.58 as=0 ps=0 w=12 l=0.5
+X67 clkgen_0/p_b1/G clkgen_0/p_n2/G1 clkgen_0/p_n2/S1 vdda sky130_fd_pr__pfet_g5v0d10v5 ad=3.48 pd=24.58 as=0 ps=0 w=12 l=0.5
+X68 clkgen_0/p_e1/G clkgen_0/p_de/G1 gnd gnd sky130_fd_pr__nfet_g5v0d10v5 ad=0.29 pd=2.58 as=0 ps=0 w=1 l=4
+X69 gnd clkgen_0/p1a clkgen_0/p_de/G1 gnd sky130_fd_pr__nfet_g5v0d10v5 ad=0 pd=0 as=0.29 ps=2.58 w=1 l=4
+X70 vdda clkgen_0/p_e1/G clkgen_0/p_e1/D vdda sky130_fd_pr__pfet_g5v0d10v5 ad=0 pd=0 as=3.48 ps=24.58 w=12 l=0.5
+X71 clkgen_0/p_de/G1 gnd sky130_fd_pr__cap_mim_m3_1 l=3 w=3
+X72 gnd clk clkgen_0/p_ck/D gnd sky130_fd_pr__nfet_g5v0d10v5 ad=0.58 pd=4.58 as=0.58 ps=4.58 w=2 l=0.5
+X73 clkgen_0/p_e1/G gnd sky130_fd_pr__cap_mim_m3_1 l=3 w=3
+X74 vdda clkgen_0/p_e1/D clkgen_0/p1 vdda sky130_fd_pr__pfet_g5v0d10v5 ad=0 pd=0 as=6.96 ps=49.16 w=12 l=0.5
+X75 clkgen_0/p1 clkgen_0/p_e1/D vdda vdda sky130_fd_pr__pfet_g5v0d10v5 ad=0 pd=0 as=0 ps=0 w=12 l=0.5
+X76 clkgen_0/p_dg1/G1 gnd sky130_fd_pr__cap_mim_m3_1 l=3 w=3
+X77 clkgen_0/p_n2/G1 gnd sky130_fd_pr__cap_mim_m3_1 l=3 w=3
+X78 vdda clkgen_0/p1 clkgen_0/p1b vdda sky130_fd_pr__pfet_g5v0d10v5 ad=0 pd=0 as=6.96 ps=49.16 w=12 l=0.5
+X79 clkgen_0/p1b clkgen_0/p1 vdda vdda sky130_fd_pr__pfet_g5v0d10v5 ad=0 pd=0 as=0 ps=0 w=12 l=0.5
+X80 gnd clkgen_0/p_n1/G1 clkgen_0/p_a1/G gnd sky130_fd_pr__nfet_g5v0d10v5 ad=0.58 pd=4.58 as=0.29 ps=2.29 w=2 l=0.5
+X81 clkgen_0/p_a1/G clkgen_0/p_ck/D gnd gnd sky130_fd_pr__nfet_g5v0d10v5 ad=0.29 pd=2.29 as=0.58 ps=4.58 w=2 l=0.5
+X82 clkgen_0/n_cn/S1 clkgen_0/p1a clkgen_0/p_cb/G gnd sky130_fd_pr__nfet_g5v0d10v5 ad=0.58 pd=4.29 as=1.16 ps=8.58 w=4 l=0.5
+X83 gnd clkgen_0/p_cn/G1 clkgen_0/n_cn/S1 gnd sky130_fd_pr__nfet_g5v0d10v5 ad=1.16 pd=8.58 as=0.58 ps=4.29 w=4 l=0.5
+X84 vdda clkgen_0/p1 clkgen_0/p_dg1/G1 vdda sky130_fd_pr__pfet_g5v0d10v5 ad=0 pd=0 as=0.58 ps=4.58 w=2 l=4
+X85 clkgen_0/p_n2/G1 clkgen_0/p_dg1/G1 vdda vdda sky130_fd_pr__pfet_g5v0d10v5 ad=0.58 pd=4.58 as=0 ps=0 w=2 l=4
+X86 vdda clkgen_0/p_b1/G clkgen_0/p_b1/D vdda sky130_fd_pr__pfet_g5v0d10v5 ad=0 pd=0 as=3.48 ps=24.58 w=12 l=0.5
+X87 clkgen_0/p_dc01/G1 gnd sky130_fd_pr__cap_mim_m3_1 l=5.32 w=5.32
+X88 gnd clkgen_0/p_n2/G1 clkgen_0/p_b1/G gnd sky130_fd_pr__nfet_g5v0d10v5 ad=0 pd=0 as=0.58 ps=4.58 w=2 l=0.5
+X89 clkgen_0/p_b1/G clk gnd gnd sky130_fd_pr__nfet_g5v0d10v5 ad=0 pd=0 as=0 ps=0 w=2 l=0.5
+X90 tg_x0p5_mf_4/b tg_x0p5_mf_5/b sky130_fd_pr__cap_mim_m3_1 l=22.2 w=22.2
+X91 tg_x0p5_mf_4/b tg_x0p5_mf_5/b sky130_fd_pr__cap_mim_m3_1 l=22.2 w=22.2
+X92 g out sky130_fd_pr__cap_mim_m3_1 l=22.2 w=22.2
+X93 g out sky130_fd_pr__cap_mim_m3_1 l=22.2 w=22.2
+X94 g out sky130_fd_pr__cap_mim_m3_1 l=22.2 w=22.2
+X95 g out sky130_fd_pr__cap_mim_m3_1 l=22.2 w=22.2
+X96 vdda comp_compact_0/p_b2/G1 q vdda sky130_fd_pr__pfet_g5v0d10v5 ad=1.74 pd=12.29 as=3.48 ps=24.58 w=12 l=0.5
+X97 q comp_compact_0/p_b2/G1 vdda vdda sky130_fd_pr__pfet_g5v0d10v5 ad=3.48 pd=24.58 as=1.74 ps=12.29 w=12 l=0.5
+X98 comp_compact_0/p_x/G0 clkgen_0/cc vdda vdda sky130_fd_pr__pfet_g5v0d10v5 ad=0.58 pd=4.58 as=0.29 ps=2.29 w=2 l=0.5
+X99 vdda clkgen_0/cc comp_compact_0/p_x/G1 vdda sky130_fd_pr__pfet_g5v0d10v5 ad=0.29 pd=2.29 as=0.58 ps=4.58 w=2 l=0.5
+X100 comp_compact_0/n_x4/S clkgen_0/cc vdda vdda sky130_fd_pr__pfet_g5v0d10v5 ad=0.58 pd=4.58 as=0 ps=0 w=2 l=0.5
+X101 vdda clkgen_0/cc comp_compact_0/n_x3/S vdda sky130_fd_pr__pfet_g5v0d10v5 ad=0 pd=0 as=0.58 ps=4.58 w=2 l=0.5
+X102 comp_compact_0/p_cs1/S1 comp_compact_0/p_cs1/G0 vdda vdda sky130_fd_pr__pfet_g5v0d10v5 ad=0.58 pd=4.29 as=1.16 ps=8.58 w=4 l=0.5
+X103 comp_compact_0/p_b1/G1 comp_compact_0/p_b2/G1 comp_compact_0/p_cs1/S1 vdda sky130_fd_pr__pfet_g5v0d10v5 ad=1.16 pd=8.58 as=0.58 ps=4.29 w=4 l=0.5
+X104 comp_compact_0/p_cs2/S1 comp_compact_0/p_iso/D0 vdda vdda sky130_fd_pr__pfet_g5v0d10v5 ad=1.16 pd=8.58 as=0 ps=0 w=4 l=0.5
+X105 comp_compact_0/p_b2/G1 comp_compact_0/p_b1/G1 comp_compact_0/p_cs2/S1 vdda sky130_fd_pr__pfet_g5v0d10v5 ad=1.16 pd=8.58 as=0 ps=0 w=4 l=0.5
+X106 comp_compact_0/p_cs1/G0 comp_compact_0/p_x/G0 gnd gnd sky130_fd_pr__nfet_g5v0d10v5 ad=0.29 pd=2.58 as=0.145 ps=1.29 w=1 l=0.5
+X107 gnd comp_compact_0/p_x/G1 comp_compact_0/p_iso/D0 gnd sky130_fd_pr__nfet_g5v0d10v5 ad=0.145 pd=1.29 as=0.29 ps=2.58 w=1 l=0.5
+X108 comp_compact_0/n_x4/S vcm comp_compact_0/n_tail/D gnd sky130_fd_pr__nfet_g5v0d10v5 ad=2.32 pd=16.58 as=1.16 ps=8.29 w=8 l=0.5
+X109 comp_compact_0/n_tail/D out comp_compact_0/n_x3/S gnd sky130_fd_pr__nfet_g5v0d10v5 ad=1.16 pd=8.29 as=2.32 ps=16.58 w=8 l=0.5
+X110 gnd clkgen_0/cc comp_compact_0/n_tail/D gnd sky130_fd_pr__nfet_g5v0d10v5 ad=2.32 pd=16.58 as=2.32 ps=16.58 w=8 l=0.5
+X111 comp_compact_0/p_cs1/G0 comp_compact_0/p_x/G0 vdda vdda sky130_fd_pr__pfet_g5v0d10v5 ad=0.58 pd=4.58 as=0 ps=0 w=2 l=0.5
+X112 vdda comp_compact_0/p_x/G1 comp_compact_0/p_iso/D0 vdda sky130_fd_pr__pfet_g5v0d10v5 ad=0 pd=0 as=0.58 ps=4.58 w=2 l=0.5
+X113 comp_compact_0/p_x/G0 comp_compact_0/p_x/G1 vdda vdda sky130_fd_pr__pfet_g5v0d10v5 ad=2.32 pd=16.58 as=1.16 ps=8.29 w=8 l=0.5
+X114 vdda comp_compact_0/p_x/G0 comp_compact_0/p_x/G1 vdda sky130_fd_pr__pfet_g5v0d10v5 ad=1.16 pd=8.29 as=2.32 ps=16.58 w=8 l=0.5
+X115 comp_compact_0/n_x3/S comp_compact_0/p_x/G0 comp_compact_0/p_x/G1 gnd sky130_fd_pr__nfet_g5v0d10v5 ad=1.16 pd=8.58 as=1.16 ps=8.58 w=4 l=0.5
+X116 q comp_compact_0/p_b2/G1 gnd gnd sky130_fd_pr__nfet_g5v0d10v5 ad=2.32 pd=16.58 as=0 ps=0 w=8 l=0.5
+X117 gnd comp_compact_0/p_b1/G1 qb gnd sky130_fd_pr__nfet_g5v0d10v5 ad=0 pd=0 as=2.32 ps=16.58 w=8 l=0.5
+X118 comp_compact_0/n_x4/S comp_compact_0/p_x/G1 comp_compact_0/p_x/G0 gnd sky130_fd_pr__nfet_g5v0d10v5 ad=3.48 pd=25.16 as=1.16 ps=8.58 w=4 l=0.5
+X119 gnd comp_compact_0/p_b2/G1 comp_compact_0/p_b1/G1 gnd sky130_fd_pr__nfet_g5v0d10v5 ad=0 pd=0 as=0.29 ps=2.58 w=1 l=0.5
+X120 comp_compact_0/p_b1/G1 comp_compact_0/p_cs1/G0 gnd gnd sky130_fd_pr__nfet_g5v0d10v5 ad=0 pd=0 as=0 ps=0 w=1 l=0.5
+X121 gnd comp_compact_0/p_b1/G1 comp_compact_0/p_b2/G1 gnd sky130_fd_pr__nfet_g5v0d10v5 ad=0 pd=0 as=0.29 ps=2.58 w=1 l=0.5
+X122 comp_compact_0/p_b2/G1 comp_compact_0/p_iso/D0 gnd gnd sky130_fd_pr__nfet_g5v0d10v5 ad=0 pd=0 as=0 ps=0 w=1 l=0.5
+X123 vdda comp_compact_0/p_b1/G1 qb vdda sky130_fd_pr__pfet_g5v0d10v5 ad=0 pd=0 as=6.96 ps=49.16 w=12 l=0.5
+X124 qb comp_compact_0/p_b1/G1 vdda vdda sky130_fd_pr__pfet_g5v0d10v5 ad=0 pd=0 as=0 ps=0 w=12 l=0.5
+X125 tg_x0p5_mf_2/a qb vrn gnd sky130_fd_pr__nfet_g5v0d10v5 ad=1.16 pd=8.58 as=1.16 ps=8.58 w=4 l=0.5
+X126 vrn q tg_x0p5_mf_2/a vdda sky130_fd_pr__pfet_g5v0d10v5 ad=0.58 pd=4.29 as=0.58 ps=4.29 w=4 l=0.5
+X127 tg_x0p5_mf_2/a q vrn vdda sky130_fd_pr__pfet_g5v0d10v5 ad=0.58 pd=4.29 as=1.16 ps=8.58 w=4 l=0.5
+X128 tg_x0p5_mf_2/a q vrn vdda sky130_fd_pr__pfet_g5v0d10v5 ad=1.16 pd=8.58 as=0.58 ps=4.29 w=4 l=0.5
+X129 tg_x0p5_mf_2/a q vrp gnd sky130_fd_pr__nfet_g5v0d10v5 ad=3.48 pd=25.74 as=1.16 ps=8.58 w=4 l=0.5
+X130 vrp qb tg_x0p5_mf_2/a vdda sky130_fd_pr__pfet_g5v0d10v5 ad=2.32 pd=17.16 as=6.96 ps=51.48 w=4 l=0.5
+X131 tg_x0p5_mf_2/a qb vrp vdda sky130_fd_pr__pfet_g5v0d10v5 ad=0 pd=0 as=0 ps=0 w=4 l=0.5
+X132 tg_x0p5_mf_2/a qb vrp vdda sky130_fd_pr__pfet_g5v0d10v5 ad=0 pd=0 as=0 ps=0 w=4 l=0.5
+X133 g clkgen_0/p2 tg_x0p5_mf_4/b gnd sky130_fd_pr__nfet_g5v0d10v5 ad=1.16 pd=8.58 as=2.32 ps=17.16 w=4 l=0.5
+X134 tg_x0p5_mf_4/b clkgen_0/p2b g vdda sky130_fd_pr__pfet_g5v0d10v5 ad=4.64 pd=34.32 as=2.32 ps=17.16 w=4 l=0.5
+X135 g clkgen_0/p2b tg_x0p5_mf_4/b vdda sky130_fd_pr__pfet_g5v0d10v5 ad=0 pd=0 as=0 ps=0 w=4 l=0.5
+X136 g clkgen_0/p2b tg_x0p5_mf_4/b vdda sky130_fd_pr__pfet_g5v0d10v5 ad=0 pd=0 as=0 ps=0 w=4 l=0.5
+X137 tg_x0p5_mf_5/b clkgen_0/p2 tg_x0p5_mf_2/a gnd sky130_fd_pr__nfet_g5v0d10v5 ad=2.32 pd=17.16 as=0 ps=0 w=4 l=0.5
+X138 tg_x0p5_mf_2/a clkgen_0/p2b tg_x0p5_mf_5/b vdda sky130_fd_pr__pfet_g5v0d10v5 ad=0 pd=0 as=4.64 ps=34.32 w=4 l=0.5
+X139 tg_x0p5_mf_5/b clkgen_0/p2b tg_x0p5_mf_2/a vdda sky130_fd_pr__pfet_g5v0d10v5 ad=0 pd=0 as=0 ps=0 w=4 l=0.5
+X140 tg_x0p5_mf_5/b clkgen_0/p2b tg_x0p5_mf_2/a vdda sky130_fd_pr__pfet_g5v0d10v5 ad=0 pd=0 as=0 ps=0 w=4 l=0.5
+X141 tg_x0p5_mf_4/b clkgen_0/p1a vcm gnd sky130_fd_pr__nfet_g5v0d10v5 ad=0 pd=0 as=2.32 ps=17.16 w=4 l=0.5
+X142 vcm clkgen_0/p1ab tg_x0p5_mf_4/b vdda sky130_fd_pr__pfet_g5v0d10v5 ad=5.104 pd=38.1 as=0 ps=0 w=4 l=0.5
+X143 tg_x0p5_mf_4/b clkgen_0/p1ab vcm vdda sky130_fd_pr__pfet_g5v0d10v5 ad=0 pd=0 as=0 ps=0 w=4 l=0.5
+X144 tg_x0p5_mf_4/b clkgen_0/p1ab vcm vdda sky130_fd_pr__pfet_g5v0d10v5 ad=0 pd=0 as=0 ps=0 w=4 l=0.5
+X145 tg_x0p5_mf_5/b clkgen_0/p1 vin gnd sky130_fd_pr__nfet_g5v0d10v5 ad=0 pd=0 as=1.16 ps=8.58 w=4 l=0.5
+X146 vin clkgen_0/p1b tg_x0p5_mf_5/b vdda sky130_fd_pr__pfet_g5v0d10v5 ad=2.32 pd=17.16 as=0 ps=0 w=4 l=0.5
+X147 tg_x0p5_mf_5/b clkgen_0/p1b vin vdda sky130_fd_pr__pfet_g5v0d10v5 ad=0 pd=0 as=0 ps=0 w=4 l=0.5
+X148 tg_x0p5_mf_5/b clkgen_0/p1b vin vdda sky130_fd_pr__pfet_g5v0d10v5 ad=0 pd=0 as=0 ps=0 w=4 l=0.5
+X149 ota_core_0/mn/S7 g out gnd sky130_fd_pr__nfet_g5v0d10v5 ad=0.58 pd=4.29 as=0.58 ps=4.29 w=4 l=2
+X150 ota_core_0/mn/S7 g out gnd sky130_fd_pr__nfet_g5v0d10v5 ad=0.58 pd=4.29 as=1.16 ps=8.58 w=4 l=2
+X151 out g ota_core_0/mn/S7 gnd sky130_fd_pr__nfet_g5v0d10v5 ad=0.58 pd=4.29 as=0.58 ps=4.29 w=4 l=2
+X152 ota_core_0/mn/S7 g out gnd sky130_fd_pr__nfet_g5v0d10v5 ad=0.58 pd=4.29 as=0.58 ps=4.29 w=4 l=2
+X153 out g ota_core_0/mn/S7 gnd sky130_fd_pr__nfet_g5v0d10v5 ad=0.58 pd=4.29 as=0.58 ps=4.29 w=4 l=2
+X154 ota_core_0/mn/S7 g out gnd sky130_fd_pr__nfet_g5v0d10v5 ad=0.58 pd=4.29 as=0.58 ps=4.29 w=4 l=2
+X155 out g ota_core_0/mn/S7 gnd sky130_fd_pr__nfet_g5v0d10v5 ad=1.16 pd=8.58 as=0.58 ps=4.29 w=4 l=2
+X156 out g ota_core_0/mn/S7 gnd sky130_fd_pr__nfet_g5v0d10v5 ad=0.58 pd=4.29 as=0.58 ps=4.29 w=4 l=2
+X157 out g ota_core_0/mp/B ota_core_0/mp/B sky130_fd_pr__pfet_g5v0d10v5 ad=0.58 pd=4.29 as=0.58 ps=4.29 w=4 l=2
+X158 ota_core_0/mp/B g out ota_core_0/mp/B sky130_fd_pr__pfet_g5v0d10v5 ad=0.58 pd=4.29 as=0.58 ps=4.29 w=4 l=2
+X159 ota_core_0/mp/B g out ota_core_0/mp/B sky130_fd_pr__pfet_g5v0d10v5 ad=0.58 pd=4.29 as=0.58 ps=4.29 w=4 l=2
+X160 out g ota_core_0/mp/B ota_core_0/mp/B sky130_fd_pr__pfet_g5v0d10v5 ad=0.58 pd=4.29 as=0.58 ps=4.29 w=4 l=2
+X161 ota_core_0/mp/B g out ota_core_0/mp/B sky130_fd_pr__pfet_g5v0d10v5 ad=0.58 pd=4.29 as=0.58 ps=4.29 w=4 l=2
+X162 ota_core_0/mp/B g out ota_core_0/mp/B sky130_fd_pr__pfet_g5v0d10v5 ad=0.58 pd=4.29 as=0.58 ps=4.29 w=4 l=2
+X163 out g ota_core_0/mp/B ota_core_0/mp/B sky130_fd_pr__pfet_g5v0d10v5 ad=0.58 pd=4.29 as=0.58 ps=4.29 w=4 l=2
+X164 out g ota_core_0/mp/B ota_core_0/mp/B sky130_fd_pr__pfet_g5v0d10v5 ad=0.58 pd=4.29 as=0.58 ps=4.29 w=4 l=2
+X165 out g ota_core_0/mp/B ota_core_0/mp/B sky130_fd_pr__pfet_g5v0d10v5 ad=1.16 pd=8.58 as=0.58 ps=4.29 w=4 l=2
+X166 out g ota_core_0/mp/B ota_core_0/mp/B sky130_fd_pr__pfet_g5v0d10v5 ad=0.58 pd=4.29 as=0.58 ps=4.29 w=4 l=2
+X167 out g ota_core_0/mp/B ota_core_0/mp/B sky130_fd_pr__pfet_g5v0d10v5 ad=0.58 pd=4.29 as=0.58 ps=4.29 w=4 l=2
+X168 out g ota_core_0/mp/B ota_core_0/mp/B sky130_fd_pr__pfet_g5v0d10v5 ad=0.58 pd=4.29 as=0.58 ps=4.29 w=4 l=2
+X169 out g ota_core_0/mp/B ota_core_0/mp/B sky130_fd_pr__pfet_g5v0d10v5 ad=0.58 pd=4.29 as=0.58 ps=4.29 w=4 l=2
+X170 ota_core_0/mp/B g out ota_core_0/mp/B sky130_fd_pr__pfet_g5v0d10v5 ad=0.58 pd=4.29 as=0.58 ps=4.29 w=4 l=2
+X171 ota_core_0/mp/B g out ota_core_0/mp/B sky130_fd_pr__pfet_g5v0d10v5 ad=0.58 pd=4.29 as=0.58 ps=4.29 w=4 l=2
+X172 ota_core_0/mp/B g out ota_core_0/mp/B sky130_fd_pr__pfet_g5v0d10v5 ad=0.58 pd=4.29 as=0.58 ps=4.29 w=4 l=2
+X173 ota_core_0/mp/B g out ota_core_0/mp/B sky130_fd_pr__pfet_g5v0d10v5 ad=0.58 pd=4.29 as=0.58 ps=4.29 w=4 l=2
+X174 out g ota_core_0/mp/B ota_core_0/mp/B sky130_fd_pr__pfet_g5v0d10v5 ad=0.58 pd=4.29 as=0.58 ps=4.29 w=4 l=2
+X175 ota_core_0/mp/B g out ota_core_0/mp/B sky130_fd_pr__pfet_g5v0d10v5 ad=0.58 pd=4.29 as=0.58 ps=4.29 w=4 l=2
+X176 ota_core_0/mp/B g out ota_core_0/mp/B sky130_fd_pr__pfet_g5v0d10v5 ad=0.58 pd=4.29 as=0.58 ps=4.29 w=4 l=2
+X177 ota_core_0/mp/B g out ota_core_0/mp/B sky130_fd_pr__pfet_g5v0d10v5 ad=0.58 pd=4.29 as=0.58 ps=4.29 w=4 l=2
+X178 out g ota_core_0/mp/B ota_core_0/mp/B sky130_fd_pr__pfet_g5v0d10v5 ad=0.58 pd=4.29 as=0.58 ps=4.29 w=4 l=2
+X179 out g ota_core_0/mp/B ota_core_0/mp/B sky130_fd_pr__pfet_g5v0d10v5 ad=0.58 pd=4.29 as=0.58 ps=4.29 w=4 l=2
+X180 ota_core_0/mp/B g out ota_core_0/mp/B sky130_fd_pr__pfet_g5v0d10v5 ad=0.58 pd=4.29 as=0.58 ps=4.29 w=4 l=2
+X181 out g ota_core_0/mp/B ota_core_0/mp/B sky130_fd_pr__pfet_g5v0d10v5 ad=0.58 pd=4.29 as=0.58 ps=4.29 w=4 l=2
+X182 ota_core_0/mp/B g out ota_core_0/mp/B sky130_fd_pr__pfet_g5v0d10v5 ad=0.58 pd=4.29 as=1.16 ps=8.58 w=4 l=2
+X183 ota_core_0/mp/B g out ota_core_0/mp/B sky130_fd_pr__pfet_g5v0d10v5 ad=0.58 pd=4.29 as=0.58 ps=4.29 w=4 l=2
+X184 out g ota_core_0/mp/B ota_core_0/mp/B sky130_fd_pr__pfet_g5v0d10v5 ad=0.58 pd=4.29 as=0.58 ps=4.29 w=4 l=2
+X185 out g ota_core_0/mp/B ota_core_0/mp/B sky130_fd_pr__pfet_g5v0d10v5 ad=0.58 pd=4.29 as=0.58 ps=4.29 w=4 l=2
+X186 out g ota_core_0/mp/B ota_core_0/mp/B sky130_fd_pr__pfet_g5v0d10v5 ad=0.58 pd=4.29 as=0.58 ps=4.29 w=4 l=2
+X187 ota_core_0/mp/B g out ota_core_0/mp/B sky130_fd_pr__pfet_g5v0d10v5 ad=0.58 pd=4.29 as=0.58 ps=4.29 w=4 l=2
+X188 ota_core_0/mp/B g out ota_core_0/mp/B sky130_fd_pr__pfet_g5v0d10v5 ad=0.58 pd=4.29 as=0.58 ps=4.29 w=4 l=2
+X189 gnd vdda ota_core_0/mn/S7 gnd sky130_fd_pr__nfet_g5v0d10v5 ad=0.725 pd=5.29 as=0.725 ps=5.29 w=5 l=0.5
+X190 ota_core_0/mn/S7 vdda gnd gnd sky130_fd_pr__nfet_g5v0d10v5 ad=0.725 pd=5.29 as=0.725 ps=5.29 w=5 l=0.5
+X191 ota_core_0/mn/S7 vdda gnd gnd sky130_fd_pr__nfet_g5v0d10v5 ad=0.725 pd=5.29 as=0.725 ps=5.29 w=5 l=0.5
+X192 gnd vdda ota_core_0/mn/S7 gnd sky130_fd_pr__nfet_g5v0d10v5 ad=0.725 pd=5.29 as=0.725 ps=5.29 w=5 l=0.5
+X193 gnd vdda ota_core_0/mn/S7 gnd sky130_fd_pr__nfet_g5v0d10v5 ad=0.725 pd=5.29 as=0.725 ps=5.29 w=5 l=0.5
+X194 ota_core_0/mn/S7 vdda gnd gnd sky130_fd_pr__nfet_g5v0d10v5 ad=0.725 pd=5.29 as=0.725 ps=5.29 w=5 l=0.5
+X195 ota_core_0/mn/S7 vdda gnd gnd sky130_fd_pr__nfet_g5v0d10v5 ad=0.725 pd=5.29 as=0.725 ps=5.29 w=5 l=0.5
+X196 gnd vdda ota_core_0/mn/S7 gnd sky130_fd_pr__nfet_g5v0d10v5 ad=0.725 pd=5.29 as=0.725 ps=5.29 w=5 l=0.5
+X197 ota_core_0/mn/S7 vdda gnd gnd sky130_fd_pr__nfet_g5v0d10v5 ad=0.725 pd=5.29 as=0.725 ps=5.29 w=5 l=0.5
+X198 gnd vdda ota_core_0/mn/S7 gnd sky130_fd_pr__nfet_g5v0d10v5 ad=0.725 pd=5.29 as=0.725 ps=5.29 w=5 l=0.5
+X199 gnd vdda ota_core_0/mn/S7 gnd sky130_fd_pr__nfet_g5v0d10v5 ad=0.725 pd=5.29 as=0.725 ps=5.29 w=5 l=0.5
+X200 gnd vdda ota_core_0/mn/S7 gnd sky130_fd_pr__nfet_g5v0d10v5 ad=0.725 pd=5.29 as=1.45 ps=10.58 w=5 l=0.5
+X201 ota_core_0/mn/S7 vdda gnd gnd sky130_fd_pr__nfet_g5v0d10v5 ad=1.45 pd=10.58 as=0.725 ps=5.29 w=5 l=0.5
+X202 ota_core_0/mn/S7 vdda gnd gnd sky130_fd_pr__nfet_g5v0d10v5 ad=0.725 pd=5.29 as=0.725 ps=5.29 w=5 l=0.5
+X203 gnd vdda ota_core_0/mn/S7 gnd sky130_fd_pr__nfet_g5v0d10v5 ad=0.725 pd=5.29 as=0.725 ps=5.29 w=5 l=0.5
+X204 gnd vdda ota_core_0/mn/S7 gnd sky130_fd_pr__nfet_g5v0d10v5 ad=0.725 pd=5.29 as=0.725 ps=5.29 w=5 l=0.5
+X205 ota_core_0/mn/S7 vdda gnd gnd sky130_fd_pr__nfet_g5v0d10v5 ad=0.725 pd=5.29 as=0.725 ps=5.29 w=5 l=0.5
+X206 ota_core_0/mn/S7 vdda gnd gnd sky130_fd_pr__nfet_g5v0d10v5 ad=0.725 pd=5.29 as=0.725 ps=5.29 w=5 l=0.5
+X207 gnd vdda ota_core_0/mn/S7 gnd sky130_fd_pr__nfet_g5v0d10v5 ad=0.725 pd=5.29 as=0.725 ps=5.29 w=5 l=0.5
+X208 ota_core_0/mn/S7 vdda gnd gnd sky130_fd_pr__nfet_g5v0d10v5 ad=0.725 pd=5.29 as=0.725 ps=5.29 w=5 l=0.5
+X209 vdda gnd ota_core_0/mp/B vdda sky130_fd_pr__pfet_g5v0d10v5 ad=0.725 pd=5.29 as=1.45 ps=10.58 w=5 l=0.5
+X210 vdda gnd ota_core_0/mp/B vdda sky130_fd_pr__pfet_g5v0d10v5 ad=0.725 pd=5.29 as=0.725 ps=5.29 w=5 l=0.5
+X211 ota_core_0/mp/B gnd vdda vdda sky130_fd_pr__pfet_g5v0d10v5 ad=0.725 pd=5.29 as=0.725 ps=5.29 w=5 l=0.5
+X212 ota_core_0/mp/B gnd vdda vdda sky130_fd_pr__pfet_g5v0d10v5 ad=1.45 pd=10.58 as=0.725 ps=5.29 w=5 l=0.5
+X213 vdda gnd ota_core_0/mp/B vdda sky130_fd_pr__pfet_g5v0d10v5 ad=0.725 pd=5.29 as=0.725 ps=5.29 w=5 l=0.5
+X214 ota_core_0/mp/B gnd vdda vdda sky130_fd_pr__pfet_g5v0d10v5 ad=0.725 pd=5.29 as=0.725 ps=5.29 w=5 l=0.5
+X215 ota_core_0/mp/B gnd vdda vdda sky130_fd_pr__pfet_g5v0d10v5 ad=0.725 pd=5.29 as=0.725 ps=5.29 w=5 l=0.5
+X216 vdda gnd ota_core_0/mp/B vdda sky130_fd_pr__pfet_g5v0d10v5 ad=0.725 pd=5.29 as=0.725 ps=5.29 w=5 l=0.5
+X217 ota_core_0/mp/B gnd vdda vdda sky130_fd_pr__pfet_g5v0d10v5 ad=0.725 pd=5.29 as=0.725 ps=5.29 w=5 l=0.5
+X218 vdda gnd ota_core_0/mp/B vdda sky130_fd_pr__pfet_g5v0d10v5 ad=0.725 pd=5.29 as=0.725 ps=5.29 w=5 l=0.5
+X219 vdda gnd ota_core_0/mp/B vdda sky130_fd_pr__pfet_g5v0d10v5 ad=0.725 pd=5.29 as=0.725 ps=5.29 w=5 l=0.5
+X220 ota_core_0/mp/B gnd vdda vdda sky130_fd_pr__pfet_g5v0d10v5 ad=0.725 pd=5.29 as=0.725 ps=5.29 w=5 l=0.5
+X221 ota_core_0/mp/B gnd vdda vdda sky130_fd_pr__pfet_g5v0d10v5 ad=0.725 pd=5.29 as=0.725 ps=5.29 w=5 l=0.5
+X222 vdda gnd ota_core_0/mp/B vdda sky130_fd_pr__pfet_g5v0d10v5 ad=0.725 pd=5.29 as=0.725 ps=5.29 w=5 l=0.5
+X223 ota_core_0/mp/B gnd vdda vdda sky130_fd_pr__pfet_g5v0d10v5 ad=0.725 pd=5.29 as=0.725 ps=5.29 w=5 l=0.5
+X224 vdda gnd ota_core_0/mp/B vdda sky130_fd_pr__pfet_g5v0d10v5 ad=0.725 pd=5.29 as=0.725 ps=5.29 w=5 l=0.5
+X225 ota_core_0/mp/B gnd vdda vdda sky130_fd_pr__pfet_g5v0d10v5 ad=0.725 pd=5.29 as=0.725 ps=5.29 w=5 l=0.5
+X226 vdda gnd ota_core_0/mp/B vdda sky130_fd_pr__pfet_g5v0d10v5 ad=0.725 pd=5.29 as=0.725 ps=5.29 w=5 l=0.5
+X227 vdda gnd ota_core_0/mp/B vdda sky130_fd_pr__pfet_g5v0d10v5 ad=0.725 pd=5.29 as=0.725 ps=5.29 w=5 l=0.5
+X228 vdda gnd ota_core_0/mp/B vdda sky130_fd_pr__pfet_g5v0d10v5 ad=0.725 pd=5.29 as=0.725 ps=5.29 w=5 l=0.5
+X229 ota_core_0/mp/B gnd vdda vdda sky130_fd_pr__pfet_g5v0d10v5 ad=0.725 pd=5.29 as=0.725 ps=5.29 w=5 l=0.5
+X230 ota_core_0/mp/B gnd vdda vdda sky130_fd_pr__pfet_g5v0d10v5 ad=0.725 pd=5.29 as=0.725 ps=5.29 w=5 l=0.5
+X231 vdda gnd ota_core_0/mp/B vdda sky130_fd_pr__pfet_g5v0d10v5 ad=0.725 pd=5.29 as=0.725 ps=5.29 w=5 l=0.5
+X232 ota_core_0/mp/B gnd vdda vdda sky130_fd_pr__pfet_g5v0d10v5 ad=0.725 pd=5.29 as=0.725 ps=5.29 w=5 l=0.5
+X233 vdda gnd ota_core_0/mp/B vdda sky130_fd_pr__pfet_g5v0d10v5 ad=0.725 pd=5.29 as=0.725 ps=5.29 w=5 l=0.5
+X234 ota_core_0/mp/B gnd vdda vdda sky130_fd_pr__pfet_g5v0d10v5 ad=0.725 pd=5.29 as=0.725 ps=5.29 w=5 l=0.5
+X235 vdda gnd ota_core_0/mp/B vdda sky130_fd_pr__pfet_g5v0d10v5 ad=0.725 pd=5.29 as=0.725 ps=5.29 w=5 l=0.5
+X236 ota_core_0/mp/B gnd vdda vdda sky130_fd_pr__pfet_g5v0d10v5 ad=0.725 pd=5.29 as=0.725 ps=5.29 w=5 l=0.5
+X237 vdda gnd ota_core_0/mp/B vdda sky130_fd_pr__pfet_g5v0d10v5 ad=0.725 pd=5.29 as=0.725 ps=5.29 w=5 l=0.5
+X238 vdda gnd ota_core_0/mp/B vdda sky130_fd_pr__pfet_g5v0d10v5 ad=0.725 pd=5.29 as=0.725 ps=5.29 w=5 l=0.5
+X239 ota_core_0/mp/B gnd vdda vdda sky130_fd_pr__pfet_g5v0d10v5 ad=0.725 pd=5.29 as=0.725 ps=5.29 w=5 l=0.5
+X240 ota_core_0/mp/B gnd vdda vdda sky130_fd_pr__pfet_g5v0d10v5 ad=0.725 pd=5.29 as=0.725 ps=5.29 w=5 l=0.5
+X241 vdda gnd ota_core_0/mp/B vdda sky130_fd_pr__pfet_g5v0d10v5 ad=0.725 pd=5.29 as=0.725 ps=5.29 w=5 l=0.5
+X242 ota_core_0/mp/B gnd vdda vdda sky130_fd_pr__pfet_g5v0d10v5 ad=0.725 pd=5.29 as=0.725 ps=5.29 w=5 l=0.5
+X243 vdda gnd ota_core_0/mp/B vdda sky130_fd_pr__pfet_g5v0d10v5 ad=0.725 pd=5.29 as=0.725 ps=5.29 w=5 l=0.5
+X244 vdda gnd ota_core_0/mp/B vdda sky130_fd_pr__pfet_g5v0d10v5 ad=0.725 pd=5.29 as=0.725 ps=5.29 w=5 l=0.5
+X245 ota_core_0/mp/B gnd vdda vdda sky130_fd_pr__pfet_g5v0d10v5 ad=0.725 pd=5.29 as=0.725 ps=5.29 w=5 l=0.5
+X246 vdda gnd ota_core_0/mp/B vdda sky130_fd_pr__pfet_g5v0d10v5 ad=0.725 pd=5.29 as=0.725 ps=5.29 w=5 l=0.5
+X247 ota_core_0/mp/B gnd vdda vdda sky130_fd_pr__pfet_g5v0d10v5 ad=0.725 pd=5.29 as=0.725 ps=5.29 w=5 l=0.5
+X248 vdda gnd ota_core_0/mp/B vdda sky130_fd_pr__pfet_g5v0d10v5 ad=0.725 pd=5.29 as=0.725 ps=5.29 w=5 l=0.5
+X249 ota_core_0/mp/B gnd vdda vdda sky130_fd_pr__pfet_g5v0d10v5 ad=0.725 pd=5.29 as=0.725 ps=5.29 w=5 l=0.5
+X250 ota_core_0/mp/B gnd vdda vdda sky130_fd_pr__pfet_g5v0d10v5 ad=0.725 pd=5.29 as=0.725 ps=5.29 w=5 l=0.5
+X251 ota_core_0/mp/B gnd vdda vdda sky130_fd_pr__pfet_g5v0d10v5 ad=0.725 pd=5.29 as=0.725 ps=5.29 w=5 l=0.5
+X252 vdda gnd ota_core_0/mp/B vdda sky130_fd_pr__pfet_g5v0d10v5 ad=0.725 pd=5.29 as=0.725 ps=5.29 w=5 l=0.5
+X253 ota_core_0/mp/B gnd vdda vdda sky130_fd_pr__pfet_g5v0d10v5 ad=0.725 pd=5.29 as=0.725 ps=5.29 w=5 l=0.5
+X254 ota_core_0/mp/B gnd vdda vdda sky130_fd_pr__pfet_g5v0d10v5 ad=0.725 pd=5.29 as=0.725 ps=5.29 w=5 l=0.5
+X255 vdda gnd ota_core_0/mp/B vdda sky130_fd_pr__pfet_g5v0d10v5 ad=0.725 pd=5.29 as=0.725 ps=5.29 w=5 l=0.5
+X256 vdda gnd ota_core_0/mp/B vdda sky130_fd_pr__pfet_g5v0d10v5 ad=0.725 pd=5.29 as=0.725 ps=5.29 w=5 l=0.5
+X257 vdda gnd ota_core_0/mp/B vdda sky130_fd_pr__pfet_g5v0d10v5 ad=0.725 pd=5.29 as=0.725 ps=5.29 w=5 l=0.5
+X258 ota_core_0/mp/B gnd vdda vdda sky130_fd_pr__pfet_g5v0d10v5 ad=0.725 pd=5.29 as=0.725 ps=5.29 w=5 l=0.5
+X259 ota_core_0/mp/B gnd vdda vdda sky130_fd_pr__pfet_g5v0d10v5 ad=0.725 pd=5.29 as=0.725 ps=5.29 w=5 l=0.5
+X260 ota_core_0/mp/B gnd vdda vdda sky130_fd_pr__pfet_g5v0d10v5 ad=0.725 pd=5.29 as=0.725 ps=5.29 w=5 l=0.5
+X261 vdda gnd ota_core_0/mp/B vdda sky130_fd_pr__pfet_g5v0d10v5 ad=0.725 pd=5.29 as=0.725 ps=5.29 w=5 l=0.5
+X262 vdda gnd ota_core_0/mp/B vdda sky130_fd_pr__pfet_g5v0d10v5 ad=0.725 pd=5.29 as=0.725 ps=5.29 w=5 l=0.5
+X263 vdda gnd ota_core_0/mp/B vdda sky130_fd_pr__pfet_g5v0d10v5 ad=0.725 pd=5.29 as=0.725 ps=5.29 w=5 l=0.5
+X264 ota_core_0/mp/B gnd vdda vdda sky130_fd_pr__pfet_g5v0d10v5 ad=0.725 pd=5.29 as=0.725 ps=5.29 w=5 l=0.5
+X265 ota_core_0/mp/B gnd vdda vdda sky130_fd_pr__pfet_g5v0d10v5 ad=0.725 pd=5.29 as=0.725 ps=5.29 w=5 l=0.5
+X266 vdda gnd ota_core_0/mp/B vdda sky130_fd_pr__pfet_g5v0d10v5 ad=0.725 pd=5.29 as=0.725 ps=5.29 w=5 l=0.5
+X267 vdda gnd ota_core_0/mp/B vdda sky130_fd_pr__pfet_g5v0d10v5 ad=0.725 pd=5.29 as=0.725 ps=5.29 w=5 l=0.5
+X268 ota_core_0/mp/B gnd vdda vdda sky130_fd_pr__pfet_g5v0d10v5 ad=0.725 pd=5.29 as=0.725 ps=5.29 w=5 l=0.5
+C0 vcm vcm_replica_0/mn/S 0.97001f
+C1 vcm vcm_replica_0/mp/B 8.66869f
+C2 vcm clkgen_0/p1b 0.3546f
+C3 vcm clkgen_0/p1ab 0.59974f
+C4 vcm clkgen_0/p1 0.22857f
+C5 vcm clkgen_0/p1a 0.29503f
+C6 vcm g 10.42507f
+C7 vcm comp_compact_0/n_x3/S 0.0632f
+C8 vcm comp_compact_0/n_tail/D 0.36612f
+C9 vcm comp_compact_0/n_x4/S 0.78565f
+C10 vcm clkgen_0/cc 0.02163f
+C11 vcm vdda 4.09669f
+C12 vcm comp_compact_0/p_x/G0 0
+C13 vcm comp_compact_0/p_x/G1 0
+C14 vcm vrn 0.50905f
+C15 vcm q 0.34986f
+C16 vcm vrp 0.86768f
+C17 vcm qb 0.08513f
+C18 vcm tg_x0p5_mf_4/b 1.9963f
+C19 vcm vin 1.77502f
+C20 vcm tg_x0p5_mf_5/b 1.22079f
+C21 vcm out 15.74713f
+C22 vcm ota_core_0/mn/S7 0.7669f
+C23 vcm_replica_0/mn/S vcm_replica_0/mp/B 0
+C24 vcm_replica_0/mn/S vdda 1.00323f
+C25 vcm_replica_0/mn/S vrn 0
+C26 vcm_replica_0/mn/S vin 0.16765f
+C27 vcm_replica_0/mp/B vdda 6.25903f
+C28 vcm_replica_0/mp/B vrn 0.06494f
+C29 vcm_replica_0/mp/B vrp 0.77678f
+C30 vcm_replica_0/mp/B vin 0.01268f
+C31 clkgen_0/p_dc01/G1 clkgen_0/p_dc23/G0 2.2098f
+C32 clkgen_0/p_dc01/G1 clkgen_0/p_dc23/G1 9.35905f
+C33 clkgen_0/p_dc01/G1 clkgen_0/p_cn/G1 0.03179f
+C34 clkgen_0/p_dc01/G1 clkgen_0/p_e1/D 0.09714f
+C35 clkgen_0/p_dc01/G1 clkgen_0/p1b 0.0898f
+C36 clkgen_0/p_dc01/G1 clkgen_0/p_b1/G 0.09076f
+C37 clkgen_0/p_dc01/G1 clkgen_0/p_b1/D 0.09286f
+C38 clkgen_0/p_dc01/G1 clkgen_0/p_a1/G 0.08977f
+C39 clkgen_0/p_dc01/G1 clkgen_0/p_a1/D 0.09342f
+C40 clkgen_0/p_dc01/G1 clkgen_0/p2 0.18637f
+C41 clkgen_0/p_dc01/G1 clkgen_0/p1ab 0.06915f
+C42 clkgen_0/p_dc01/G1 clkgen_0/p1 0.4916f
+C43 clkgen_0/p_dc01/G1 clkgen_0/p_dg1/G1 0.12069f
+C44 clkgen_0/p_dc01/G1 clkgen_0/p_dg2/G1 0.11527f
+C45 clkgen_0/p_dc01/G1 clkgen_0/p_n1/G1 0.09037f
+C46 clkgen_0/p_dc01/G1 clkgen_0/p_cb/G 0.02451f
+C47 clkgen_0/p_dc01/G1 clkgen_0/p_de/G1 0.16239f
+C48 clkgen_0/p_dc01/G1 clkgen_0/p_e1/G 0.09352f
+C49 clkgen_0/p_dc01/G1 clk 0.25772f
+C50 clkgen_0/p_dc01/G1 clkgen_0/p_ck/D 0.09104f
+C51 clkgen_0/p_dc01/G1 clkgen_0/p1a 5.37866f
+C52 clkgen_0/p_dc01/G1 clkgen_0/n_cn/S1 0
+C53 clkgen_0/p_dc01/G1 clkgen_0/p_n2/G1 0.09164f
+C54 clkgen_0/p_dc01/G1 clkgen_0/cc 0.66032f
+C55 clkgen_0/p_dc01/G1 vdda 3.01932f
+C56 clkgen_0/p_dc01/G1 clkgen_0/p2b 0.09619f
+C57 clkgen_0/p_dc23/G0 clkgen_0/p_dc23/G1 2.78003f
+C58 clkgen_0/p_dc23/G0 clkgen_0/p_cn/G1 6.34993f
+C59 clkgen_0/p_dc23/G0 clkgen_0/p_e1/D 0.11007f
+C60 clkgen_0/p_dc23/G0 clkgen_0/p1b 0.11549f
+C61 clkgen_0/p_dc23/G0 clkgen_0/p_b1/G 2.13066f
+C62 clkgen_0/p_dc23/G0 clkgen_0/p_b1/D 0.10047f
+C63 clkgen_0/p_dc23/G0 clkgen_0/p_a1/G 0.03618f
+C64 clkgen_0/p_dc23/G0 clkgen_0/p_a1/D 0.05372f
+C65 clkgen_0/p_dc23/G0 clkgen_0/p2 0.26478f
+C66 clkgen_0/p_dc23/G0 clkgen_0/p1ab 0.08359f
+C67 clkgen_0/p_dc23/G0 clkgen_0/p1 0.58778f
+C68 clkgen_0/p_dc23/G0 clkgen_0/p_dg1/G1 0.10177f
+C69 clkgen_0/p_dc23/G0 clkgen_0/p_dg2/G1 0.45513f
+C70 clkgen_0/p_dc23/G0 clkgen_0/p_n1/G1 0.10735f
+C71 clkgen_0/p_dc23/G0 clkgen_0/p_cb/G 0.04174f
+C72 clkgen_0/p_dc23/G0 clkgen_0/p_de/G1 0.12056f
+C73 clkgen_0/p_dc23/G0 clkgen_0/p_e1/G 0.12256f
+C74 clkgen_0/p_dc23/G0 clk 0.36673f
+C75 clkgen_0/p_dc23/G0 clkgen_0/p_ck/D 0.04271f
+C76 clkgen_0/p_dc23/G0 clkgen_0/p1a 9.4584f
+C77 clkgen_0/p_dc23/G0 clkgen_0/p_n2/G1 0.10969f
+C78 clkgen_0/p_dc23/G0 clkgen_0/cc 0.18007f
+C79 clkgen_0/p_dc23/G0 vdda 2.51757f
+C80 clkgen_0/p_dc23/G0 clkgen_0/p2b 0.11902f
+C81 clkgen_0/p_dc23/G1 clkgen_0/p_cn/G1 2.28508f
+C82 clkgen_0/p_dc23/G1 clkgen_0/p_e1/D 0.09696f
+C83 clkgen_0/p_dc23/G1 clkgen_0/p1b 0.0968f
+C84 clkgen_0/p_dc23/G1 clkgen_0/p_b1/G 0.09074f
+C85 clkgen_0/p_dc23/G1 clkgen_0/p_b1/D 0.09268f
+C86 clkgen_0/p_dc23/G1 clkgen_0/p_a1/G 0.09003f
+C87 clkgen_0/p_dc23/G1 clkgen_0/p_a1/D 0.09338f
+C88 clkgen_0/p_dc23/G1 clkgen_0/p2 0.18982f
+C89 clkgen_0/p_dc23/G1 clkgen_0/p1ab 0.07611f
+C90 clkgen_0/p_dc23/G1 clkgen_0/p1 0.98765f
+C91 clkgen_0/p_dc23/G1 clkgen_0/p_dg1/G1 0.82468f
+C92 clkgen_0/p_dc23/G1 clkgen_0/p_dg2/G1 0.11444f
+C93 clkgen_0/p_dc23/G1 clkgen_0/p_n1/G1 0.09034f
+C94 clkgen_0/p_dc23/G1 clkgen_0/p_cb/G 0.15726f
+C95 clkgen_0/p_dc23/G1 clkgen_0/p_de/G1 8.04955f
+C96 clkgen_0/p_dc23/G1 clkgen_0/p_e1/G 0.09067f
+C97 clkgen_0/p_dc23/G1 clk 0.29534f
+C98 clkgen_0/p_dc23/G1 clkgen_0/p_ck/D 0.09111f
+C99 clkgen_0/p_dc23/G1 clkgen_0/p1a 0.35354f
+C100 clkgen_0/p_dc23/G1 clkgen_0/n_cn/S1 0
+C101 clkgen_0/p_dc23/G1 clkgen_0/p_n2/G1 0.09161f
+C102 clkgen_0/p_dc23/G1 clkgen_0/cc 0.13267f
+C103 clkgen_0/p_dc23/G1 vdda 2.80225f
+C104 clkgen_0/p_dc23/G1 clkgen_0/p2b 0.09577f
+C105 clkgen_0/p_cn/G1 clkgen_0/p_e1/D 0.11274f
+C106 clkgen_0/p_cn/G1 clkgen_0/p1b 0.12113f
+C107 clkgen_0/p_cn/G1 clkgen_0/p_b1/G 2.08651f
+C108 clkgen_0/p_cn/G1 clkgen_0/p_b1/D 0.11269f
+C109 clkgen_0/p_cn/G1 clkgen_0/p_a1/G 0.03695f
+C110 clkgen_0/p_cn/G1 clkgen_0/p_a1/D 0.05005f
+C111 clkgen_0/p_cn/G1 clkgen_0/p2 0.21921f
+C112 clkgen_0/p_cn/G1 clkgen_0/p1ab 0.08451f
+C113 clkgen_0/p_cn/G1 clkgen_0/p1 0.21484f
+C114 clkgen_0/p_cn/G1 clkgen_0/p_dg1/G1 0.04142f
+C115 clkgen_0/p_cn/G1 clkgen_0/p_dg2/G1 0.04092f
+C116 clkgen_0/p_cn/G1 clkgen_0/p_n1/G1 0.11543f
+C117 clkgen_0/p_cn/G1 clkgen_0/p_cb/G 1.13947f
+C118 clkgen_0/p_cn/G1 clkgen_0/p_de/G1 0.03927f
+C119 clkgen_0/p_cn/G1 clkgen_0/p_e1/G 2.32307f
+C120 clkgen_0/p_cn/G1 clk 0.68716f
+C121 clkgen_0/p_cn/G1 clkgen_0/p_ck/D 0.04207f
+C122 clkgen_0/p_cn/G1 clkgen_0/p1a 1.2117f
+C123 clkgen_0/p_cn/G1 clkgen_0/n_cn/S1 0.12542f
+C124 clkgen_0/p_cn/G1 clkgen_0/p_n2/G1 7.04877f
+C125 clkgen_0/p_cn/G1 clkgen_0/cc 0.46034f
+C126 clkgen_0/p_cn/G1 vdda 2.00749f
+C127 clkgen_0/p_cn/G1 clkgen_0/p2b 0.10499f
+C128 clkgen_0/p_e1/D clkgen_0/p1b 0.32009f
+C129 clkgen_0/p_e1/D clkgen_0/p_a1/D 0.19615f
+C130 clkgen_0/p_e1/D clkgen_0/p1ab 0.08228f
+C131 clkgen_0/p_e1/D clkgen_0/p1 3.27937f
+C132 clkgen_0/p_e1/D clkgen_0/p_dg1/G1 0.0971f
+C133 clkgen_0/p_e1/D clkgen_0/p_dg2/G1 0.10732f
+C134 clkgen_0/p_e1/D clkgen_0/p_n1/G1 3.11864f
+C135 clkgen_0/p_e1/D clkgen_0/p_de/G1 0.13314f
+C136 clkgen_0/p_e1/D clkgen_0/p_e1/G 4.89116f
+C137 clkgen_0/p_e1/D clkgen_0/p1a 0.46809f
+C138 clkgen_0/p_e1/D clkgen_0/p_n2/G1 0.17531f
+C139 clkgen_0/p_e1/D clkgen_0/cc 0.35829f
+C140 clkgen_0/p_e1/D vdda 4.72692f
+C141 clkgen_0/p1b clkgen_0/p_b1/G 0.44251f
+C142 clkgen_0/p1b clkgen_0/p_b1/D 0.45963f
+C143 clkgen_0/p1b clkgen_0/p_a1/G 0.19746f
+C144 clkgen_0/p1b clkgen_0/p_a1/D 0.33329f
+C145 clkgen_0/p1b clkgen_0/p2 0.89026f
+C146 clkgen_0/p1b clkgen_0/p1ab 10.37563f
+C147 clkgen_0/p1b clkgen_0/p1 3.00569f
+C148 clkgen_0/p1b clkgen_0/p_dg1/G1 0.0599f
+C149 clkgen_0/p1b clkgen_0/p_dg2/G1 0.11056f
+C150 clkgen_0/p1b clkgen_0/p_n1/G1 0.82211f
+C151 clkgen_0/p1b clkgen_0/p_n1/S1 0
+C152 clkgen_0/p1b clkgen_0/p_cb/G 0.02408f
+C153 clkgen_0/p1b clkgen_0/p_n2/S1 0
+C154 clkgen_0/p1b clkgen_0/p_de/G1 0.28011f
+C155 clkgen_0/p1b clkgen_0/p_e1/G 0.31207f
+C156 clkgen_0/p1b clk 0.41917f
+C157 clkgen_0/p1b clkgen_0/p_ck/D 0.24137f
+C158 clkgen_0/p1b clkgen_0/p1a 1.43356f
+C159 clkgen_0/p1b clkgen_0/p_n2/G1 0.17327f
+C160 clkgen_0/p1b g 1.33808f
+C161 clkgen_0/p1b clkgen_0/cc 1.03195f
+C162 clkgen_0/p1b vdda 12.09595f
+C163 clkgen_0/p1b q 0.15889f
+C164 clkgen_0/p1b qb 1.57097f
+C165 clkgen_0/p1b clkgen_0/p2b 3.58557f
+C166 clkgen_0/p1b tg_x0p5_mf_4/b 0.44721f
+C167 clkgen_0/p1b vin 0.59222f
+C168 clkgen_0/p1b tg_x0p5_mf_5/b 0.78854f
+C169 clkgen_0/p1b out 0.18687f
+C170 clkgen_0/p_b1/G clkgen_0/p_b1/D 1.31064f
+C171 clkgen_0/p_b1/G clkgen_0/p_a1/G 0.07772f
+C172 clkgen_0/p_b1/G clkgen_0/p_a1/D 0.19889f
+C173 clkgen_0/p_b1/G clkgen_0/p2 0
+C174 clkgen_0/p_b1/G clkgen_0/p1ab 0.0361f
+C175 clkgen_0/p_b1/G clkgen_0/p1 0.19992f
+C176 clkgen_0/p_b1/G clkgen_0/p_dg1/G1 0
+C177 clkgen_0/p_b1/G clkgen_0/p_dg2/G1 0.10003f
+C178 clkgen_0/p_b1/G clkgen_0/p_n1/G1 0.10354f
+C179 clkgen_0/p_b1/G clkgen_0/p_n2/S1 1.05881f
+C180 clkgen_0/p_b1/G clkgen_0/p_de/G1 0.0982f
+C181 clkgen_0/p_b1/G clkgen_0/p_e1/G 0.04065f
+C182 clkgen_0/p_b1/G clk 0.84723f
+C183 clkgen_0/p_b1/G clkgen_0/p_ck/D 0.32725f
+C184 clkgen_0/p_b1/G clkgen_0/p1a 0.39667f
+C185 clkgen_0/p_b1/G clkgen_0/p_n2/G1 2.08131f
+C186 clkgen_0/p_b1/G clkgen_0/cc 0.13096f
+C187 clkgen_0/p_b1/G vdda 2.53161f
+C188 clkgen_0/p_b1/D clkgen_0/p_a1/G 0
+C189 clkgen_0/p_b1/D clkgen_0/p_a1/D 0.01352f
+C190 clkgen_0/p_b1/D clkgen_0/p2 3.19493f
+C191 clkgen_0/p_b1/D clkgen_0/p1ab 0.06795f
+C192 clkgen_0/p_b1/D clkgen_0/p1 0.251f
+C193 clkgen_0/p_b1/D clkgen_0/p_dg2/G1 0.11121f
+C194 clkgen_0/p_b1/D clkgen_0/p_n1/G1 0.81558f
+C195 clkgen_0/p_b1/D clkgen_0/p_de/G1 0.0999f
+C196 clkgen_0/p_b1/D clkgen_0/p_e1/G 0.1147f
+C197 clkgen_0/p_b1/D clk 0.6818f
+C198 clkgen_0/p_b1/D clkgen_0/p_ck/D 0
+C199 clkgen_0/p_b1/D clkgen_0/p1a 0.09414f
+C200 clkgen_0/p_b1/D clkgen_0/cc 0.18889f
+C201 clkgen_0/p_b1/D vdda 4.74925f
+C202 clkgen_0/p_a1/G clkgen_0/p_a1/D 1.98913f
+C203 clkgen_0/p_a1/G clkgen_0/p1ab 0.03527f
+C204 clkgen_0/p_a1/G clkgen_0/p1 1.18196f
+C205 clkgen_0/p_a1/G clkgen_0/p_dg1/G1 0.00977f
+C206 clkgen_0/p_a1/G clkgen_0/p_dg2/G1 0.03602f
+C207 clkgen_0/p_a1/G clkgen_0/p_n1/G1 1.8547f
+C208 clkgen_0/p_a1/G clkgen_0/p_n1/S1 1.05881f
+C209 clkgen_0/p_a1/G clkgen_0/p_de/G1 0.09784f
+C210 clkgen_0/p_a1/G clkgen_0/p_e1/G 0.03886f
+C211 clkgen_0/p_a1/G clk 0.12836f
+C212 clkgen_0/p_a1/G clkgen_0/p_ck/D 1.58956f
+C213 clkgen_0/p_a1/G clkgen_0/p1a 0.0358f
+C214 clkgen_0/p_a1/G clkgen_0/p_n2/G1 0.28408f
+C215 clkgen_0/p_a1/G clkgen_0/cc 0.13148f
+C216 clkgen_0/p_a1/G vdda 2.44586f
+C217 clkgen_0/p_a1/D clkgen_0/p1ab 0.0683f
+C218 clkgen_0/p_a1/D clkgen_0/p1 0.45915f
+C219 clkgen_0/p_a1/D clkgen_0/p_dg1/G1 0.00137f
+C220 clkgen_0/p_a1/D clkgen_0/p_dg2/G1 3.04462f
+C221 clkgen_0/p_a1/D clkgen_0/p_n1/G1 0.11416f
+C222 clkgen_0/p_a1/D clkgen_0/p_de/G1 0.1008f
+C223 clkgen_0/p_a1/D clkgen_0/p_e1/G 0.04906f
+C224 clkgen_0/p_a1/D clk 0.10484f
+C225 clkgen_0/p_a1/D clkgen_0/p_ck/D 0.92884f
+C226 clkgen_0/p_a1/D clkgen_0/p1a 4.15614f
+C227 clkgen_0/p_a1/D clkgen_0/p_n2/G1 0.33675f
+C228 clkgen_0/p_a1/D clkgen_0/cc 0.18889f
+C229 clkgen_0/p_a1/D vdda 4.6752f
+C230 clkgen_0/p2 clkgen_0/p1ab 5.1671f
+C231 clkgen_0/p2 clkgen_0/p1 0.69136f
+C232 clkgen_0/p2 clkgen_0/p_dg2/G1 3.68048f
+C233 clkgen_0/p2 clkgen_0/p_n1/G1 0.52993f
+C234 clkgen_0/p2 clkgen_0/p_cb/G 0.02394f
+C235 clkgen_0/p2 clkgen_0/p_de/G1 0.17455f
+C236 clkgen_0/p2 clkgen_0/p_e1/G 0.1963f
+C237 clkgen_0/p2 clk 5.47501f
+C238 clkgen_0/p2 clkgen_0/p1a 0.30592f
+C239 clkgen_0/p2 g 0.24458f
+C240 clkgen_0/p2 clkgen_0/cc 0.48934f
+C241 clkgen_0/p2 vdda 9.80737f
+C242 clkgen_0/p2 vrn 0.36443f
+C243 clkgen_0/p2 q 1.2445f
+C244 clkgen_0/p2 vrp 0.92238f
+C245 clkgen_0/p2 qb 0.70866f
+C246 clkgen_0/p2 clkgen_0/p2b 6.29061f
+C247 clkgen_0/p2 tg_x0p5_mf_2/a 1.09275f
+C248 clkgen_0/p2 tg_x0p5_mf_4/b 0.5903f
+C249 clkgen_0/p2 tg_x0p5_mf_5/b 0.39008f
+C250 clkgen_0/p1ab clkgen_0/p1 0.14313f
+C251 clkgen_0/p1ab clkgen_0/p_dg1/G1 0.04858f
+C252 clkgen_0/p1ab clkgen_0/p_dg2/G1 0.10957f
+C253 clkgen_0/p1ab clkgen_0/p_n1/G1 0.61026f
+C254 clkgen_0/p1ab clkgen_0/p_n1/S1 0
+C255 clkgen_0/p1ab clkgen_0/p_cb/G 0.02398f
+C256 clkgen_0/p1ab clkgen_0/p_n2/S1 0
+C257 clkgen_0/p1ab clkgen_0/p_de/G1 0.07263f
+C258 clkgen_0/p1ab clkgen_0/p_e1/G 0.42085f
+C259 clkgen_0/p1ab clk 1.09183f
+C260 clkgen_0/p1ab clkgen_0/p_ck/D 0.03746f
+C261 clkgen_0/p1ab clkgen_0/p1a 2.91492f
+C262 clkgen_0/p1ab clkgen_0/p_n2/G1 0.06779f
+C263 clkgen_0/p1ab clkgen_0/cc 0.16577f
+C264 clkgen_0/p1ab vdda 6.04545f
+C265 clkgen_0/p1ab vrn 0.3277f
+C266 clkgen_0/p1ab q 1.6021f
+C267 clkgen_0/p1ab vrp 0
+C268 clkgen_0/p1ab qb 0.07062f
+C269 clkgen_0/p1ab clkgen_0/p2b 1.34522f
+C270 clkgen_0/p1ab tg_x0p5_mf_2/a 0.06962f
+C271 clkgen_0/p1ab tg_x0p5_mf_4/b 0.65679f
+C272 clkgen_0/p1ab tg_x0p5_mf_5/b 0.08678f
+C273 clkgen_0/p1 clkgen_0/p_dg1/G1 9.24093f
+C274 clkgen_0/p1 clkgen_0/p_dg2/G1 0.96221f
+C275 clkgen_0/p1 clkgen_0/p_n1/G1 0.30425f
+C276 clkgen_0/p1 clkgen_0/p_n1/S1 0.03015f
+C277 clkgen_0/p1 clkgen_0/p_cb/G 0.79328f
+C278 clkgen_0/p1 clkgen_0/p_n2/S1 0.03015f
+C279 clkgen_0/p1 clkgen_0/p_de/G1 2.64958f
+C280 clkgen_0/p1 clkgen_0/p_e1/G 0.31873f
+C281 clkgen_0/p1 clk 0.30183f
+C282 clkgen_0/p1 clkgen_0/p_ck/D 0.19977f
+C283 clkgen_0/p1 clkgen_0/p1a 5.91791f
+C284 clkgen_0/p1 clkgen_0/n_cn/S1 0
+C285 clkgen_0/p1 clkgen_0/p_n2/G1 0.32817f
+C286 clkgen_0/p1 clkgen_0/cc 4.69434f
+C287 clkgen_0/p1 vdda 17.12104f
+C288 clkgen_0/p1 vrn 0.07149f
+C289 clkgen_0/p1 q 0
+C290 clkgen_0/p1 vrp 0.07036f
+C291 clkgen_0/p1 qb 0
+C292 clkgen_0/p1 clkgen_0/p2b 0.41654f
+C293 clkgen_0/p1 tg_x0p5_mf_2/a 0.07191f
+C294 clkgen_0/p1 vin 0.23183f
+C295 clkgen_0/p1 tg_x0p5_mf_5/b 1.09385f
+C296 clkgen_0/p_dg1/G1 clkgen_0/p_dg2/G1 0.04819f
+C297 clkgen_0/p_dg1/G1 clkgen_0/p_n1/G1 0.04129f
+C298 clkgen_0/p_dg1/G1 clkgen_0/p_de/G1 3.98744f
+C299 clkgen_0/p_dg1/G1 clkgen_0/p_e1/G 0.07974f
+C300 clkgen_0/p_dg1/G1 clk 0
+C301 clkgen_0/p_dg1/G1 clkgen_0/p1a 0.04768f
+C302 clkgen_0/p_dg1/G1 clkgen_0/p_n2/G1 2.28092f
+C303 clkgen_0/p_dg1/G1 clkgen_0/cc 0.02497f
+C304 clkgen_0/p_dg1/G1 vdda 2.73794f
+C305 clkgen_0/p_dg2/G1 clkgen_0/p_n1/G1 2.48877f
+C306 clkgen_0/p_dg2/G1 clkgen_0/p_de/G1 0.31105f
+C307 clkgen_0/p_dg2/G1 clkgen_0/p_e1/G 0.09978f
+C308 clkgen_0/p_dg2/G1 clk 0.15234f
+C309 clkgen_0/p_dg2/G1 clkgen_0/p_ck/D 0.04692f
+C310 clkgen_0/p_dg2/G1 clkgen_0/p1a 5.75817f
+C311 clkgen_0/p_dg2/G1 clkgen_0/p_n2/G1 0.10272f
+C312 clkgen_0/p_dg2/G1 clkgen_0/cc 0.19971f
+C313 clkgen_0/p_dg2/G1 vdda 2.73344f
+C314 clkgen_0/p_dg2/G1 clkgen_0/p2b 0.38598f
+C315 clkgen_0/p_n1/G1 clkgen_0/p_n1/S1 0.37469f
+C316 clkgen_0/p_n1/G1 clkgen_0/p_n2/S1 0
+C317 clkgen_0/p_n1/G1 clkgen_0/p_de/G1 0.13292f
+C318 clkgen_0/p_n1/G1 clkgen_0/p_e1/G 3.53992f
+C319 clkgen_0/p_n1/G1 clk 1.27086f
+C320 clkgen_0/p_n1/G1 clkgen_0/p_ck/D 0.7413f
+C321 clkgen_0/p_n1/G1 clkgen_0/p1a 0.18964f
+C322 clkgen_0/p_n1/G1 clkgen_0/p_n2/G1 0.06943f
+C323 clkgen_0/p_n1/G1 clkgen_0/cc 0.1622f
+C324 clkgen_0/p_n1/G1 vdda 1.16759f
+C325 clkgen_0/p_n1/S1 clk 0
+C326 clkgen_0/p_n1/S1 clkgen_0/p_ck/D 0.37468f
+C327 clkgen_0/p_n1/S1 clkgen_0/cc 0.02553f
+C328 clkgen_0/p_n1/S1 vdda 1.27138f
+C329 clkgen_0/p_cb/G clk 0.195f
+C330 clkgen_0/p_cb/G clkgen_0/p1a 2.39633f
+C331 clkgen_0/p_cb/G clkgen_0/n_cn/S1 0.36148f
+C332 clkgen_0/p_cb/G clkgen_0/cc 2.08087f
+C333 clkgen_0/p_cb/G vdda 3.93827f
+C334 clkgen_0/p_cb/G clkgen_0/p2b 0.02418f
+C335 clkgen_0/p_n2/S1 clk 0.37521f
+C336 clkgen_0/p_n2/S1 clkgen_0/p_n2/G1 0.37468f
+C337 clkgen_0/p_n2/S1 clkgen_0/cc 0.02553f
+C338 clkgen_0/p_n2/S1 vdda 1.27638f
+C339 clkgen_0/p_de/G1 clkgen_0/p_e1/G 2.13037f
+C340 clkgen_0/p_de/G1 clk 0.10375f
+C341 clkgen_0/p_de/G1 clkgen_0/p_ck/D 0.09857f
+C342 clkgen_0/p_de/G1 clkgen_0/p1a 3.00952f
+C343 clkgen_0/p_de/G1 clkgen_0/p_n2/G1 0.13227f
+C344 clkgen_0/p_de/G1 clkgen_0/cc 0.19902f
+C345 clkgen_0/p_de/G1 vdda 2.81529f
+C346 clkgen_0/p_de/G1 clkgen_0/p2b 0.09661f
+C347 clkgen_0/p_e1/G clk 0.39674f
+C348 clkgen_0/p_e1/G clkgen_0/p_ck/D 0.04421f
+C349 clkgen_0/p_e1/G clkgen_0/p1a 0.33445f
+C350 clkgen_0/p_e1/G clkgen_0/p_n2/G1 7.08123f
+C351 clkgen_0/p_e1/G clkgen_0/cc 0.15741f
+C352 clkgen_0/p_e1/G vdda 1.8342f
+C353 clkgen_0/p_e1/G clkgen_0/p2b 0.41862f
+C354 clk clkgen_0/p_ck/D 1.03731f
+C355 clk clkgen_0/p1a 0.39751f
+C356 clk clkgen_0/p_n2/G1 0.37203f
+C357 clk clkgen_0/cc 0.82038f
+C358 clk vdda 4.84414f
+C359 clk clkgen_0/p2b 0.6474f
+C360 clkgen_0/p_ck/D clkgen_0/p1a 0.04439f
+C361 clkgen_0/p_ck/D clkgen_0/p_n2/G1 0.00365f
+C362 clkgen_0/p_ck/D clkgen_0/cc 0.13912f
+C363 clkgen_0/p_ck/D vdda 3.63367f
+C364 clkgen_0/p1a clkgen_0/n_cn/S1 0.12523f
+C365 clkgen_0/p1a clkgen_0/p_n2/G1 0.1817f
+C366 clkgen_0/p1a clkgen_0/cc 1.04128f
+C367 clkgen_0/p1a vdda 13.84348f
+C368 clkgen_0/p1a vrn 0.07114f
+C369 clkgen_0/p1a q 0.01007f
+C370 clkgen_0/p1a vrp 0.08013f
+C371 clkgen_0/p1a qb 0.00748f
+C372 clkgen_0/p1a clkgen_0/p2b 0.20144f
+C373 clkgen_0/p1a tg_x0p5_mf_2/a 0.084f
+C374 clkgen_0/p1a tg_x0p5_mf_4/b 0.19058f
+C375 clkgen_0/p1a tg_x0p5_mf_5/b 0.0843f
+C376 clkgen_0/p_n2/G1 clkgen_0/cc 0.07876f
+C377 clkgen_0/p_n2/G1 vdda 0.85422f
+C378 g clkgen_0/cc 2.84446f
+C379 g vdda 2.47803f
+C380 g q 1.27758f
+C381 g qb 0.05635f
+C382 g clkgen_0/p2b 0.62509f
+C383 g tg_x0p5_mf_4/b 2.68648f
+C384 g tg_x0p5_mf_5/b 2.05169f
+C385 g out 0.21449p
+C386 g ota_core_0/mp/B 39.10902f
+C387 g ota_core_0/mn/S7 4.28057f
+C388 comp_compact_0/p_cs1/S1 comp_compact_0/p_cs1/G0 0.12531f
+C389 comp_compact_0/p_cs1/S1 vdda 0.44083f
+C390 comp_compact_0/p_cs1/S1 comp_compact_0/p_b1/G1 0.36321f
+C391 comp_compact_0/p_cs1/S1 comp_compact_0/p_b2/G1 0.12531f
+C392 comp_compact_0/p_cs1/S1 q 0.0032f
+C393 comp_compact_0/p_cs1/S1 qb 0
+C394 comp_compact_0/p_cs2/S1 vdda 0.43855f
+C395 comp_compact_0/p_cs2/S1 comp_compact_0/p_iso/D0 0.12531f
+C396 comp_compact_0/p_cs2/S1 comp_compact_0/p_b1/G1 0.12531f
+C397 comp_compact_0/p_cs2/S1 comp_compact_0/p_b2/G1 0.36321f
+C398 comp_compact_0/p_cs2/S1 q 0.0021f
+C399 comp_compact_0/p_cs1/G0 comp_compact_0/n_x4/S 0
+C400 comp_compact_0/p_cs1/G0 vdda 4.57602f
+C401 comp_compact_0/p_cs1/G0 comp_compact_0/p_x/G0 2.57843f
+C402 comp_compact_0/p_cs1/G0 comp_compact_0/p_x/G1 0.22699f
+C403 comp_compact_0/p_cs1/G0 comp_compact_0/p_iso/D0 0.40517f
+C404 comp_compact_0/p_cs1/G0 comp_compact_0/p_b1/G1 0.36955f
+C405 comp_compact_0/p_cs1/G0 comp_compact_0/p_b2/G1 0.75029f
+C406 comp_compact_0/p_cs1/G0 q 2.49034f
+C407 comp_compact_0/p_cs1/G0 qb 0.09662f
+C408 comp_compact_0/n_x3/S comp_compact_0/n_tail/D 1.91453f
+C409 comp_compact_0/n_x3/S comp_compact_0/n_x4/S 0.64493f
+C410 comp_compact_0/n_x3/S clkgen_0/cc 1.1365f
+C411 comp_compact_0/n_x3/S vdda 1.38446f
+C412 comp_compact_0/n_x3/S comp_compact_0/p_x/G0 1.13536f
+C413 comp_compact_0/n_x3/S comp_compact_0/p_x/G1 1.44568f
+C414 comp_compact_0/n_x3/S q 0.14753f
+C415 comp_compact_0/n_x3/S qb 0.07865f
+C416 comp_compact_0/n_x3/S out 0.78109f
+C417 comp_compact_0/n_tail/D comp_compact_0/n_x4/S 1.6703f
+C418 comp_compact_0/n_tail/D clkgen_0/cc 0.54039f
+C419 comp_compact_0/n_tail/D vdda 0
+C420 comp_compact_0/n_tail/D comp_compact_0/p_x/G0 0
+C421 comp_compact_0/n_tail/D comp_compact_0/p_x/G1 0
+C422 comp_compact_0/n_tail/D q 0.11527f
+C423 comp_compact_0/n_tail/D qb 0.0979f
+C424 comp_compact_0/n_tail/D out 0.30076f
+C425 comp_compact_0/n_x4/S clkgen_0/cc 1.03973f
+C426 comp_compact_0/n_x4/S vdda 1.36105f
+C427 comp_compact_0/n_x4/S comp_compact_0/p_x/G0 1.27462f
+C428 comp_compact_0/n_x4/S comp_compact_0/p_x/G1 1.17088f
+C429 comp_compact_0/n_x4/S comp_compact_0/p_iso/D0 0.01131f
+C430 comp_compact_0/n_x4/S q 0.16315f
+C431 comp_compact_0/n_x4/S qb 0.07872f
+C432 comp_compact_0/n_x4/S out 0
+C433 clkgen_0/cc vdda 15.09253f
+C434 clkgen_0/cc comp_compact_0/p_x/G0 1.03666f
+C435 clkgen_0/cc comp_compact_0/p_x/G1 1.29429f
+C436 clkgen_0/cc q 1.03953f
+C437 clkgen_0/cc qb 0.15951f
+C438 clkgen_0/cc clkgen_0/p2b 0.24134f
+C439 clkgen_0/cc out 5.51604f
+C440 clkgen_0/cc ota_core_0/mp/B 1.11506f
+C441 clkgen_0/cc ota_core_0/mn/S7 0
+C442 vdda comp_compact_0/p_x/G0 5.09306f
+C443 vdda comp_compact_0/p_x/G1 5.43233f
+C444 vdda comp_compact_0/p_iso/D0 3.31177f
+C445 vdda comp_compact_0/p_b1/G1 3.20041f
+C446 vdda comp_compact_0/p_b2/G1 3.47373f
+C447 vdda vrn 0.57193f
+C448 vdda q 9.19808f
+C449 vdda vrp 0.54938f
+C450 vdda qb 11.24299f
+C451 vdda clkgen_0/p2b 12.70493f
+C452 vdda tg_x0p5_mf_2/a 1.45213f
+C453 vdda tg_x0p5_mf_4/b 2.32998f
+C454 vdda vin 2.05412f
+C455 vdda tg_x0p5_mf_5/b 5.94033f
+C456 vdda out 11.34967f
+C457 vdda ota_core_0/mp/B 41.90268f
+C458 vdda ota_core_0/mn/S7 5.89946f
+C459 comp_compact_0/p_x/G0 comp_compact_0/p_x/G1 4.36044f
+C460 comp_compact_0/p_x/G0 comp_compact_0/p_iso/D0 0.36877f
+C461 comp_compact_0/p_x/G0 comp_compact_0/p_b1/G1 0
+C462 comp_compact_0/p_x/G0 comp_compact_0/p_b2/G1 0.48081f
+C463 comp_compact_0/p_x/G0 q 2.01249f
+C464 comp_compact_0/p_x/G0 qb 0.17342f
+C465 comp_compact_0/p_x/G0 out 0
+C466 comp_compact_0/p_x/G1 comp_compact_0/p_iso/D0 2.54755f
+C467 comp_compact_0/p_x/G1 comp_compact_0/p_b1/G1 0.00252f
+C468 comp_compact_0/p_x/G1 comp_compact_0/p_b2/G1 0.28653f
+C469 comp_compact_0/p_x/G1 q 0.53519f
+C470 comp_compact_0/p_x/G1 qb 0.17369f
+C471 comp_compact_0/p_x/G1 out 0
+C472 comp_compact_0/p_iso/D0 comp_compact_0/p_b1/G1 0.8313f
+C473 comp_compact_0/p_iso/D0 comp_compact_0/p_b2/G1 0.7925f
+C474 comp_compact_0/p_iso/D0 q 0.19283f
+C475 comp_compact_0/p_iso/D0 qb 0.09657f
+C476 comp_compact_0/p_b1/G1 comp_compact_0/p_b2/G1 3.53382f
+C477 comp_compact_0/p_b1/G1 q 0.60699f
+C478 comp_compact_0/p_b1/G1 qb 4.58883f
+C479 comp_compact_0/p_b2/G1 q 4.38455f
+C480 comp_compact_0/p_b2/G1 qb 0.22365f
+C481 vrn q 0.69046f
+C482 vrn vrp 0.57006f
+C483 vrn qb 0.28143f
+C484 vrn clkgen_0/p2b 0.25978f
+C485 vrn tg_x0p5_mf_2/a 2.59253f
+C486 vrn tg_x0p5_mf_4/b 0
+C487 vrn vin 0.80581f
+C488 vrn tg_x0p5_mf_5/b 0.09867f
+C489 q vrp 0.27173f
+C490 q qb 1.46109f
+C491 q clkgen_0/p2b 1.05519f
+C492 q tg_x0p5_mf_2/a 0.93711f
+C493 q tg_x0p5_mf_4/b 3.93928f
+C494 q tg_x0p5_mf_5/b 1.79301f
+C495 q out 5.00714f
+C496 q ota_core_0/mp/B 0.00114f
+C497 q ota_core_0/mn/S7 1.06173f
+C498 vrp qb 0.5947f
+C499 vrp clkgen_0/p2b 0.04567f
+C500 vrp tg_x0p5_mf_2/a 3.93406f
+C501 vrp vin 0.64597f
+C502 vrp tg_x0p5_mf_5/b 0.16221f
+C503 qb clkgen_0/p2b 0.69074f
+C504 qb tg_x0p5_mf_2/a 0.91403f
+C505 qb tg_x0p5_mf_4/b 0.08911f
+C506 qb tg_x0p5_mf_5/b 0.9724f
+C507 qb out 13.59383f
+C508 qb ota_core_0/mp/B 0.18624f
+C509 clkgen_0/p2b tg_x0p5_mf_2/a 0.69779f
+C510 clkgen_0/p2b tg_x0p5_mf_4/b 1.45944f
+C511 clkgen_0/p2b tg_x0p5_mf_5/b 0.84466f
+C512 tg_x0p5_mf_2/a tg_x0p5_mf_4/b 0
+C513 tg_x0p5_mf_2/a tg_x0p5_mf_5/b 2.26181f
+C514 tg_x0p5_mf_4/b tg_x0p5_mf_5/b 97.04425f
+C515 tg_x0p5_mf_4/b out 3.72781f
+C516 vin tg_x0p5_mf_5/b 1.97695f
+C517 tg_x0p5_mf_5/b out 4.88115f
+C518 out ota_core_0/mp/B 14.30807f
+C519 out ota_core_0/mn/S7 3.15007f
+C520 ota_core_0/mn/S7 gnd 15.1569f ; **FLOATING
+C521 ota_core_0/mp/B gnd 86.04252f ; **FLOATING
+C522 out gnd 57.89672f ; **FLOATING
+C523 tg_x0p5_mf_5/b gnd 26.50293f ; **FLOATING
+C524 vin gnd 2.0956f ; **FLOATING
+C525 tg_x0p5_mf_4/b gnd 5.74147f ; **FLOATING
+C526 tg_x0p5_mf_2/a gnd 2.54773f ; **FLOATING
+C527 clkgen_0/p2b gnd 6.33123f ; **FLOATING
+C528 qb gnd 15.16947f ; **FLOATING
+C529 vrp gnd 0.94549f ; **FLOATING
+C530 q gnd 8.17218f ; **FLOATING
+C531 vrn gnd 9.29927f ; **FLOATING
+C532 comp_compact_0/p_b2/G1 gnd 6.75899f ; **FLOATING
+C533 comp_compact_0/p_b1/G1 gnd 7.29645f ; **FLOATING
+C534 comp_compact_0/p_iso/D0 gnd 4.21622f ; **FLOATING
+C535 comp_compact_0/p_x/G1 gnd 5.10668f ; **FLOATING
+C536 comp_compact_0/p_x/G0 gnd 4.87152f ; **FLOATING
+C537 vdda gnd 0.34602p ; **FLOATING
+C538 clkgen_0/cc gnd 8.94991f ; **FLOATING
+C539 comp_compact_0/n_x4/S gnd 2.3324f ; **FLOATING
+C540 comp_compact_0/n_tail/D gnd 2.45283f ; **FLOATING
+C541 comp_compact_0/n_x3/S gnd 2.16328f ; **FLOATING
+C542 comp_compact_0/p_cs1/G0 gnd 4.36321f ; **FLOATING
+C543 g gnd 23.68226f ; **FLOATING
+C544 clkgen_0/p_n2/G1 gnd 5.73151f ; **FLOATING
+C545 clkgen_0/n_cn/S1 gnd 0.39379f ; **FLOATING
+C546 clkgen_0/p1a gnd 17.04567f ; **FLOATING
+C547 clkgen_0/p_ck/D gnd 4.35595f ; **FLOATING
+C548 clk gnd 6.34271f ; **FLOATING
+C549 clkgen_0/p_e1/G gnd 5.66791f ; **FLOATING
+C550 clkgen_0/p_de/G1 gnd 6.21423f ; **FLOATING
+C551 clkgen_0/p_cb/G gnd 3.35293f ; **FLOATING
+C552 clkgen_0/p_n1/G1 gnd 5.41732f ; **FLOATING
+C553 clkgen_0/p_dg2/G1 gnd 7.04057f ; **FLOATING
+C554 clkgen_0/p_dg1/G1 gnd 6.21145f ; **FLOATING
+C555 clkgen_0/p1 gnd 12.79553f ; **FLOATING
+C556 clkgen_0/p1ab gnd 8.9617f ; **FLOATING
+C557 clkgen_0/p2 gnd 11.1688f ; **FLOATING
+C558 clkgen_0/p_a1/D gnd 4.04143f ; **FLOATING
+C559 clkgen_0/p_a1/G gnd 4.56219f ; **FLOATING
+C560 clkgen_0/p_b1/D gnd 3.98088f ; **FLOATING
+C561 clkgen_0/p_b1/G gnd 4.26779f ; **FLOATING
+C562 clkgen_0/p1b gnd 8.85959f ; **FLOATING
+C563 clkgen_0/p_e1/D gnd 4.11385f ; **FLOATING
+C564 clkgen_0/p_cn/G1 gnd 9.20356f ; **FLOATING
+C565 clkgen_0/p_dc23/G1 gnd 10.36908f ; **FLOATING
+C566 clkgen_0/p_dc23/G0 gnd 10.06921f ; **FLOATING
+C567 clkgen_0/p_dc01/G1 gnd 17.80341f ; **FLOATING
+C568 vcm_replica_0/mp/B gnd 14.43466f ; **FLOATING
+C569 vcm_replica_0/mn/S gnd 3.53508f ; **FLOATING
+C570 vcm gnd 18.98582f ; **FLOATING
